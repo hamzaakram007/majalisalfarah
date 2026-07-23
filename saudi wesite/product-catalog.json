@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Luxury Sofa Set",
+        "category": "Sofas",
+        "price": "SAR 5,000"
+    },
+    {
+        "id": 2,
+        "name": "Memory Foam Mattress",
+        "category": "Foam",
+        "price": "SAR 1,200"
+    },
+    {
+        "id": 3,
+        "name": "Decorative Wall Mirror",
+        "category": "Décor",
+        "price": "SAR 350"
+    }
+]

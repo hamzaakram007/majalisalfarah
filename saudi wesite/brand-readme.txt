@@ -1,0 +1,1 @@
+Logo and brand assets for Saudi Furniture. You can customize font, color, or size using any graphic tool.

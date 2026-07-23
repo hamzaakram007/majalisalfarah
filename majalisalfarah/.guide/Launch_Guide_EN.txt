@@ -1,0 +1,15 @@
+Majalis Alfarah - Launch Instructions (EN)
+==========================================
+
+1. Upload contents of this folder to: /public_html/ using cPanel or FTP
+2. Point your domain to hosting via DNS
+3. Ensure folders like /css/, /admin/, /catalog/ are intact
+4. Test English at index.html and Arabic at ar/index.html
+5. Admin dashboard: /admin/admin-dashboard.html
+
+Payments:
+- Mada: payments/mada.html
+- STCPay: payments/stcpay.html
+- Apple Pay: payments/applepay.html
+
+---

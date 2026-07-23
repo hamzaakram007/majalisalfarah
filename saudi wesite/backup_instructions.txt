@@ -1,0 +1,9 @@
+Manual Backup Guide:
+1. Zip your full public_html folder.
+2. Download your SQL database from cPanel > phpMyAdmin.
+3. Save both ZIP and SQL in a safe location (Google Drive, external drive, etc.)
+
+Manual Restore:
+1. Upload your site files to the server.
+2. Import the SQL database.
+3. Update database connection in config file if needed.

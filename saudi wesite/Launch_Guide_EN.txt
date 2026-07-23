@@ -1,0 +1,12 @@
+
+Saudi Furniture Ecosystem - Launch Instructions (English)
+
+1. Upload all website files to your hosting account (public_html).
+2. Connect your domain name through your hosting or Cloudflare.
+3. Configure payment gateways (Mada, STCPay, Apple Pay).
+4. Add real product content through Admin Panel.
+5. Link social media accounts from the footer/header.
+6. Test both Arabic and English language pages.
+7. Promote launch on social media using the kit provided.
+
+Support: Contact your technical team or hosting provider.

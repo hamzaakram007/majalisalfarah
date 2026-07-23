@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect fill="#e8e4df" width="400" height="300"/>
+  <rect fill="#007b5f" x="40" y="120" width="320" height="80" rx="12"/>
+  <rect fill="#555" x="60" y="200" width="40" height="60"/>
+  <rect fill="#555" x="300" y="200" width="40" height="60"/>
+  <text x="200" y="80" text-anchor="middle" fill="#333" font-family="sans-serif" font-size="18">Luxury Sofa</text>
+</svg>

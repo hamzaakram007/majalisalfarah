@@ -1,0 +1,5 @@
+Optional Add-ons:
+- Loyalty Points: Earn rewards on each purchase.
+- Referral System: Invite & earn when others buy.
+- Admin Control Panel includes enable/disable toggles for these features.
+Implementation available via PHP/JS plugin (provided on request).

@@ -1,0 +1,14 @@
+مجالس الفرح - تعليمات التشغيل (AR)
+==============================
+
+١. ارفع محتويات المجلد إلى public_html عبر cPanel أو FTP
+٢. اربط النطاق بالاستضافة عبر إعدادات DNS
+٣. تأكد من وجود المجلدات مثل css و admin و catalog
+٤. الصفحة الرئيسية: index.html والنسخة العربية: ar/index.html
+٥. لوحة التحكم: admin/admin-dashboard.html
+
+طرق الدفع:
+- مدى: payments/mada.html
+- STC Pay: payments/stcpay.html
+- Apple Pay: payments/applepay.html
+

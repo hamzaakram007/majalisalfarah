@@ -1,0 +1,1 @@
+This folder contains HTML setup guides for Mada, STC Pay, and Apple Pay integration.

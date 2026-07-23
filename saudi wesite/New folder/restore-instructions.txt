@@ -1,0 +1,1 @@
+To restore the site, upload the backup files to your hosting root and run restore.php

@@ -1,0 +1,10 @@
+# Supabase local config — see https://supabase.com/docs/guides/cli/config
+project_id = "majalisalfarah"
+
+[api]
+enabled = true
+port = 54321
+
+[db]
+port = 54322
+major_version = 15

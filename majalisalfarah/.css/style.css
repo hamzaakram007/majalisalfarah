@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.brand {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: url('../images/social_banner_sample.png') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007b5f;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.btn-secondary {
+  background-color: #555;
+}
+
+.btn-primary:hover {
+  background-color: #006147;
+}
+
+.featured {
+  padding: 3rem 1rem;
+  background: #fafafa;
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 250px;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.card h4 {
+  margin: 1rem 0 0.5rem;
+}
+
+.cta {
+  background: #eee;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.site-footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #25d366;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 10px 14px;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.whatsapp-float:hover {
+  background: #1da851;
+}
+

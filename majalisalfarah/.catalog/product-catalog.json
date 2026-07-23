@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "name": "Luxury Sofa Set",
+      "price": "5500 SAR",
+      "image": "images/sofa-sample.jpg",
+      "category": "Sofas",
+      "language": "en"
+    },
+    {
+      "name": "Foam Block 20cm",
+      "price": "320 SAR",
+      "image": "images/foam20cm.jpg",
+      "category": "Foam",
+      "language": "en"
+    },
+    {
+      "name": "طقم كنب فاخر",
+      "price": "٥٥٠٠ ريال",
+      "image": "images/sofa-sample.jpg",
+      "category": "كنب",
+      "language": "ar"
+    }
+  ]
+}
+]
