@@ -1,34 +1,24 @@
-Shopify Import Guide – L-Shaped Sofas (6 Meter)
-================================================
+Shopify Import Guide – L-Shaped Sofas (6 Meter) + Color Images
+==============================================================
 
-File to import:
+Main CSV (Shopify import):
   l-shape-sofas-shopify-products.csv
 
-What is included
-----------------
-3 high-quality L-shaped sofa styles
-6 colors for each style
-Same size for all: 6 Meter
-Same price for all: 2000.00 SAR
-Compare-at price: 2400.00 SAR (shows as discounted/premium offer)
-Inventory: 10 units per color variant (edit as needed)
+Color images (18 total):
+  images/color-variants/
+    style1-*.jpg  = Majlis Floor sofa (6 colors)
+    style2-*.jpg  = Contemporary Modular sofa (6 colors)
+    style3-*.jpg  = Curved-Arm Luxury sofa (6 colors)
 
-Styles
-------
-1) Luxury Majlis Floor L-Shaped Sofa – 6 Meter
-   Handle: luxury-majlis-floor-l-sofa-6m
-   Image: images/style1-majlis-floor-sofa.jpg
+View images on phone/computer:
+  Open: color-variants-gallery.html
+  Or open folder: images/color-variants/
 
-2) Contemporary Modular L-Shaped Sectional – 6 Meter
-   Handle: contemporary-modular-l-sectional-6m
-   Image: images/style2-contemporary-modular-sofa.jpg
+Image map (SKU -> file):
+  color-variant-image-map.csv
 
-3) Seamless Curved-Arm Luxury L-Sofa – 6 Meter
-   Handle: seamless-curved-arm-l-sofa-6m
-   Image: images/style3-curved-arm-luxury-sofa.jpg
-
-Colors (each style)
--------------------
+Colors for each style
+---------------------
 1. Taupe Greige
 2. Charcoal Gray
 3. Midnight Navy
@@ -38,42 +28,32 @@ Colors (each style)
 
 How to import in Shopify
 ------------------------
-1. Open Shopify Admin → Products → Import
-2. Upload: l-shape-sofas-shopify-products.csv
-3. Confirm preview looks correct (3 products, 6 variants each)
+1. Shopify Admin → Products → Import
+2. Upload l-shape-sofas-shopify-products.csv
+3. Confirm 3 products with 6 color variants each
 4. Click Import products
 
-Add images (important)
-----------------------
-Image URLs were left blank because Shopify needs public HTTPS links.
+How to add the color images
+---------------------------
+After import, for each product:
+  1. Open the product in Shopify Admin
+  2. Upload all 6 matching color images from images/color-variants/
+  3. Assign each image to its color variant
+     (Product → Variants → click variant → choose media)
 
-Option A (recommended):
-  1. Import the CSV first
-  2. Open each product
-  3. Upload the matching image from the /images folder
-  4. Optionally duplicate/edit the image per color variant later
+Example for Style 1 (Majlis Floor):
+  Taupe Greige     -> style1-taupe-greige.jpg
+  Charcoal Gray    -> style1-charcoal-gray.jpg
+  Midnight Navy    -> style1-midnight-navy.jpg
+  Forest Green     -> style1-forest-green.jpg
+  Cream Ivory      -> style1-cream-ivory.jpg
+  Terracotta Rust  -> style1-terracotta-rust.jpg
 
-Option B:
-  1. Upload images to Shopify Admin → Content → Files
-  2. Copy each image URL
-  3. Paste into the Image Src column of the CSV
-  4. Re-import with "Overwrite products with matching handles"
+Same pattern for style2-* and style3-*.
 
-Currency
---------
-Set your store currency to SAR (Saudi Riyal) in:
-  Settings → Store details / Markets / Payments
+Price / Size
+------------
+All variants: 2000 SAR, Size 6 Meter
+Compare-at price: 2400 SAR
 
-SKU map
--------
-MAJ-FLR-6M-xx  = Majlis Floor style
-CON-MOD-6M-xx  = Contemporary Modular style
-SEA-CRV-6M-xx  = Seamless Curved-Arm style
-
-xx color codes:
-  TG = Taupe Greige
-  CG = Charcoal Gray
-  MN = Midnight Navy
-  FG = Forest Green
-  CI = Cream Ivory
-  TR = Terracotta Rust
+Currency: set store to SAR
