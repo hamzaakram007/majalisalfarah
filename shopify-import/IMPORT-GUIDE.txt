@@ -1,0 +1,79 @@
+Shopify Import Guide – L-Shaped Sofas (6 Meter)
+================================================
+
+File to import:
+  l-shape-sofas-shopify-products.csv
+
+What is included
+----------------
+3 high-quality L-shaped sofa styles
+6 colors for each style
+Same size for all: 6 Meter
+Same price for all: 2000.00 SAR
+Compare-at price: 2400.00 SAR (shows as discounted/premium offer)
+Inventory: 10 units per color variant (edit as needed)
+
+Styles
+------
+1) Luxury Majlis Floor L-Shaped Sofa – 6 Meter
+   Handle: luxury-majlis-floor-l-sofa-6m
+   Image: images/style1-majlis-floor-sofa.jpg
+
+2) Contemporary Modular L-Shaped Sectional – 6 Meter
+   Handle: contemporary-modular-l-sectional-6m
+   Image: images/style2-contemporary-modular-sofa.jpg
+
+3) Seamless Curved-Arm Luxury L-Sofa – 6 Meter
+   Handle: seamless-curved-arm-l-sofa-6m
+   Image: images/style3-curved-arm-luxury-sofa.jpg
+
+Colors (each style)
+-------------------
+1. Taupe Greige
+2. Charcoal Gray
+3. Midnight Navy
+4. Forest Green
+5. Cream Ivory
+6. Terracotta Rust
+
+How to import in Shopify
+------------------------
+1. Open Shopify Admin → Products → Import
+2. Upload: l-shape-sofas-shopify-products.csv
+3. Confirm preview looks correct (3 products, 6 variants each)
+4. Click Import products
+
+Add images (important)
+----------------------
+Image URLs were left blank because Shopify needs public HTTPS links.
+
+Option A (recommended):
+  1. Import the CSV first
+  2. Open each product
+  3. Upload the matching image from the /images folder
+  4. Optionally duplicate/edit the image per color variant later
+
+Option B:
+  1. Upload images to Shopify Admin → Content → Files
+  2. Copy each image URL
+  3. Paste into the Image Src column of the CSV
+  4. Re-import with "Overwrite products with matching handles"
+
+Currency
+--------
+Set your store currency to SAR (Saudi Riyal) in:
+  Settings → Store details / Markets / Payments
+
+SKU map
+-------
+MAJ-FLR-6M-xx  = Majlis Floor style
+CON-MOD-6M-xx  = Contemporary Modular style
+SEA-CRV-6M-xx  = Seamless Curved-Arm style
+
+xx color codes:
+  TG = Taupe Greige
+  CG = Charcoal Gray
+  MN = Midnight Navy
+  FG = Forest Green
+  CI = Cream Ivory
+  TR = Terracotta Rust
