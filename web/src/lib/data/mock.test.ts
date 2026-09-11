@@ -45,13 +45,13 @@ describe("mock catalog", () => {
     ).toBe(true);
   });
 
-  it("includes wifi smart curtains with six light color variants", () => {
+  it("includes wifi smart curtains with twelve color variants", () => {
     const product = getMockProducts("en").find(
       (item) => item.slug === "wifi-smart-curtains",
     );
 
     expect(product).toBeDefined();
-    expect(product?.variants).toHaveLength(6);
+    expect(product?.variants).toHaveLength(12);
     expect(
       product?.variants?.every((variant) =>
         variant.image_url?.startsWith("/images/wifi-curtains/"),

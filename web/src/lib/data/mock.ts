@@ -441,17 +441,17 @@ const productDefinitions: ProductDefinition[] = [
     price_sar: 2450,
     stock: 12,
     is_featured: true,
-    image_url: "/images/wifi-curtains/wifi-curtain-cream-ivory.jpg",
+    image_url: "/images/wifi-curtains/wifi-curtain-light-cream-ivory.jpg",
     category_slug: "curtains",
     en: {
       name: "WiFi Smart Curtains",
       description:
-        "Motorized WiFi curtains with app control in six light colors: cream ivory, soft sand, pearl white, mist gray, soft sage, and blush pink.",
+        "Motorized WiFi curtains with app control in twelve colors — six light (cream ivory, soft sand, pearl white, mist gray, soft sage, blush pink) and six dark (charcoal gray, midnight navy, forest green, espresso brown, burgundy, matte black).",
     },
     ar: {
       name: "ستائر واي فاي ذكية",
       description:
-        "ستائر بمحرك وتحكم عبر التطبيق بستة ألوان فاتحة: عاجي كريمي، رملي ناعم، أبيض لؤلؤي، رمادي ضبابي، أخضر مريمي، ووردي خفيف.",
+        "ستائر بمحرك وتحكم عبر التطبيق باثني عشر لوناً — ستة فاتحة وستة داكنة.",
     },
   },
   {
@@ -756,6 +756,12 @@ function mockVariantsForSlug(
       { en: "Mist Gray", ar: "رمادي ضبابي" },
       { en: "Soft Sage", ar: "أخضر مريمي" },
       { en: "Blush Pink", ar: "وردي خفيف" },
+      { en: "Charcoal Gray", ar: "رمادي فحمي" },
+      { en: "Midnight Navy", ar: "كحلي ليلي" },
+      { en: "Forest Green", ar: "أخضر غابة" },
+      { en: "Espresso Brown", ar: "بني إسبريسو" },
+      { en: "Burgundy", ar: "عنابي" },
+      { en: "Matte Black", ar: "أسود مطفي" },
     ],
     "sofa-cushion-set": [
       { en: "Sand Boucle", ar: "بوكليه رملي" },
@@ -766,12 +772,18 @@ function mockVariantsForSlug(
   const colors = colorLabels[slug];
   if (!colors) return undefined;
   const wifiCurtainImages: Record<string, string> = {
-    "cream-ivory": "/images/wifi-curtains/wifi-curtain-cream-ivory.jpg",
-    "soft-sand": "/images/wifi-curtains/wifi-curtain-soft-sand.jpg",
-    "pearl-white": "/images/wifi-curtains/wifi-curtain-pearl-white.jpg",
-    "mist-gray": "/images/wifi-curtains/wifi-curtain-mist-gray.jpg",
-    "soft-sage": "/images/wifi-curtains/wifi-curtain-soft-sage.jpg",
-    "blush-pink": "/images/wifi-curtains/wifi-curtain-blush-pink.jpg",
+    "cream-ivory": "/images/wifi-curtains/wifi-curtain-light-cream-ivory.jpg",
+    "soft-sand": "/images/wifi-curtains/wifi-curtain-light-soft-sand.jpg",
+    "pearl-white": "/images/wifi-curtains/wifi-curtain-light-pearl-white.jpg",
+    "mist-gray": "/images/wifi-curtains/wifi-curtain-light-mist-gray.jpg",
+    "soft-sage": "/images/wifi-curtains/wifi-curtain-light-soft-sage.jpg",
+    "blush-pink": "/images/wifi-curtains/wifi-curtain-light-blush-pink.jpg",
+    "charcoal-gray": "/images/wifi-curtains/wifi-curtain-dark-charcoal-gray.jpg",
+    "midnight-navy": "/images/wifi-curtains/wifi-curtain-dark-midnight-navy.jpg",
+    "forest-green": "/images/wifi-curtains/wifi-curtain-dark-forest-green.jpg",
+    "espresso-brown": "/images/wifi-curtains/wifi-curtain-dark-espresso-brown.jpg",
+    burgundy: "/images/wifi-curtains/wifi-curtain-dark-burgundy.jpg",
+    "matte-black": "/images/wifi-curtains/wifi-curtain-dark-matte-black.jpg",
   };
   return colors.map((c, i) => {
     const colorKey = c.en.toLowerCase().replace(/\s+/g, "-");

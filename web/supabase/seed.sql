@@ -29,7 +29,7 @@ INSERT INTO products (id, slug, category_id, price_sar, stock, is_featured, imag
   ('b0000000-0000-4000-8000-000000000003', 'majlis-corner-set', 'a0000000-0000-4000-8000-000000000003', 8900, 5, false, '/images/majlis.svg'),
   ('b0000000-0000-4000-8000-000000000004', 'linen-wave-curtains', 'a0000000-0000-4000-8000-000000000004', 890, 24, true, '/images/curtains-panel.svg'),
   ('b0000000-0000-4000-8000-000000000005', 'blackout-pleated-curtains', 'a0000000-0000-4000-8000-000000000004', 1150, 18, false, '/images/curtains-panel.svg'),
-  ('b0000000-0000-4000-8000-000000000008', 'wifi-smart-curtains', 'a0000000-0000-4000-8000-000000000004', 2450, 12, true, '/images/wifi-curtains/wifi-curtain-cream-ivory.jpg'),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-smart-curtains', 'a0000000-0000-4000-8000-000000000004', 2450, 12, true, '/images/wifi-curtains/wifi-curtain-light-cream-ivory.jpg'),
   ('b0000000-0000-4000-8000-000000000006', 'sofa-cushion-set', 'a0000000-0000-4000-8000-000000000005', 260, 40, true, '/images/cushions-panel.svg'),
   ('b0000000-0000-4000-8000-000000000007', 'sofa-care-accessories', 'a0000000-0000-4000-8000-000000000006', 180, 35, false, '/images/accessories-panel.svg')
 ON CONFLICT (slug) DO NOTHING;
@@ -45,8 +45,8 @@ INSERT INTO product_translations (product_id, locale, name, description) VALUES
   ('b0000000-0000-4000-8000-000000000004', 'ar', 'ستائر كتان ويف', 'ستائر ويف للطلب المباشر بألوان بيج وعاجي وزيتوني وفحمي مع دعم المقاسات الخاصة.'),
   ('b0000000-0000-4000-8000-000000000005', 'en', 'Blackout Pleated Curtains', 'Thermal blackout curtains with pleated, eyelet, and track options for bedrooms and majlis rooms.'),
   ('b0000000-0000-4000-8000-000000000005', 'ar', 'ستائر بلاك آوت بكسرات', 'ستائر عازلة للغرف والمجالس بخيارات كسرات وحلقات ومسارات.'),
-  ('b0000000-0000-4000-8000-000000000008', 'en', 'WiFi Smart Curtains', 'Motorized WiFi curtains with app control in six light colors: cream ivory, soft sand, pearl white, mist gray, soft sage, and blush pink.'),
-  ('b0000000-0000-4000-8000-000000000008', 'ar', 'ستائر واي فاي ذكية', 'ستائر بمحرك وتحكم عبر التطبيق بستة ألوان فاتحة.'),
+  ('b0000000-0000-4000-8000-000000000008', 'en', 'WiFi Smart Curtains', 'Motorized WiFi curtains with app control in twelve colors — six light and six dark.'),
+  ('b0000000-0000-4000-8000-000000000008', 'ar', 'ستائر واي فاي ذكية', 'ستائر بمحرك وتحكم عبر التطبيق باثني عشر لوناً — ستة فاتحة وستة داكنة.'),
   ('b0000000-0000-4000-8000-000000000006', 'en', 'Sofa Cushion & Pillow Set', 'Layered cushions and pillows in boucle, linen, velvet, and patterned fabrics.'),
   ('b0000000-0000-4000-8000-000000000006', 'ar', 'طقم مخدات ووسائد للكنب', 'مخدات ووسائد متناسقة من البوكليه والكتان والمخمل والأقمشة المزخرفة.'),
   ('b0000000-0000-4000-8000-000000000007', 'en', 'Sofa Care Accessories', 'Coordinated arm trays, fabric care kits, leg protectors, and styling accessories.'),

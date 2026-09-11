@@ -8,12 +8,18 @@ INSERT INTO product_variants (product_id, sku, option_label, price_sar, stock, i
   ('b0000000-0000-4000-8000-000000000006', 'cushion-sand', 'Sand Boucle', 260, 20, NULL, 0),
   ('b0000000-0000-4000-8000-000000000006', 'cushion-ivory', 'Ivory Linen', 260, 18, NULL, 1),
   ('b0000000-0000-4000-8000-000000000006', 'cushion-olive', 'Olive Velvet', 280, 15, NULL, 2),
-  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-ci', 'Cream Ivory', 2450, 12, '/images/wifi-curtains/wifi-curtain-cream-ivory.jpg', 0),
-  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-ss', 'Soft Sand', 2450, 12, '/images/wifi-curtains/wifi-curtain-soft-sand.jpg', 1),
-  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-pw', 'Pearl White', 2450, 12, '/images/wifi-curtains/wifi-curtain-pearl-white.jpg', 2),
-  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-mg', 'Mist Gray', 2450, 12, '/images/wifi-curtains/wifi-curtain-mist-gray.jpg', 3),
-  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-sg', 'Soft Sage', 2450, 12, '/images/wifi-curtains/wifi-curtain-soft-sage.jpg', 4),
-  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-bp', 'Blush Pink', 2450, 12, '/images/wifi-curtains/wifi-curtain-blush-pink.jpg', 5)
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-l-ci', 'Cream Ivory', 2450, 12, '/images/wifi-curtains/wifi-curtain-light-cream-ivory.jpg', 0),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-l-ss', 'Soft Sand', 2450, 12, '/images/wifi-curtains/wifi-curtain-light-soft-sand.jpg', 1),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-l-pw', 'Pearl White', 2450, 12, '/images/wifi-curtains/wifi-curtain-light-pearl-white.jpg', 2),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-l-mg', 'Mist Gray', 2450, 12, '/images/wifi-curtains/wifi-curtain-light-mist-gray.jpg', 3),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-l-sg', 'Soft Sage', 2450, 12, '/images/wifi-curtains/wifi-curtain-light-soft-sage.jpg', 4),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-l-bp', 'Blush Pink', 2450, 12, '/images/wifi-curtains/wifi-curtain-light-blush-pink.jpg', 5),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-d-cg', 'Charcoal Gray', 2450, 12, '/images/wifi-curtains/wifi-curtain-dark-charcoal-gray.jpg', 6),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-d-mn', 'Midnight Navy', 2450, 12, '/images/wifi-curtains/wifi-curtain-dark-midnight-navy.jpg', 7),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-d-fg', 'Forest Green', 2450, 12, '/images/wifi-curtains/wifi-curtain-dark-forest-green.jpg', 8),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-d-eb', 'Espresso Brown', 2450, 12, '/images/wifi-curtains/wifi-curtain-dark-espresso-brown.jpg', 9),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-d-bu', 'Burgundy', 2450, 12, '/images/wifi-curtains/wifi-curtain-dark-burgundy.jpg', 10),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-d-mb', 'Matte Black', 2450, 12, '/images/wifi-curtains/wifi-curtain-dark-matte-black.jpg', 11)
 ON CONFLICT DO NOTHING;
 
 INSERT INTO product_option_groups (id, product_id, group_key, is_required, affects_price, is_quote_only, sort_order) VALUES
