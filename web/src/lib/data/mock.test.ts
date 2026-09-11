@@ -37,8 +37,24 @@ describe("mock catalog", () => {
 
     expect(products).toHaveLength(60);
     expect(
-      products.every((product) =>
-        product.image_url?.startsWith("https://images.unsplash.com/"),
+      products.every(
+        (product) =>
+          product.image_url?.startsWith("https://images.unsplash.com/") ||
+          product.image_url?.startsWith("/images/wifi-curtains/"),
+      ),
+    ).toBe(true);
+  });
+
+  it("includes wifi smart curtains with six light color variants", () => {
+    const product = getMockProducts("en").find(
+      (item) => item.slug === "wifi-smart-curtains",
+    );
+
+    expect(product).toBeDefined();
+    expect(product?.variants).toHaveLength(6);
+    expect(
+      product?.variants?.every((variant) =>
+        variant.image_url?.startsWith("/images/wifi-curtains/"),
       ),
     ).toBe(true);
   });

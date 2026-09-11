@@ -437,14 +437,22 @@ const productDefinitions: ProductDefinition[] = [
   },
   {
     index: 35,
-    slug: "motorized-curtains",
+    slug: "wifi-smart-curtains",
     price_sar: 2450,
-    stock: 11,
+    stock: 12,
     is_featured: true,
-    image_url: img("photo-1556228720-195a672e8a03"),
+    image_url: "/images/wifi-curtains/wifi-curtain-cream-ivory.jpg",
     category_slug: "curtains",
-    en: { name: "Motorized Curtains", description: "Smart motorized curtain system with remote and app-ready control." },
-    ar: { name: "ستائر كهربائية", description: "نظام ستائر ذكي بمحرك وتحكم عن بعد وتجهيز للتطبيقات." },
+    en: {
+      name: "WiFi Smart Curtains",
+      description:
+        "Motorized WiFi curtains with app control in six light colors: cream ivory, soft sand, pearl white, mist gray, soft sage, and blush pink.",
+    },
+    ar: {
+      name: "ستائر واي فاي ذكية",
+      description:
+        "ستائر بمحرك وتحكم عبر التطبيق بستة ألوان فاتحة: عاجي كريمي، رملي ناعم، أبيض لؤلؤي، رمادي ضبابي، أخضر مريمي، ووردي خفيف.",
+    },
   },
   {
     index: 36,
@@ -741,6 +749,14 @@ function mockVariantsForSlug(
       { en: "Olive", ar: "زيتوني" },
       { en: "Charcoal", ar: "فحمي", price: 920 },
     ],
+    "wifi-smart-curtains": [
+      { en: "Cream Ivory", ar: "عاجي كريمي" },
+      { en: "Soft Sand", ar: "رملي ناعم" },
+      { en: "Pearl White", ar: "أبيض لؤلؤي" },
+      { en: "Mist Gray", ar: "رمادي ضبابي" },
+      { en: "Soft Sage", ar: "أخضر مريمي" },
+      { en: "Blush Pink", ar: "وردي خفيف" },
+    ],
     "sofa-cushion-set": [
       { en: "Sand Boucle", ar: "بوكليه رملي" },
       { en: "Ivory Linen", ar: "كتان عاجي" },
@@ -749,19 +765,39 @@ function mockVariantsForSlug(
   };
   const colors = colorLabels[slug];
   if (!colors) return undefined;
-  return colors.map((c, i) => ({
-    id: `v-${slug}-${i}`,
-    product_id: productId,
-    sku: `${slug}-${c.en.toLowerCase().replace(/\s+/g, "-")}`,
-    option_label: locale === "ar" ? c.ar : c.en,
-    price_sar: c.price ?? (slug === "linen-wave-curtains" ? 890 : slug === "velvet-accent-sofa" ? 3900 : 180),
-    compare_at_price_sar: null,
-    stock: 8 + i,
-    image_url: null,
-    attributes: { color: c.en.toLowerCase().replace(/\s+/g, "-") },
-    is_active: true,
-    sort_order: i,
-  }));
+  const wifiCurtainImages: Record<string, string> = {
+    "cream-ivory": "/images/wifi-curtains/wifi-curtain-cream-ivory.jpg",
+    "soft-sand": "/images/wifi-curtains/wifi-curtain-soft-sand.jpg",
+    "pearl-white": "/images/wifi-curtains/wifi-curtain-pearl-white.jpg",
+    "mist-gray": "/images/wifi-curtains/wifi-curtain-mist-gray.jpg",
+    "soft-sage": "/images/wifi-curtains/wifi-curtain-soft-sage.jpg",
+    "blush-pink": "/images/wifi-curtains/wifi-curtain-blush-pink.jpg",
+  };
+  return colors.map((c, i) => {
+    const colorKey = c.en.toLowerCase().replace(/\s+/g, "-");
+    return {
+      id: `v-${slug}-${i}`,
+      product_id: productId,
+      sku: `${slug}-${colorKey}`,
+      option_label: locale === "ar" ? c.ar : c.en,
+      price_sar:
+        c.price ??
+        (slug === "linen-wave-curtains"
+          ? 890
+          : slug === "wifi-smart-curtains"
+            ? 2450
+            : slug === "velvet-accent-sofa"
+              ? 3900
+              : 180),
+      compare_at_price_sar: null,
+      stock: 8 + i,
+      image_url:
+        slug === "wifi-smart-curtains" ? (wifiCurtainImages[colorKey] ?? null) : null,
+      attributes: { color: colorKey },
+      is_active: true,
+      sort_order: i,
+    };
+  });
 }
 
 function mockOptionGroupsForSlug(

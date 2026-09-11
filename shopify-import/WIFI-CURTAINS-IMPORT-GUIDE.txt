@@ -1,0 +1,63 @@
+Shopify / Website Import Guide – WiFi Smart Curtains (6 Light Colors)
+======================================================================
+
+Main CSV (Shopify import):
+  wifi-curtains-shopify-products.csv
+
+Color images (6 total):
+  images/wifi-curtains/
+    wifi-curtain-cream-ivory.jpg
+    wifi-curtain-soft-sand.jpg
+    wifi-curtain-pearl-white.jpg
+    wifi-curtain-mist-gray.jpg
+    wifi-curtain-soft-sage.jpg
+    wifi-curtain-blush-pink.jpg
+
+Website public paths (Next.js):
+  web/public/images/wifi-curtains/*.jpg
+
+View images on phone/computer:
+  Open: wifi-curtains-gallery.html
+  Or open folder: images/wifi-curtains/
+
+Image map (SKU -> file):
+  wifi-curtains-image-map.csv
+
+Light colors
+------------
+1. Cream Ivory
+2. Soft Sand
+3. Pearl White
+4. Mist Gray
+5. Soft Sage
+6. Blush Pink
+
+Product details
+---------------
+Name: WiFi Smart Curtains
+Features: Motorized track, WiFi / app control, sheer + blackout layer look
+Price: 2450 SAR (compare-at 2890 SAR)
+Category: Curtains
+
+How to import in Shopify
+------------------------
+1. Shopify Admin → Products → Import
+2. Upload wifi-curtains-shopify-products.csv
+3. Confirm 1 product with 6 color variants
+4. Click Import products
+
+How to add the color images
+---------------------------
+After import, open the product in Shopify Admin:
+  1. Upload all 6 images from images/wifi-curtains/
+  2. Assign each image to its color variant
+     (Product → Variants → click variant → choose media)
+
+  Cream Ivory  -> wifi-curtain-cream-ivory.jpg
+  Soft Sand    -> wifi-curtain-soft-sand.jpg
+  Pearl White  -> wifi-curtain-pearl-white.jpg
+  Mist Gray    -> wifi-curtain-mist-gray.jpg
+  Soft Sage    -> wifi-curtain-soft-sage.jpg
+  Blush Pink   -> wifi-curtain-blush-pink.jpg
+
+Currency: set store to SAR

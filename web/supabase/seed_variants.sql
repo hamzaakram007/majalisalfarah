@@ -1,13 +1,19 @@
 -- Run after seed.sql to add sample variants and option groups
 
-INSERT INTO product_variants (product_id, sku, option_label, price_sar, stock, sort_order) VALUES
-  ('b0000000-0000-4000-8000-000000000004', 'linen-wave-beige', 'Beige', 890, 12, 0),
-  ('b0000000-0000-4000-8000-000000000004', 'linen-wave-ivory', 'Ivory', 890, 10, 1),
-  ('b0000000-0000-4000-8000-000000000004', 'linen-wave-olive', 'Olive', 890, 8, 2),
-  ('b0000000-0000-4000-8000-000000000004', 'linen-wave-charcoal', 'Charcoal', 920, 6, 3),
-  ('b0000000-0000-4000-8000-000000000006', 'cushion-sand', 'Sand Boucle', 260, 20, 0),
-  ('b0000000-0000-4000-8000-000000000006', 'cushion-ivory', 'Ivory Linen', 260, 18, 1),
-  ('b0000000-0000-4000-8000-000000000006', 'cushion-olive', 'Olive Velvet', 280, 15, 2)
+INSERT INTO product_variants (product_id, sku, option_label, price_sar, stock, image_url, sort_order) VALUES
+  ('b0000000-0000-4000-8000-000000000004', 'linen-wave-beige', 'Beige', 890, 12, NULL, 0),
+  ('b0000000-0000-4000-8000-000000000004', 'linen-wave-ivory', 'Ivory', 890, 10, NULL, 1),
+  ('b0000000-0000-4000-8000-000000000004', 'linen-wave-olive', 'Olive', 890, 8, NULL, 2),
+  ('b0000000-0000-4000-8000-000000000004', 'linen-wave-charcoal', 'Charcoal', 920, 6, NULL, 3),
+  ('b0000000-0000-4000-8000-000000000006', 'cushion-sand', 'Sand Boucle', 260, 20, NULL, 0),
+  ('b0000000-0000-4000-8000-000000000006', 'cushion-ivory', 'Ivory Linen', 260, 18, NULL, 1),
+  ('b0000000-0000-4000-8000-000000000006', 'cushion-olive', 'Olive Velvet', 280, 15, NULL, 2),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-ci', 'Cream Ivory', 2450, 12, '/images/wifi-curtains/wifi-curtain-cream-ivory.jpg', 0),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-ss', 'Soft Sand', 2450, 12, '/images/wifi-curtains/wifi-curtain-soft-sand.jpg', 1),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-pw', 'Pearl White', 2450, 12, '/images/wifi-curtains/wifi-curtain-pearl-white.jpg', 2),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-mg', 'Mist Gray', 2450, 12, '/images/wifi-curtains/wifi-curtain-mist-gray.jpg', 3),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-sg', 'Soft Sage', 2450, 12, '/images/wifi-curtains/wifi-curtain-soft-sage.jpg', 4),
+  ('b0000000-0000-4000-8000-000000000008', 'wifi-cur-bp', 'Blush Pink', 2450, 12, '/images/wifi-curtains/wifi-curtain-blush-pink.jpg', 5)
 ON CONFLICT DO NOTHING;
 
 INSERT INTO product_option_groups (id, product_id, group_key, is_required, affects_price, is_quote_only, sort_order) VALUES
