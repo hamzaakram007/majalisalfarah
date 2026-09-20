@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Wood Chapter — Comfort Forward 2026</title>
+    <meta
+      name="description"
+      content="Sculptural Seating Edition — 20 pieces, each with front, angle, and side product photography."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">The Wood Chapter</span>
+          <span class="brand-sub">Furniture · Interiors · Lifestyle</span>
+        </a>
+        <a class="nav-link" href="#collection">Collection</a>
+      </header>
+
+      <section class="hero">
+        <div class="hero-media">
+          <img
+            src="catalog-source.jpg"
+            alt="Comfort Forward 2026 sculptural seating catalog"
+          />
+        </div>
+        <div class="hero-copy">
+          <h1>The Wood Chapter</h1>
+          <p>
+            Comfort Forward 2026 — twenty sculptural seats, each shot from three
+            angles with full product details.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#collection">Browse pieces</a>
+            <a class="btn btn-ghost" href="products/soft-geometry.html"
+              >Start with Soft Geometry</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="collection">
+        <div class="section-head">
+          <h2>Sculptural Seating Edition</h2>
+          <p>
+            Front, three-quarter, and side views for every piece — ready for
+            product pages and Shopify import.
+          </p>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </section>
+
+      <footer class="site-footer">
+        <span>Your space · Our craft</span>
+        <span>Comfort Forward 2026</span>
+      </footer>
+    </div>
+
+    <script>
+      async function load() {
+        const res = await fetch("products/products.json");
+        const products = await res.json();
+        const grid = document.getElementById("product-grid");
+        grid.innerHTML = products
+          .map(
+            (p) => `
+          <a class="product-tile" href="products/${p.slug}.html">
+            <img src="products/${p.images.front}" alt="${p.name}" loading="lazy" />
+            <div class="product-meta">
+              <h3>${p.name}</h3>
+              <span>${p.tagline} · 3 angles</span>
+            </div>
+          </a>`
+          )
+          .join("");
+      }
+      load();
+    </script>
+  </body>
+</html>

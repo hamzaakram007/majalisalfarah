@@ -1,0 +1,402 @@
+[
+  {
+    "id": "01",
+    "slug": "soft-geometry",
+    "name": "Soft Geometry",
+    "tagline": "Rounded forms",
+    "color": "Cream ivory",
+    "fabric": "Nubby cream bouclé with subtle tonal pattern",
+    "base": "Low dark wood circular plinth",
+    "shape": "Two stacked rounded cushions: large circular seat with smaller horizontal cylindrical bolster backrest",
+    "dims": "W 78 × D 76 × H 72 cm",
+    "seat_h": "42 cm",
+    "price": "SAR 4,850",
+    "source": "references/01-soft-geometry-source.jpg",
+    "images": {
+      "front": "images/01-soft-geometry-front.jpg",
+      "angle": "images/01-soft-geometry-angle.jpg",
+      "side": "images/01-soft-geometry-side.jpg"
+    },
+    "href": "products/soft-geometry.html"
+  },
+  {
+    "id": "02",
+    "slug": "natural-hues",
+    "name": "Natural Hues",
+    "tagline": "Organic greens",
+    "color": "Olive sage",
+    "fabric": "Textured olive-green bouclé",
+    "base": "Low hidden swivel base",
+    "shape": "Low continuous wrap-around horseshoe backrest flowing into deep circular seat",
+    "dims": "W 85 × D 80 × H 68 cm",
+    "seat_h": "40 cm",
+    "price": "SAR 5,200",
+    "source": "references/02-natural-hues-source.jpg",
+    "images": {
+      "front": "images/02-natural-hues-front.jpg",
+      "angle": "images/02-natural-hues-angle.jpg",
+      "side": "images/02-natural-hues-side.jpg"
+    },
+    "href": "products/natural-hues.html"
+  },
+  {
+    "id": "03",
+    "slug": "modular-lounging",
+    "name": "Modular Lounging",
+    "tagline": "Flexible seating",
+    "color": "Terracotta rust",
+    "fabric": "Soft terracotta with vertical pillow tufting",
+    "base": "Floor-hugging no visible legs",
+    "shape": "Low wide lounge of six puffy quilted square segments forming a modular sofa chair",
+    "dims": "W 120 × D 90 × H 55 cm",
+    "seat_h": "38 cm",
+    "price": "SAR 6,400",
+    "source": "references/03-modular-lounging-source.jpg",
+    "images": {
+      "front": "images/03-modular-lounging-front.jpg",
+      "angle": "images/03-modular-lounging-angle.jpg",
+      "side": "images/03-modular-lounging-side.jpg"
+    },
+    "href": "products/modular-lounging.html"
+  },
+  {
+    "id": "04",
+    "slug": "tactile-living",
+    "name": "Tactile Living",
+    "tagline": "Soft textures",
+    "color": "Cream ivory",
+    "fabric": "Plush cream bouclé",
+    "base": "Dark wood low plinth",
+    "shape": "High enveloping rounded backrest with integrated arms around a thick circular seat",
+    "dims": "W 82 × D 80 × H 86 cm",
+    "seat_h": "43 cm",
+    "price": "SAR 5,650",
+    "source": "references/04-tactile-living-source.jpg",
+    "images": {
+      "front": "images/04-tactile-living-front.jpg",
+      "angle": "images/04-tactile-living-angle.jpg",
+      "side": "images/04-tactile-living-side.jpg"
+    },
+    "href": "products/tactile-living.html"
+  },
+  {
+    "id": "05",
+    "slug": "cocoon-comfort",
+    "name": "Cocoon Comfort",
+    "tagline": "Enveloping design",
+    "color": "Midnight navy",
+    "fabric": "Deep navy textured chenille bouclé",
+    "base": "Brushed brass circular swivel",
+    "shape": "Tall barrel cocoon shell wrapping a thick circular inset seat",
+    "dims": "W 84 × D 82 × H 90 cm",
+    "seat_h": "44 cm",
+    "price": "SAR 5,900",
+    "source": "references/05-cocoon-comfort-source.jpg",
+    "images": {
+      "front": "images/05-cocoon-comfort-front.jpg",
+      "angle": "images/05-cocoon-comfort-angle.jpg",
+      "side": "images/05-cocoon-comfort-side.jpg"
+    },
+    "href": "products/cocoon-comfort.html"
+  },
+  {
+    "id": "06",
+    "slug": "relaxed-luxury",
+    "name": "Relaxed Luxury",
+    "tagline": "Low-slung ease",
+    "color": "Cognac brown",
+    "fabric": "Warm cognac channel-tufted upholstery",
+    "base": "Floor-hugging base",
+    "shape": "Low lounge of stacked horizontal ribbed cushion layers",
+    "dims": "W 95 × D 88 × H 58 cm",
+    "seat_h": "36 cm",
+    "price": "SAR 5,450",
+    "source": "references/06-relaxed-luxury-source.jpg",
+    "images": {
+      "front": "images/06-relaxed-luxury-front.jpg",
+      "angle": "images/06-relaxed-luxury-angle.jpg",
+      "side": "images/06-relaxed-luxury-side.jpg"
+    },
+    "href": "products/relaxed-luxury.html"
+  },
+  {
+    "id": "07",
+    "slug": "quiet-luxury",
+    "name": "Quiet Luxury",
+    "tagline": "Understated elegance",
+    "color": "Cream ivory",
+    "fabric": "Cream bouclé",
+    "base": "Thin brushed brass ring swivel",
+    "shape": "Classic compact barrel chair with thick rounded seat and wraparound back",
+    "dims": "W 76 × D 74 × H 78 cm",
+    "seat_h": "42 cm",
+    "price": "SAR 4,950",
+    "source": "references/07-quiet-luxury-source.jpg",
+    "images": {
+      "front": "images/07-quiet-luxury-front.jpg",
+      "angle": "images/07-quiet-luxury-angle.jpg",
+      "side": "images/07-quiet-luxury-side.jpg"
+    },
+    "href": "products/quiet-luxury.html"
+  },
+  {
+    "id": "08",
+    "slug": "sage-story",
+    "name": "Sage Story",
+    "tagline": "Nature inspired",
+    "color": "Muted sage",
+    "fabric": "Sage green plush bouclé",
+    "base": "Brushed brass circular swivel",
+    "shape": "Deep circular seat with high continuous wrap-around back and arms",
+    "dims": "W 86 × D 84 × H 82 cm",
+    "seat_h": "43 cm",
+    "price": "SAR 5,750",
+    "source": "references/08-sage-story-source.jpg",
+    "images": {
+      "front": "images/08-sage-story-front.jpg",
+      "angle": "images/08-sage-story-angle.jpg",
+      "side": "images/08-sage-story-side.jpg"
+    },
+    "href": "products/sage-story.html"
+  },
+  {
+    "id": "09",
+    "slug": "playful-shapes",
+    "name": "Playful Shapes",
+    "tagline": "Sculptural fun",
+    "color": "Cream ivory",
+    "fabric": "Cream bouclé",
+    "base": "Brushed brass circular swivel",
+    "shape": "Large round bulbous seat with smaller horizontal cylindrical bolster perched as backrest",
+    "dims": "W 80 × D 78 × H 74 cm",
+    "seat_h": "42 cm",
+    "price": "SAR 4,800",
+    "source": "references/09-playful-shapes-source.jpg",
+    "images": {
+      "front": "images/09-playful-shapes-front.jpg",
+      "angle": "images/09-playful-shapes-angle.jpg",
+      "side": "images/09-playful-shapes-side.jpg"
+    },
+    "href": "products/playful-shapes.html"
+  },
+  {
+    "id": "10",
+    "slug": "bold-accents",
+    "name": "Bold Accents",
+    "tagline": "Statement pieces",
+    "color": "Terracotta rust",
+    "fabric": "Matte terracotta upholstery",
+    "base": "Four thick cylindrical stump legs matching fabric",
+    "shape": "Thick circular seat with separate small cylindrical bolster backrest on chunky legs",
+    "dims": "W 72 × D 70 × H 70 cm",
+    "seat_h": "45 cm",
+    "price": "SAR 4,200",
+    "source": "references/10-bold-accents-source.jpg",
+    "images": {
+      "front": "images/10-bold-accents-front.jpg",
+      "angle": "images/10-bold-accents-angle.jpg",
+      "side": "images/10-bold-accents-side.jpg"
+    },
+    "href": "products/bold-accents.html"
+  },
+  {
+    "id": "11",
+    "slug": "contemporary-flow",
+    "name": "Contemporary Flow",
+    "tagline": "Fluid lines",
+    "color": "Cream ivory",
+    "fabric": "Cream bouclé",
+    "base": "Brushed brass circular swivel",
+    "shape": "Asymmetrical sweeping backrest higher on one side flowing down to a single arm",
+    "dims": "W 80 × D 78 × H 88 cm",
+    "seat_h": "43 cm",
+    "price": "SAR 5,500",
+    "source": "references/11-contemporary-flow-source.jpg",
+    "images": {
+      "front": "images/11-contemporary-flow-front.jpg",
+      "angle": "images/11-contemporary-flow-angle.jpg",
+      "side": "images/11-contemporary-flow-side.jpg"
+    },
+    "href": "products/contemporary-flow.html"
+  },
+  {
+    "id": "12",
+    "slug": "deep-comfort",
+    "name": "Deep Comfort",
+    "tagline": "Plush seating",
+    "color": "Midnight navy",
+    "fabric": "Navy plush bouclé",
+    "base": "Brushed brass circular swivel",
+    "shape": "Very thick pillowy seat with lower rounded back and soft blocky arms",
+    "dims": "W 90 × D 86 × H 72 cm",
+    "seat_h": "42 cm",
+    "price": "SAR 5,800",
+    "source": "references/12-deep-comfort-source.jpg",
+    "images": {
+      "front": "images/12-deep-comfort-front.jpg",
+      "angle": "images/12-deep-comfort-angle.jpg",
+      "side": "images/12-deep-comfort-side.jpg"
+    },
+    "href": "products/deep-comfort.html"
+  },
+  {
+    "id": "13",
+    "slug": "sculpted-simplicity",
+    "name": "Sculpted Simplicity",
+    "tagline": "Minimal forms",
+    "color": "Cream ivory",
+    "fabric": "Cream bouclé",
+    "base": "Two thick dark wood side beam supports",
+    "shape": "Rounded seat with cylindrical bolster arms and back on visible wood supports",
+    "dims": "W 88 × D 80 × H 76 cm",
+    "seat_h": "44 cm",
+    "price": "SAR 5,350",
+    "source": "references/13-sculpted-simplicity-source.jpg",
+    "images": {
+      "front": "images/13-sculpted-simplicity-front.jpg",
+      "angle": "images/13-sculpted-simplicity-angle.jpg",
+      "side": "images/13-sculpted-simplicity-side.jpg"
+    },
+    "href": "products/sculpted-simplicity.html"
+  },
+  {
+    "id": "14",
+    "slug": "earth-balance",
+    "name": "Earth Balance",
+    "tagline": "Grounded design",
+    "color": "Olive sage",
+    "fabric": "Sage green bouclé",
+    "base": "Brushed brass circular swivel",
+    "shape": "Large low organic bean-shaped seat with small spherical accent cushion as minimal backrest",
+    "dims": "W 92 × D 88 × H 62 cm",
+    "seat_h": "40 cm",
+    "price": "SAR 4,700",
+    "source": "references/14-earth-balance-source.jpg",
+    "images": {
+      "front": "images/14-earth-balance-front.jpg",
+      "angle": "images/14-earth-balance-angle.jpg",
+      "side": "images/14-earth-balance-side.jpg"
+    },
+    "href": "products/earth-balance.html"
+  },
+  {
+    "id": "15",
+    "slug": "new-classics",
+    "name": "New Classics",
+    "tagline": "Timeless appeal",
+    "color": "Cream + walnut",
+    "fabric": "Cream bouclé cushions",
+    "base": "Exposed dark wood mid-century frame with tapered legs and flat armrests",
+    "shape": "Traditional armchair: wood frame cradling thick cream seat and curved back cushions",
+    "dims": "W 74 × D 76 × H 82 cm",
+    "seat_h": "45 cm",
+    "price": "SAR 6,100",
+    "source": "references/15-new-classics-source.jpg",
+    "images": {
+      "front": "images/15-new-classics-front.jpg",
+      "angle": "images/15-new-classics-angle.jpg",
+      "side": "images/15-new-classics-side.jpg"
+    },
+    "href": "products/new-classics.html"
+  },
+  {
+    "id": "16",
+    "slug": "warm-textures",
+    "name": "Warm Textures",
+    "tagline": "Inviting materials",
+    "color": "Terracotta rust",
+    "fabric": "Terracotta bouclé",
+    "base": "Brushed brass circular swivel",
+    "shape": "Deep bowl-like scooped barrel seat with rounded wraparound back",
+    "dims": "W 82 × D 80 × H 78 cm",
+    "seat_h": "42 cm",
+    "price": "SAR 5,150",
+    "source": "references/16-warm-textures-source.jpg",
+    "images": {
+      "front": "images/16-warm-textures-front.jpg",
+      "angle": "images/16-warm-textures-angle.jpg",
+      "side": "images/16-warm-textures-side.jpg"
+    },
+    "href": "products/warm-textures.html"
+  },
+  {
+    "id": "17",
+    "slug": "curated-comfort",
+    "name": "Curated Comfort",
+    "tagline": "Designed living",
+    "color": "Cream ivory",
+    "fabric": "Cream bouclé",
+    "base": "Brushed brass circular swivel",
+    "shape": "Rounded armchair with curved back and matching small spherical throw pillow",
+    "dims": "W 84 × D 82 × H 80 cm",
+    "seat_h": "43 cm",
+    "price": "SAR 5,400",
+    "source": "references/17-curated-comfort-source.jpg",
+    "images": {
+      "front": "images/17-curated-comfort-front.jpg",
+      "angle": "images/17-curated-comfort-angle.jpg",
+      "side": "images/17-curated-comfort-side.jpg"
+    },
+    "href": "products/curated-comfort.html"
+  },
+  {
+    "id": "18",
+    "slug": "low-profile",
+    "name": "Low Profile",
+    "tagline": "Horizontal ease",
+    "color": "Sage green",
+    "fabric": "Smooth sage green upholstery",
+    "base": "Floor-hugging no legs",
+    "shape": "Elongated low bench/mini-sofa with long rounded seat and matching long bolster backrest",
+    "dims": "W 140 × D 70 × H 52 cm",
+    "seat_h": "35 cm",
+    "price": "SAR 5,950",
+    "source": "references/18-low-profile-source.jpg",
+    "images": {
+      "front": "images/18-low-profile-front.jpg",
+      "angle": "images/18-low-profile-angle.jpg",
+      "side": "images/18-low-profile-side.jpg"
+    },
+    "href": "products/low-profile.html"
+  },
+  {
+    "id": "19",
+    "slug": "detail-matters",
+    "name": "Detail Matters",
+    "tagline": "Crafted edges",
+    "color": "Cream + walnut",
+    "fabric": "Cream bouclé",
+    "base": "Blocky dark wood architectural frame forming chunky square legs and arms",
+    "shape": "Bouclé seat and back held in geometric dark wood block frame",
+    "dims": "W 80 × D 78 × H 78 cm",
+    "seat_h": "44 cm",
+    "price": "SAR 5,700",
+    "source": "references/19-detail-matters-source.jpg",
+    "images": {
+      "front": "images/19-detail-matters-front.jpg",
+      "angle": "images/19-detail-matters-angle.jpg",
+      "side": "images/19-detail-matters-side.jpg"
+    },
+    "href": "products/detail-matters.html"
+  },
+  {
+    "id": "20",
+    "slug": "blush-hour",
+    "name": "Blush Hour",
+    "tagline": "Soft romance",
+    "color": "Dusty blush pink",
+    "fabric": "Soft blush pink velvet-chenille",
+    "base": "Brushed brass circular swivel",
+    "shape": "Feminine rounded barrel armchair with continuous curved back into arms and thick circular seat",
+    "dims": "W 82 × D 80 × H 80 cm",
+    "seat_h": "43 cm",
+    "price": "SAR 5,250",
+    "source": "references/20-blush-hour-source.jpg",
+    "images": {
+      "front": "images/20-blush-hour-front.jpg",
+      "angle": "images/20-blush-hour-angle.jpg",
+      "side": "images/20-blush-hour-side.jpg"
+    },
+    "href": "products/blush-hour.html"
+  }
+]
