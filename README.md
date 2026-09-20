@@ -4,6 +4,8 @@ The **full ecommerce ecosystem** lives in the [`web/`](web/) folder (Next.js + S
 
 The older static HTML site is preserved in [`majalisalfarah/`](majalisalfarah/) for reference.
 
+**The Wood Chapter — Comfort Forward 2026** sculptural seating product shots (20 pieces × 3 angles) live in [`the-wood-chapter/`](the-wood-chapter/).
+
 ## Quick start
 
 ```bash

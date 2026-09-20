@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Low Profile — The Wood Chapter</title>
+    <meta name="description" content="Horizontal ease. Smooth sage green upholstery. Three product angles." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">The Wood Chapter</span>
+          <span class="brand-sub">Furniture · Interiors · Lifestyle</span>
+        </a>
+        <a class="nav-link" href="../index.html#collection">All pieces</a>
+      </header>
+
+      <main class="pd-hero">
+        <div class="gallery">
+          <div class="back-row">
+            <a class="nav-link" href="../index.html#collection">← Collection</a>
+          </div>
+          <div class="gallery-main">
+            <img id="main-image" src="images/18-low-profile-front.jpg" alt="Low Profile — front view" />
+          </div>
+          <p class="angle-label" id="angle-label">Front view</p>
+          <div class="gallery-thumbs" role="tablist" aria-label="Product angles">
+            <button type="button" data-src="images/18-low-profile-front.jpg" data-label="Front view" aria-current="true">
+              <img src="images/18-low-profile-front.jpg" alt="Front thumbnail" />
+            </button>
+            <button type="button" data-src="images/18-low-profile-angle.jpg" data-label="Three-quarter view">
+              <img src="images/18-low-profile-angle.jpg" alt="Angle thumbnail" />
+            </button>
+            <button type="button" data-src="images/18-low-profile-side.jpg" data-label="Side profile">
+              <img src="images/18-low-profile-side.jpg" alt="Side thumbnail" />
+            </button>
+          </div>
+          <div class="angles-strip" aria-label="All three angles">
+            <figure>
+              <img src="images/18-low-profile-front.jpg" alt="Low Profile front" />
+              <figcaption>Front</figcaption>
+            </figure>
+            <figure>
+              <img src="images/18-low-profile-angle.jpg" alt="Low Profile three-quarter" />
+              <figcaption>Angle</figcaption>
+            </figure>
+            <figure>
+              <img src="images/18-low-profile-side.jpg" alt="Low Profile side" />
+              <figcaption>Side</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <aside class="pd-info">
+          <h1>Low Profile</h1>
+          <p class="pd-tagline">Horizontal ease</p>
+          <p class="pd-price">SAR 5,950</p>
+          <ul class="specs">
+            <li><span class="label">Color</span><span>Sage green</span></li>
+            <li><span class="label">Fabric</span><span>Smooth sage green upholstery</span></li>
+            <li><span class="label">Base</span><span>Floor-hugging no legs</span></li>
+            <li><span class="label">Form</span><span>Elongated low bench/mini-sofa with long rounded seat and matching long bolster backrest</span></li>
+            <li><span class="label">Dimensions</span><span>W 140 × D 70 × H 52 cm</span></li>
+            <li><span class="label">Seat height</span><span>35 cm</span></li>
+            <li><span class="label">SKU</span><span>TWC-18</span></li>
+            <li><span class="label">Collection</span><span>Comfort Forward 2026</span></li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="../index.html#collection">View all 20</a>
+            <a class="btn btn-ghost" href="detail-matters.html">Next: Detail Matters</a>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="site-footer">
+        <span>The Wood Chapter</span>
+        <span>Sculptural Seating · 3 angles</span>
+      </footer>
+    </div>
+    <script>
+      const main = document.getElementById("main-image");
+      const label = document.getElementById("angle-label");
+      document.querySelectorAll(".gallery-thumbs button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          main.src = btn.dataset.src;
+          main.alt = "Low Profile — " + btn.dataset.label.toLowerCase();
+          label.textContent = btn.dataset.label;
+          document.querySelectorAll(".gallery-thumbs button").forEach((b) =>
+            b.setAttribute("aria-current", b === btn ? "true" : "false")
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

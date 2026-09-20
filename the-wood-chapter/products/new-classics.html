@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>New Classics — The Wood Chapter</title>
+    <meta name="description" content="Timeless appeal. Cream bouclé cushions. Three product angles." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">The Wood Chapter</span>
+          <span class="brand-sub">Furniture · Interiors · Lifestyle</span>
+        </a>
+        <a class="nav-link" href="../index.html#collection">All pieces</a>
+      </header>
+
+      <main class="pd-hero">
+        <div class="gallery">
+          <div class="back-row">
+            <a class="nav-link" href="../index.html#collection">← Collection</a>
+          </div>
+          <div class="gallery-main">
+            <img id="main-image" src="images/15-new-classics-front.jpg" alt="New Classics — front view" />
+          </div>
+          <p class="angle-label" id="angle-label">Front view</p>
+          <div class="gallery-thumbs" role="tablist" aria-label="Product angles">
+            <button type="button" data-src="images/15-new-classics-front.jpg" data-label="Front view" aria-current="true">
+              <img src="images/15-new-classics-front.jpg" alt="Front thumbnail" />
+            </button>
+            <button type="button" data-src="images/15-new-classics-angle.jpg" data-label="Three-quarter view">
+              <img src="images/15-new-classics-angle.jpg" alt="Angle thumbnail" />
+            </button>
+            <button type="button" data-src="images/15-new-classics-side.jpg" data-label="Side profile">
+              <img src="images/15-new-classics-side.jpg" alt="Side thumbnail" />
+            </button>
+          </div>
+          <div class="angles-strip" aria-label="All three angles">
+            <figure>
+              <img src="images/15-new-classics-front.jpg" alt="New Classics front" />
+              <figcaption>Front</figcaption>
+            </figure>
+            <figure>
+              <img src="images/15-new-classics-angle.jpg" alt="New Classics three-quarter" />
+              <figcaption>Angle</figcaption>
+            </figure>
+            <figure>
+              <img src="images/15-new-classics-side.jpg" alt="New Classics side" />
+              <figcaption>Side</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <aside class="pd-info">
+          <h1>New Classics</h1>
+          <p class="pd-tagline">Timeless appeal</p>
+          <p class="pd-price">SAR 6,100</p>
+          <ul class="specs">
+            <li><span class="label">Color</span><span>Cream + walnut</span></li>
+            <li><span class="label">Fabric</span><span>Cream bouclé cushions</span></li>
+            <li><span class="label">Base</span><span>Exposed dark wood mid-century frame with tapered legs and flat armrests</span></li>
+            <li><span class="label">Form</span><span>Traditional armchair: wood frame cradling thick cream seat and curved back cushions</span></li>
+            <li><span class="label">Dimensions</span><span>W 74 × D 76 × H 82 cm</span></li>
+            <li><span class="label">Seat height</span><span>45 cm</span></li>
+            <li><span class="label">SKU</span><span>TWC-15</span></li>
+            <li><span class="label">Collection</span><span>Comfort Forward 2026</span></li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="../index.html#collection">View all 20</a>
+            <a class="btn btn-ghost" href="warm-textures.html">Next: Warm Textures</a>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="site-footer">
+        <span>The Wood Chapter</span>
+        <span>Sculptural Seating · 3 angles</span>
+      </footer>
+    </div>
+    <script>
+      const main = document.getElementById("main-image");
+      const label = document.getElementById("angle-label");
+      document.querySelectorAll(".gallery-thumbs button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          main.src = btn.dataset.src;
+          main.alt = "New Classics — " + btn.dataset.label.toLowerCase();
+          label.textContent = btn.dataset.label;
+          document.querySelectorAll(".gallery-thumbs button").forEach((b) =>
+            b.setAttribute("aria-current", b === btn ? "true" : "false")
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
