@@ -17,7 +17,8 @@
       "angle": "images/01-soft-geometry-angle.jpg",
       "side": "images/01-soft-geometry-side.jpg"
     },
-    "href": "products/soft-geometry.html"
+    "href": "products/soft-geometry.html",
+    "detail_card": "detail-cards/01-soft-geometry-detail.jpg"
   },
   {
     "id": "02",
@@ -37,7 +38,8 @@
       "angle": "images/02-natural-hues-angle.jpg",
       "side": "images/02-natural-hues-side.jpg"
     },
-    "href": "products/natural-hues.html"
+    "href": "products/natural-hues.html",
+    "detail_card": "detail-cards/02-natural-hues-detail.jpg"
   },
   {
     "id": "03",
@@ -57,7 +59,8 @@
       "angle": "images/03-modular-lounging-angle.jpg",
       "side": "images/03-modular-lounging-side.jpg"
     },
-    "href": "products/modular-lounging.html"
+    "href": "products/modular-lounging.html",
+    "detail_card": "detail-cards/03-modular-lounging-detail.jpg"
   },
   {
     "id": "04",
@@ -77,7 +80,8 @@
       "angle": "images/04-tactile-living-angle.jpg",
       "side": "images/04-tactile-living-side.jpg"
     },
-    "href": "products/tactile-living.html"
+    "href": "products/tactile-living.html",
+    "detail_card": "detail-cards/04-tactile-living-detail.jpg"
   },
   {
     "id": "05",
@@ -97,7 +101,8 @@
       "angle": "images/05-cocoon-comfort-angle.jpg",
       "side": "images/05-cocoon-comfort-side.jpg"
     },
-    "href": "products/cocoon-comfort.html"
+    "href": "products/cocoon-comfort.html",
+    "detail_card": "detail-cards/05-cocoon-comfort-detail.jpg"
   },
   {
     "id": "06",
@@ -117,7 +122,8 @@
       "angle": "images/06-relaxed-luxury-angle.jpg",
       "side": "images/06-relaxed-luxury-side.jpg"
     },
-    "href": "products/relaxed-luxury.html"
+    "href": "products/relaxed-luxury.html",
+    "detail_card": "detail-cards/06-relaxed-luxury-detail.jpg"
   },
   {
     "id": "07",
@@ -137,7 +143,8 @@
       "angle": "images/07-quiet-luxury-angle.jpg",
       "side": "images/07-quiet-luxury-side.jpg"
     },
-    "href": "products/quiet-luxury.html"
+    "href": "products/quiet-luxury.html",
+    "detail_card": "detail-cards/07-quiet-luxury-detail.jpg"
   },
   {
     "id": "08",
@@ -157,7 +164,8 @@
       "angle": "images/08-sage-story-angle.jpg",
       "side": "images/08-sage-story-side.jpg"
     },
-    "href": "products/sage-story.html"
+    "href": "products/sage-story.html",
+    "detail_card": "detail-cards/08-sage-story-detail.jpg"
   },
   {
     "id": "09",
@@ -177,7 +185,8 @@
       "angle": "images/09-playful-shapes-angle.jpg",
       "side": "images/09-playful-shapes-side.jpg"
     },
-    "href": "products/playful-shapes.html"
+    "href": "products/playful-shapes.html",
+    "detail_card": "detail-cards/09-playful-shapes-detail.jpg"
   },
   {
     "id": "10",
@@ -197,7 +206,8 @@
       "angle": "images/10-bold-accents-angle.jpg",
       "side": "images/10-bold-accents-side.jpg"
     },
-    "href": "products/bold-accents.html"
+    "href": "products/bold-accents.html",
+    "detail_card": "detail-cards/10-bold-accents-detail.jpg"
   },
   {
     "id": "11",
@@ -217,7 +227,8 @@
       "angle": "images/11-contemporary-flow-angle.jpg",
       "side": "images/11-contemporary-flow-side.jpg"
     },
-    "href": "products/contemporary-flow.html"
+    "href": "products/contemporary-flow.html",
+    "detail_card": "detail-cards/11-contemporary-flow-detail.jpg"
   },
   {
     "id": "12",
@@ -237,7 +248,8 @@
       "angle": "images/12-deep-comfort-angle.jpg",
       "side": "images/12-deep-comfort-side.jpg"
     },
-    "href": "products/deep-comfort.html"
+    "href": "products/deep-comfort.html",
+    "detail_card": "detail-cards/12-deep-comfort-detail.jpg"
   },
   {
     "id": "13",
@@ -257,7 +269,8 @@
       "angle": "images/13-sculpted-simplicity-angle.jpg",
       "side": "images/13-sculpted-simplicity-side.jpg"
     },
-    "href": "products/sculpted-simplicity.html"
+    "href": "products/sculpted-simplicity.html",
+    "detail_card": "detail-cards/13-sculpted-simplicity-detail.jpg"
   },
   {
     "id": "14",
@@ -277,7 +290,8 @@
       "angle": "images/14-earth-balance-angle.jpg",
       "side": "images/14-earth-balance-side.jpg"
     },
-    "href": "products/earth-balance.html"
+    "href": "products/earth-balance.html",
+    "detail_card": "detail-cards/14-earth-balance-detail.jpg"
   },
   {
     "id": "15",
@@ -297,7 +311,8 @@
       "angle": "images/15-new-classics-angle.jpg",
       "side": "images/15-new-classics-side.jpg"
     },
-    "href": "products/new-classics.html"
+    "href": "products/new-classics.html",
+    "detail_card": "detail-cards/15-new-classics-detail.jpg"
   },
   {
     "id": "16",
@@ -317,7 +332,8 @@
       "angle": "images/16-warm-textures-angle.jpg",
       "side": "images/16-warm-textures-side.jpg"
     },
-    "href": "products/warm-textures.html"
+    "href": "products/warm-textures.html",
+    "detail_card": "detail-cards/16-warm-textures-detail.jpg"
   },
   {
     "id": "17",
@@ -337,7 +353,8 @@
       "angle": "images/17-curated-comfort-angle.jpg",
       "side": "images/17-curated-comfort-side.jpg"
     },
-    "href": "products/curated-comfort.html"
+    "href": "products/curated-comfort.html",
+    "detail_card": "detail-cards/17-curated-comfort-detail.jpg"
   },
   {
     "id": "18",
@@ -357,7 +374,8 @@
       "angle": "images/18-low-profile-angle.jpg",
       "side": "images/18-low-profile-side.jpg"
     },
-    "href": "products/low-profile.html"
+    "href": "products/low-profile.html",
+    "detail_card": "detail-cards/18-low-profile-detail.jpg"
   },
   {
     "id": "19",
@@ -377,7 +395,8 @@
       "angle": "images/19-detail-matters-angle.jpg",
       "side": "images/19-detail-matters-side.jpg"
     },
-    "href": "products/detail-matters.html"
+    "href": "products/detail-matters.html",
+    "detail_card": "detail-cards/19-detail-matters-detail.jpg"
   },
   {
     "id": "20",
@@ -397,6 +416,7 @@
       "angle": "images/20-blush-hour-angle.jpg",
       "side": "images/20-blush-hour-side.jpg"
     },
-    "href": "products/blush-hour.html"
+    "href": "products/blush-hour.html",
+    "detail_card": "detail-cards/20-blush-hour-detail.jpg"
   }
 ]
