@@ -1,0 +1,72 @@
+Shopify Import Guide – Cushion Pairs (6 Designs × 3 Combos)
+===========================================================
+
+Main CSV (Shopify import):
+  cushion-pairs-shopify-products.csv
+
+Product images (18 total):
+  images/cushion-pairs/
+    pair1-linen-*.jpg       = Soft Linen Cushion Pair (3 combos)
+    pair2-velvet-*.jpg      = Plush Velvet Cushion Pair (3 combos)
+    pair3-heritage-*.jpg    = Heritage Embroidery Cushion Pair (3 combos)
+    pair4-boucle-*.jpg      = Bouclé Cloud Cushion Pair (3 combos)
+    pair5-bolster-*.jpg     = Majlis Bolster Pillow Pair (3 combos)
+    pair6-pattern-*.jpg     = Geometric Pattern Mix Pair (3 combos)
+
+View images on phone/computer:
+  Open: cushion-pairs-gallery.html
+  Or open folder: images/cushion-pairs/
+
+Image map (SKU -> file):
+  cushion-pairs-image-map.csv
+
+Human review overview:
+  cushion-pairs-product-overview.csv
+
+The 6 pair designs
+------------------
+1. Soft Linen Cushion Pair – breathable linen squares
+   Combos: Sand + Ivory | Olive + Mocha | Soft Gray + Warm White
+   Price: 149 SAR (compare 179)
+
+2. Plush Velvet Cushion Pair – jewel-tone velvet throws
+   Combos: Emerald + Champagne | Midnight Navy + Blush | Terracotta + Cream
+   Price: 189 SAR (compare 229)
+
+3. Heritage Embroidery Cushion Pair – Arabic motif + solid
+   Combos: Ivory + Taupe | Cream + Forest | Sand + Charcoal
+   Price: 289 SAR (compare 349)
+
+4. Bouclé Cloud Cushion Pair – nubby textured bouclé
+   Combos: Off-White + Greige | Cream + Camel | Pearl + Mist Gray
+   Price: 219 SAR (compare 269)
+
+5. Majlis Bolster Pillow Pair – long cylindrical side pillows
+   Combos: Cream + Gold piping | Navy + Cream piping | Terracotta + Ivory piping
+   Price: 249 SAR (compare 299)
+
+6. Geometric Pattern Mix Pair – patterned + solid companion
+   Combos: Cream/Tan Geometric | Blue/Slate Geometric | Sage/Ivory Geometric
+   Price: 199 SAR (compare 239)
+
+How to import in Shopify
+------------------------
+1. Shopify Admin → Products → Import
+2. Upload cushion-pairs-shopify-products.csv
+3. Confirm 6 products with 3 combo variants each
+4. Click Import products
+
+How to add the combo images
+---------------------------
+After import, for each product:
+  1. Open the product in Shopify Admin
+  2. Upload the 3 matching images from images/cushion-pairs/
+  3. Assign each image to its Combo variant
+     (Product → Variants → click variant → choose media)
+
+Example for Pair 1 (Soft Linen):
+  Sand + Ivory              -> pair1-linen-sand-ivory.jpg
+  Olive + Mocha             -> pair1-linen-olive-mocha.jpg
+  Soft Gray + Warm White    -> pair1-linen-gray-white.jpg
+
+Currency: set store to SAR
