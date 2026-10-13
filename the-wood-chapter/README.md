@@ -65,3 +65,10 @@ Source catalog: `catalog-source.jpg`
 - Arabic: [`modern-sofas/detail-cards-ar.html`](modern-sofas/detail-cards-ar.html)
 - Images: `modern-sofas/images/`
 - Detail cards: `modern-sofas/detail-cards/` · `modern-sofas/detail-cards-ar/`
+
+
+## Place Sofas 2026
+
+20 sofas for lobbies, waiting areas, offices, cafes, and more (5 images each):
+
+- Gallery: [`place-sofas/index.html`](place-sofas/index.html)
