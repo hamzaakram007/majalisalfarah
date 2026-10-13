@@ -56,3 +56,12 @@ Images live in `products/images/`. Catalog crop references are in `products/refe
 20. Blush Hour  
 
 Source catalog: `catalog-source.jpg`
+
+## Modern Sofas 2026
+
+20 modern sofa styles with product photo + detail card (English & Arabic), no prices:
+
+- Gallery: [`modern-sofas/index.html`](modern-sofas/index.html)
+- Arabic: [`modern-sofas/detail-cards-ar.html`](modern-sofas/detail-cards-ar.html)
+- Images: `modern-sofas/images/`
+- Detail cards: `modern-sofas/detail-cards/` · `modern-sofas/detail-cards-ar/`
