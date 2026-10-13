@@ -16,9 +16,14 @@
     "fabric_ar": "تنجيد بوكلي عاجي فاخر",
     "base_ar": "قاعدة منصة منخفضة مخفية",
     "shape_ar": "أريكة معيارية عميقة بوسائد مقعد مستديرة كبيرة ومساند ظهر ناعمة",
-    "image": "images/01-cloud-modular.jpg",
+    "image": "images/01-cloud-modular-front.jpg",
     "detail_card": "detail-cards/01-cloud-modular-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/01-cloud-modular-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/01-cloud-modular-detail-ar.jpg",
+    "images": {
+      "front": "images/01-cloud-modular-front.jpg",
+      "angle": "images/01-cloud-modular-angle.jpg",
+      "side": "images/01-cloud-modular-side.jpg"
+    }
   },
   {
     "id": "02",
@@ -37,9 +42,14 @@
     "fabric_ar": "قماش عملي رمادي دافئ أملس",
     "base_ar": "قاعدة منخفضة غائرة ملتصقة بالأرض",
     "shape_ar": "سيكشنال على شكل L بملف منخفض وأذرع رفيعة ووسائد مقعد طويلة",
-    "image": "images/02-lowline-sectional.jpg",
+    "image": "images/02-lowline-sectional-front.jpg",
     "detail_card": "detail-cards/02-lowline-sectional-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/02-lowline-sectional-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/02-lowline-sectional-detail-ar.jpg",
+    "images": {
+      "front": "images/02-lowline-sectional-front.jpg",
+      "angle": "images/02-lowline-sectional-angle.jpg",
+      "side": "images/02-lowline-sectional-side.jpg"
+    }
   },
   {
     "id": "03",
@@ -58,9 +68,14 @@
     "fabric_ar": "بوكلي كريمي محبّب",
     "base_ar": "قاعدة هلالية من الخشب الداكن",
     "shape_ar": "أريكة هلالية منحنية بظهر مستدير مستمر ينساب إلى أذرع ناعمة",
-    "image": "images/03-curve-boucle.jpg",
+    "image": "images/03-curve-boucle-front.jpg",
     "detail_card": "detail-cards/03-curve-boucle-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/03-curve-boucle-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/03-curve-boucle-detail-ar.jpg",
+    "images": {
+      "front": "images/03-curve-boucle-front.jpg",
+      "angle": "images/03-curve-boucle-angle.jpg",
+      "side": "images/03-curve-boucle-side.jpg"
+    }
   },
   {
     "id": "04",
@@ -79,9 +94,14 @@
     "fabric_ar": "جلد كونياك كامل الحبة",
     "base_ar": "أرجل خشب جوز مدبّبة",
     "shape_ar": "أريكة بثلاثة مقاعد بوسائد بدون أزرار وأذرع خشبية مفتوحة وأرجل جوز مدبّبة",
-    "image": "images/04-walnut-lounge.jpg",
+    "image": "images/04-walnut-lounge-front.jpg",
     "detail_card": "detail-cards/04-walnut-lounge-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/04-walnut-lounge-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/04-walnut-lounge-detail-ar.jpg",
+    "images": {
+      "front": "images/04-walnut-lounge-front.jpg",
+      "angle": "images/04-walnut-lounge-angle.jpg",
+      "side": "images/04-walnut-lounge-side.jpg"
+    }
   },
   {
     "id": "05",
@@ -100,9 +120,14 @@
     "fabric_ar": "مزيج كتان طبيعي قابل للتنفس",
     "base_ar": "إطار مستطيل من البلوط الفاتح",
     "shape_ar": "أريكة مستطيلة نظيفة بوسائد سائبة داخل إطار بلوط فاتح مفتوح",
-    "image": "images/05-linen-frame.jpg",
+    "image": "images/05-linen-frame-front.jpg",
     "detail_card": "detail-cards/05-linen-frame-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/05-linen-frame-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/05-linen-frame-detail-ar.jpg",
+    "images": {
+      "front": "images/05-linen-frame-front.jpg",
+      "angle": "images/05-linen-frame-angle.jpg",
+      "side": "images/05-linen-frame-side.jpg"
+    }
   },
   {
     "id": "06",
@@ -121,9 +146,14 @@
     "fabric_ar": "مخمل زمردي ناعم",
     "base_ar": "قاعدة زلاجة من النحاس المصقول",
     "shape_ar": "أريكة بتطريز قنوات عمودية على الظهر والأذرع فوق قاعدة نحاسية",
-    "image": "images/06-channel-luxe.jpg",
+    "image": "images/06-channel-luxe-front.jpg",
     "detail_card": "detail-cards/06-channel-luxe-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/06-channel-luxe-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/06-channel-luxe-detail-ar.jpg",
+    "images": {
+      "front": "images/06-channel-luxe-front.jpg",
+      "angle": "images/06-channel-luxe-angle.jpg",
+      "side": "images/06-channel-luxe-side.jpg"
+    }
   },
   {
     "id": "07",
@@ -142,9 +172,14 @@
     "fabric_ar": "نسيج محكم رمادي حجري",
     "base_ar": "أقدام خشبية داكنة كتلية",
     "shape_ar": "أريكة مع شيز مدمج من جهة ووسائد مربعة ناعمة",
-    "image": "images/07-chaise-flow.jpg",
+    "image": "images/07-chaise-flow-front.jpg",
     "detail_card": "detail-cards/07-chaise-flow-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/07-chaise-flow-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/07-chaise-flow-detail-ar.jpg",
+    "images": {
+      "front": "images/07-chaise-flow-front.jpg",
+      "angle": "images/07-chaise-flow-angle.jpg",
+      "side": "images/07-chaise-flow-side.jpg"
+    }
   },
   {
     "id": "08",
@@ -163,9 +198,14 @@
     "fabric_ar": "شَنيل بيج رملي ناعم",
     "base_ar": "قاعدة عريضة مخفية",
     "shape_ar": "أريكة استرخاء عميقة جداً بمقعد سميك وظهر منخفض ووسائد كبيرة",
-    "image": "images/08-deep-nest.jpg",
+    "image": "images/08-deep-nest-front.jpg",
     "detail_card": "detail-cards/08-deep-nest-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/08-deep-nest-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/08-deep-nest-detail-ar.jpg",
+    "images": {
+      "front": "images/08-deep-nest-front.jpg",
+      "angle": "images/08-deep-nest-angle.jpg",
+      "side": "images/08-deep-nest-side.jpg"
+    }
   },
   {
     "id": "09",
@@ -184,9 +224,14 @@
     "fabric_ar": "قماش عملي أبيض ناعم",
     "base_ar": "جوانب شرائحية من خشب الدردار وأرجل مدبّبة",
     "shape_ar": "أريكة عصرية بجوانب شرائحية من الدردار وأرجل مدبّبة ووسائد بيضاء نظيفة",
-    "image": "images/09-nordic-slat.jpg",
+    "image": "images/09-nordic-slat-front.jpg",
     "detail_card": "detail-cards/09-nordic-slat-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/09-nordic-slat-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/09-nordic-slat-detail-ar.jpg",
+    "images": {
+      "front": "images/09-nordic-slat-front.jpg",
+      "angle": "images/09-nordic-slat-angle.jpg",
+      "side": "images/09-nordic-slat-side.jpg"
+    }
   },
   {
     "id": "10",
@@ -205,9 +250,14 @@
     "fabric_ar": "مخمل كحلي عميق",
     "base_ar": "أقدام حلقية ذهبية مصقولة",
     "shape_ar": "أريكة مستوحاة من البرميل بظهر منحني مستمر ومقعد سميك بحواف دائرية",
-    "image": "images/10-velvet-barrel.jpg",
+    "image": "images/10-velvet-barrel-front.jpg",
     "detail_card": "detail-cards/10-velvet-barrel-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/10-velvet-barrel-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/10-velvet-barrel-detail-ar.jpg",
+    "images": {
+      "front": "images/10-velvet-barrel-front.jpg",
+      "angle": "images/10-velvet-barrel-angle.jpg",
+      "side": "images/10-velvet-barrel-side.jpg"
+    }
   },
   {
     "id": "11",
@@ -226,9 +276,14 @@
     "fabric_ar": "تنجيد مايكروفايبر فحمي",
     "base_ar": "أرجل معدنية سوداء منخفضة",
     "shape_ar": "أريكة ركنية واسعة على شكل L بمقاعد عريضة وأذرع مربعة منظمة",
-    "image": "images/11-corner-atelier.jpg",
+    "image": "images/11-corner-atelier-front.jpg",
     "detail_card": "detail-cards/11-corner-atelier-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/11-corner-atelier-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/11-corner-atelier-detail-ar.jpg",
+    "images": {
+      "front": "images/11-corner-atelier-front.jpg",
+      "angle": "images/11-corner-atelier-angle.jpg",
+      "side": "images/11-corner-atelier-side.jpg"
+    }
   },
   {
     "id": "12",
@@ -247,9 +302,14 @@
     "fabric_ar": "قماش منسوج وردي خافت",
     "base_ar": "أرجل معدنية سوداء رفيعة",
     "shape_ar": "أريكة بمقعدين مدمجة بأذرع رفيعة وظهر محكم للمساحات الصغيرة",
-    "image": "images/12-studio-compact.jpg",
+    "image": "images/12-studio-compact-front.jpg",
     "detail_card": "detail-cards/12-studio-compact-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/12-studio-compact-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/12-studio-compact-detail-ar.jpg",
+    "images": {
+      "front": "images/12-studio-compact-front.jpg",
+      "angle": "images/12-studio-compact-angle.jpg",
+      "side": "images/12-studio-compact-side.jpg"
+    }
   },
   {
     "id": "13",
@@ -268,9 +328,14 @@
     "fabric_ar": "بوكلي تيدي عاجي دافئ",
     "base_ar": "قاعدة انزلاق دوّارة مخفية",
     "shape_ar": "أريكة عضوية بشكل حصاة بحواف مستديرة بالكامل دون زوايا حادة",
-    "image": "images/13-pebble-organic.jpg",
+    "image": "images/13-pebble-organic-front.jpg",
     "detail_card": "detail-cards/13-pebble-organic-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/13-pebble-organic-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/13-pebble-organic-detail-ar.jpg",
+    "images": {
+      "front": "images/13-pebble-organic-front.jpg",
+      "angle": "images/13-pebble-organic-angle.jpg",
+      "side": "images/13-pebble-organic-side.jpg"
+    }
   },
   {
     "id": "14",
@@ -289,9 +354,14 @@
     "fabric_ar": "تنجيد أخضر زيتوني مطفي",
     "base_ar": "منصة خشبية عريضة معمارية",
     "shape_ar": "أريكة عصرية منخفضة على منصة خشبية داكنة عريضة بخطوط نظيفة حادة",
-    "image": "images/14-platform-edge.jpg",
+    "image": "images/14-platform-edge-front.jpg",
     "detail_card": "detail-cards/14-platform-edge-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/14-platform-edge-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/14-platform-edge-detail-ar.jpg",
+    "images": {
+      "front": "images/14-platform-edge-front.jpg",
+      "angle": "images/14-platform-edge-angle.jpg",
+      "side": "images/14-platform-edge-side.jpg"
+    }
   },
   {
     "id": "15",
@@ -310,9 +380,14 @@
     "fabric_ar": "جلد أحمر نبيذي أملس",
     "base_ar": "أقدام جوز كتلية",
     "shape_ar": "تشيسترفيلد عصري بتطريز أزرار عميق وأذرع ملفوفة وأقدام كتلية منخفضة",
-    "image": "images/15-modern-chester.jpg",
+    "image": "images/15-modern-chester-front.jpg",
     "detail_card": "detail-cards/15-modern-chester-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/15-modern-chester-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/15-modern-chester-detail-ar.jpg",
+    "images": {
+      "front": "images/15-modern-chester-front.jpg",
+      "angle": "images/15-modern-chester-angle.jpg",
+      "side": "images/15-modern-chester-side.jpg"
+    }
   },
   {
     "id": "16",
@@ -331,9 +406,14 @@
     "fabric_ar": "نسيج ناعم تيراكوتا طيني",
     "base_ar": "قاعدة معيارية بمستوى الأرض",
     "shape_ar": "أريكة حفرة معيارية غائرة بمقاعد عميقة مرتبة بشكل U للحوار",
-    "image": "images/16-pit-lounge.jpg",
+    "image": "images/16-pit-lounge-front.jpg",
     "detail_card": "detail-cards/16-pit-lounge-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/16-pit-lounge-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/16-pit-lounge-detail-ar.jpg",
+    "images": {
+      "front": "images/16-pit-lounge-front.jpg",
+      "angle": "images/16-pit-lounge-angle.jpg",
+      "side": "images/16-pit-lounge-side.jpg"
+    }
   },
   {
     "id": "17",
@@ -352,9 +432,14 @@
     "fabric_ar": "مزيج بوكلي جرافيتي ناعم",
     "base_ar": "أقدام انزلاق معدنية منخفضة",
     "shape_ar": "أريكة بامتداد شيز من الطرفين ومقعد مركزي عميق",
-    "image": "images/17-dual-chaise.jpg",
+    "image": "images/17-dual-chaise-front.jpg",
     "detail_card": "detail-cards/17-dual-chaise-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/17-dual-chaise-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/17-dual-chaise-detail-ar.jpg",
+    "images": {
+      "front": "images/17-dual-chaise-front.jpg",
+      "angle": "images/17-dual-chaise-angle.jpg",
+      "side": "images/17-dual-chaise-side.jpg"
+    }
   },
   {
     "id": "18",
@@ -373,9 +458,14 @@
     "fabric_ar": "كتان محكم أزرق ضبابي",
     "base_ar": "أرجل معدنية برونزية رفيعة",
     "shape_ar": "أريكة عصرية مستقيمة بأذرع مسار فائقة الرفع ومقعد بوسادتين مرتبتين",
-    "image": "images/18-slim-track.jpg",
+    "image": "images/18-slim-track-front.jpg",
     "detail_card": "detail-cards/18-slim-track-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/18-slim-track-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/18-slim-track-detail-ar.jpg",
+    "images": {
+      "front": "images/18-slim-track-front.jpg",
+      "angle": "images/18-slim-track-angle.jpg",
+      "side": "images/18-slim-track-side.jpg"
+    }
   },
   {
     "id": "19",
@@ -394,9 +484,14 @@
     "fabric_ar": "نسيج حبل رملي ساحلي لكل الأجواء",
     "base_ar": "إطار ألمنيوم مطلي بالمسحوق",
     "shape_ar": "أريكة داخلية خارجية عصرية بمقعد منسوج من الحبل ووسائد مقاومة للطقس",
-    "image": "images/19-indoor-outdoor.jpg",
+    "image": "images/19-indoor-outdoor-front.jpg",
     "detail_card": "detail-cards/19-indoor-outdoor-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/19-indoor-outdoor-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/19-indoor-outdoor-detail-ar.jpg",
+    "images": {
+      "front": "images/19-indoor-outdoor-front.jpg",
+      "angle": "images/19-indoor-outdoor-angle.jpg",
+      "side": "images/19-indoor-outdoor-side.jpg"
+    }
   },
   {
     "id": "20",
@@ -415,8 +510,13 @@
     "fabric_ar": "مخمل موكا غني",
     "base_ar": "قاعدة خشبية داكنة عريضة",
     "shape_ar": "أريكة بيان كبيرة بأربعة مقاعد بوسائد عميقة وأذرع عريضة منخفضة",
-    "image": "images/20-grand-statement.jpg",
+    "image": "images/20-grand-statement-front.jpg",
     "detail_card": "detail-cards/20-grand-statement-detail.jpg",
-    "detail_card_ar": "detail-cards-ar/20-grand-statement-detail-ar.jpg"
+    "detail_card_ar": "detail-cards-ar/20-grand-statement-detail-ar.jpg",
+    "images": {
+      "front": "images/20-grand-statement-front.jpg",
+      "angle": "images/20-grand-statement-angle.jpg",
+      "side": "images/20-grand-statement-side.jpg"
+    }
   }
 ]
