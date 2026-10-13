@@ -1,0 +1,101 @@
+Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Price,Image Src,Image Position,Image Alt Text,Status
+wave-fold,"Wave Fold Curtains","<h2>Wave Fold Curtains</h2><p>ستائر ويف فولد</p><ul><li>Style: Wave / Ripple Fold</li><li>Fabric: Soft linen blend</li><li>Light: Soft filter</li><li>Use: Living room & majlis</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, wave-fold",true,Title,Default,CUR-01,890.00,,1,"Wave Fold Curtains angle1",active
+wave-fold,,,,,,,,,,,,2,"Wave Fold Curtains angle2",
+wave-fold,,,,,,,,,,,,3,"Wave Fold Curtains angle3",
+wave-fold,,,,,,,,,,,,4,"Wave Fold Curtains details-en",
+wave-fold,,,,,,,,,,,,5,"Wave Fold Curtains details-ar",
+pinch-pleat,"Pinch Pleat Curtains","<h2>Pinch Pleat Curtains</h2><p>ستائر بكسرات</p><ul><li>Style: Triple pinch pleat</li><li>Fabric: Heavyweight weave</li><li>Light: Dim-out</li><li>Use: Formal rooms</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, pinch-pleat",true,Title,Default,CUR-02,890.00,,1,"Pinch Pleat Curtains angle1",active
+pinch-pleat,,,,,,,,,,,,2,"Pinch Pleat Curtains angle2",
+pinch-pleat,,,,,,,,,,,,3,"Pinch Pleat Curtains angle3",
+pinch-pleat,,,,,,,,,,,,4,"Pinch Pleat Curtains details-en",
+pinch-pleat,,,,,,,,,,,,5,"Pinch Pleat Curtains details-ar",
+eyelet-grommet,"Eyelet Grommet Curtains","<h2>Eyelet Grommet Curtains</h2><p>ستائر بحلقات</p><ul><li>Style: Metal eyelet</li><li>Fabric: Matte polyester</li><li>Light: Medium filter</li><li>Use: Bedroom & lounge</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, eyelet-grommet",true,Title,Default,CUR-03,890.00,,1,"Eyelet Grommet Curtains angle1",active
+eyelet-grommet,,,,,,,,,,,,2,"Eyelet Grommet Curtains angle2",
+eyelet-grommet,,,,,,,,,,,,3,"Eyelet Grommet Curtains angle3",
+eyelet-grommet,,,,,,,,,,,,4,"Eyelet Grommet Curtains details-en",
+eyelet-grommet,,,,,,,,,,,,5,"Eyelet Grommet Curtains details-ar",
+sheer-voile,"Sheer Voile Curtains","<h2>Sheer Voile Curtains</h2><p>ستائر فوال شفافة</p><ul><li>Style: Soft sheer voile</li><li>Fabric: Lightweight voile</li><li>Light: Bright filter</li><li>Use: Layered looks</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, sheer-voile",true,Title,Default,CUR-04,890.00,,1,"Sheer Voile Curtains angle1",active
+sheer-voile,,,,,,,,,,,,2,"Sheer Voile Curtains angle2",
+sheer-voile,,,,,,,,,,,,3,"Sheer Voile Curtains angle3",
+sheer-voile,,,,,,,,,,,,4,"Sheer Voile Curtains details-en",
+sheer-voile,,,,,,,,,,,,5,"Sheer Voile Curtains details-ar",
+blackout-thermal,"Blackout Thermal Curtains","<h2>Blackout Thermal Curtains</h2><p>ستائر بلاك آوت حرارية</p><ul><li>Style: Thermal blackout</li><li>Fabric: Triple-weave blackout</li><li>Light: Full block</li><li>Use: Bedroom & media</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, blackout-thermal",true,Title,Default,CUR-05,890.00,,1,"Blackout Thermal Curtains angle1",active
+blackout-thermal,,,,,,,,,,,,2,"Blackout Thermal Curtains angle2",
+blackout-thermal,,,,,,,,,,,,3,"Blackout Thermal Curtains angle3",
+blackout-thermal,,,,,,,,,,,,4,"Blackout Thermal Curtains details-en",
+blackout-thermal,,,,,,,,,,,,5,"Blackout Thermal Curtains details-ar",
+double-layer,"Double-Layer Curtain Set","<h2>Double-Layer Curtain Set</h2><p>طقم ستائر طبقتين</p><ul><li>Style: Sheer + blackout</li><li>Fabric: Dual-layer set</li><li>Light: Adjustable</li><li>Use: Day/night control</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, double-layer",true,Title,Default,CUR-06,890.00,,1,"Double-Layer Curtain Set angle1",active
+double-layer,,,,,,,,,,,,2,"Double-Layer Curtain Set angle2",
+double-layer,,,,,,,,,,,,3,"Double-Layer Curtain Set angle3",
+double-layer,,,,,,,,,,,,4,"Double-Layer Curtain Set details-en",
+double-layer,,,,,,,,,,,,5,"Double-Layer Curtain Set details-ar",
+roman-shade,"Roman Shade Curtains","<h2>Roman Shade Curtains</h2><p>ستائر رومانية</p><ul><li>Style: Classic roman fold</li><li>Fabric: Structured linen</li><li>Light: Soft dim</li><li>Use: Kitchen & office</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, roman-shade",true,Title,Default,CUR-07,890.00,,1,"Roman Shade Curtains angle1",active
+roman-shade,,,,,,,,,,,,2,"Roman Shade Curtains angle2",
+roman-shade,,,,,,,,,,,,3,"Roman Shade Curtains angle3",
+roman-shade,,,,,,,,,,,,4,"Roman Shade Curtains details-en",
+roman-shade,,,,,,,,,,,,5,"Roman Shade Curtains details-ar",
+velvet-drape,"Velvet Drape Curtains","<h2>Velvet Drape Curtains</h2><p>ستائر مخمل</p><ul><li>Style: Luxury velvet drape</li><li>Fabric: Plush velvet</li><li>Light: Rich dim-out</li><li>Use: VIP majlis</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, velvet-drape",true,Title,Default,CUR-08,890.00,,1,"Velvet Drape Curtains angle1",active
+velvet-drape,,,,,,,,,,,,2,"Velvet Drape Curtains angle2",
+velvet-drape,,,,,,,,,,,,3,"Velvet Drape Curtains angle3",
+velvet-drape,,,,,,,,,,,,4,"Velvet Drape Curtains details-en",
+velvet-drape,,,,,,,,,,,,5,"Velvet Drape Curtains details-ar",
+linen-casual,"Linen Casual Curtains","<h2>Linen Casual Curtains</h2><p>ستائر كتان كاجوال</p><ul><li>Style: Relaxed linen</li><li>Fabric: Natural linen</li><li>Light: Airy filter</li><li>Use: Everyday living</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, linen-casual",true,Title,Default,CUR-09,890.00,,1,"Linen Casual Curtains angle1",active
+linen-casual,,,,,,,,,,,,2,"Linen Casual Curtains angle2",
+linen-casual,,,,,,,,,,,,3,"Linen Casual Curtains angle3",
+linen-casual,,,,,,,,,,,,4,"Linen Casual Curtains details-en",
+linen-casual,,,,,,,,,,,,5,"Linen Casual Curtains details-ar",
+motorized-track,"Motorized Track Curtains","<h2>Motorized Track Curtains</h2><p>ستائر بمسار كهربائي</p><ul><li>Style: Motorized track</li><li>Fabric: Smooth wave fold</li><li>Light: Soft filter</li><li>Use: Smart home</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, motorized-track",true,Title,Default,CUR-10,890.00,,1,"Motorized Track Curtains angle1",active
+motorized-track,,,,,,,,,,,,2,"Motorized Track Curtains angle2",
+motorized-track,,,,,,,,,,,,3,"Motorized Track Curtains angle3",
+motorized-track,,,,,,,,,,,,4,"Motorized Track Curtains details-en",
+motorized-track,,,,,,,,,,,,5,"Motorized Track Curtains details-ar",
+ceiling-track,"Ceiling Track Minimal","<h2>Ceiling Track Minimal</h2><p>ستائر بمسار سقفي</p><ul><li>Style: Ceiling-mounted track</li><li>Fabric: Minimal plain weave</li><li>Light: Clean filter</li><li>Use: Modern apartments</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, ceiling-track",true,Title,Default,CUR-11,890.00,,1,"Ceiling Track Minimal angle1",active
+ceiling-track,,,,,,,,,,,,2,"Ceiling Track Minimal angle2",
+ceiling-track,,,,,,,,,,,,3,"Ceiling Track Minimal angle3",
+ceiling-track,,,,,,,,,,,,4,"Ceiling Track Minimal details-en",
+ceiling-track,,,,,,,,,,,,5,"Ceiling Track Minimal details-ar",
+tab-top,"Tab Top Curtains","<h2>Tab Top Curtains</h2><p>ستائر بحلقات قماش</p><ul><li>Style: Soft fabric tabs</li><li>Fabric: Cotton blend</li><li>Light: Soft glow</li><li>Use: Bedroom accents</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, tab-top",true,Title,Default,CUR-12,890.00,,1,"Tab Top Curtains angle1",active
+tab-top,,,,,,,,,,,,2,"Tab Top Curtains angle2",
+tab-top,,,,,,,,,,,,3,"Tab Top Curtains angle3",
+tab-top,,,,,,,,,,,,4,"Tab Top Curtains details-en",
+tab-top,,,,,,,,,,,,5,"Tab Top Curtains details-ar",
+pencil-pleat,"Pencil Pleat Curtains","<h2>Pencil Pleat Curtains</h2><p>ستائر كسرات قلم</p><ul><li>Style: Pencil pleat heading</li><li>Fabric: Durable poly-linen</li><li>Light: Medium dim</li><li>Use: Hotels & villas</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, pencil-pleat",true,Title,Default,CUR-13,890.00,,1,"Pencil Pleat Curtains angle1",active
+pencil-pleat,,,,,,,,,,,,2,"Pencil Pleat Curtains angle2",
+pencil-pleat,,,,,,,,,,,,3,"Pencil Pleat Curtains angle3",
+pencil-pleat,,,,,,,,,,,,4,"Pencil Pleat Curtains details-en",
+pencil-pleat,,,,,,,,,,,,5,"Pencil Pleat Curtains details-ar",
+triple-pinch-luxury,"Triple Pinch Luxury","<h2>Triple Pinch Luxury</h2><p>ستائر كسرات فاخرة</p><ul><li>Style: Luxury triple pinch</li><li>Fabric: Silk-touch blend</li><li>Light: Elegant dim</li><li>Use: Formal majlis</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, triple-pinch-luxury",true,Title,Default,CUR-14,890.00,,1,"Triple Pinch Luxury angle1",active
+triple-pinch-luxury,,,,,,,,,,,,2,"Triple Pinch Luxury angle2",
+triple-pinch-luxury,,,,,,,,,,,,3,"Triple Pinch Luxury angle3",
+triple-pinch-luxury,,,,,,,,,,,,4,"Triple Pinch Luxury details-en",
+triple-pinch-luxury,,,,,,,,,,,,5,"Triple Pinch Luxury details-ar",
+hotel-blackout,"Hotel-Grade Blackout","<h2>Hotel-Grade Blackout</h2><p>ستائر فندقية بلاك آوت</p><ul><li>Style: Hotel blackout</li><li>Fabric: Commercial grade</li><li>Light: Full block</li><li>Use: Guest rooms</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, hotel-blackout",true,Title,Default,CUR-15,890.00,,1,"Hotel-Grade Blackout angle1",active
+hotel-blackout,,,,,,,,,,,,2,"Hotel-Grade Blackout angle2",
+hotel-blackout,,,,,,,,,,,,3,"Hotel-Grade Blackout angle3",
+hotel-blackout,,,,,,,,,,,,4,"Hotel-Grade Blackout details-en",
+hotel-blackout,,,,,,,,,,,,5,"Hotel-Grade Blackout details-ar",
+layered-valance,"Layered Valance Set","<h2>Layered Valance Set</h2><p>طقم ستائر مع فالس</p><ul><li>Style: Valance + panels</li><li>Fabric: Coordinated layers</li><li>Light: Soft staged</li><li>Use: Classic interiors</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, layered-valance",true,Title,Default,CUR-16,890.00,,1,"Layered Valance Set angle1",active
+layered-valance,,,,,,,,,,,,2,"Layered Valance Set angle2",
+layered-valance,,,,,,,,,,,,3,"Layered Valance Set angle3",
+layered-valance,,,,,,,,,,,,4,"Layered Valance Set details-en",
+layered-valance,,,,,,,,,,,,5,"Layered Valance Set details-ar",
+floor-ceiling-seamless,"Floor-to-Ceiling Seamless","<h2>Floor-to-Ceiling Seamless</h2><p>ستائر من السقف للأرض</p><ul><li>Style: Seamless wall cover</li><li>Fabric: Continuous panels</li><li>Light: Soft privacy</li><li>Use: Open living spaces</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, floor-ceiling-seamless",true,Title,Default,CUR-17,890.00,,1,"Floor-to-Ceiling Seamless angle1",active
+floor-ceiling-seamless,,,,,,,,,,,,2,"Floor-to-Ceiling Seamless angle2",
+floor-ceiling-seamless,,,,,,,,,,,,3,"Floor-to-Ceiling Seamless angle3",
+floor-ceiling-seamless,,,,,,,,,,,,4,"Floor-to-Ceiling Seamless details-en",
+floor-ceiling-seamless,,,,,,,,,,,,5,"Floor-to-Ceiling Seamless details-ar",
+textured-jacquard,"Textured Jacquard Curtains","<h2>Textured Jacquard Curtains</h2><p>ستائر جاكارد مزخرفة</p><ul><li>Style: Subtle jacquard</li><li>Fabric: Textured weave</li><li>Light: Soft dim</li><li>Use: Statement walls</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, textured-jacquard",true,Title,Default,CUR-18,890.00,,1,"Textured Jacquard Curtains angle1",active
+textured-jacquard,,,,,,,,,,,,2,"Textured Jacquard Curtains angle2",
+textured-jacquard,,,,,,,,,,,,3,"Textured Jacquard Curtains angle3",
+textured-jacquard,,,,,,,,,,,,4,"Textured Jacquard Curtains details-en",
+textured-jacquard,,,,,,,,,,,,5,"Textured Jacquard Curtains details-ar",
+ombre-gradient,"Ombre Gradient Curtains","<h2>Ombre Gradient Curtains</h2><p>ستائر أومبري متدرجة</p><ul><li>Style: Soft ombre fade</li><li>Fabric: Gradient dyed</li><li>Light: Artistic filter</li><li>Use: Feature windows</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, ombre-gradient",true,Title,Default,CUR-19,890.00,,1,"Ombre Gradient Curtains angle1",active
+ombre-gradient,,,,,,,,,,,,2,"Ombre Gradient Curtains angle2",
+ombre-gradient,,,,,,,,,,,,3,"Ombre Gradient Curtains angle3",
+ombre-gradient,,,,,,,,,,,,4,"Ombre Gradient Curtains details-en",
+ombre-gradient,,,,,,,,,,,,5,"Ombre Gradient Curtains details-ar",
+scandi-neutral,"Scandinavian Neutral Panels","<h2>Scandinavian Neutral Panels</h2><p>ستائر اسكندنافية محايدة</p><ul><li>Style: Clean scandi panels</li><li>Fabric: Airy cotton linen</li><li>Light: Bright soft</li><li>Use: Minimal homes</li><li>Size: Custom available</li></ul>",Majalis Al Farah,Curtains,"curtains, modern, scandi-neutral",true,Title,Default,CUR-20,890.00,,1,"Scandinavian Neutral Panels angle1",active
+scandi-neutral,,,,,,,,,,,,2,"Scandinavian Neutral Panels angle2",
+scandi-neutral,,,,,,,,,,,,3,"Scandinavian Neutral Panels angle3",
+scandi-neutral,,,,,,,,,,,,4,"Scandinavian Neutral Panels details-en",
+scandi-neutral,,,,,,,,,,,,5,"Scandinavian Neutral Panels details-ar",
