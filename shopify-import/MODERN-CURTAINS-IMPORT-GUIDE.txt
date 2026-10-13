@@ -1,7 +1,7 @@
 Modern Curtain Styles — Product Image Package
 =============================================
 
-Total: 20 styles × 5 images = 100 product photos
+Total: 40 styles × 5 images = 200 product photos
 
 Per style image set
 -------------------
@@ -22,35 +22,29 @@ Open: shopify-import/modern-curtains-gallery.html
 
 Catalog / maps
 --------------
-modern-curtains-styles.json     — style names EN/AR + specs
-modern-curtains-image-map.csv   — SKU/file map
-modern-curtains-shopify-products.csv — Shopify import skeleton
+modern-curtains-styles.json
+modern-curtains-image-map.csv
+modern-curtains-shopify-products.csv
 
-Styles (01–20)
---------------
-01 Wave Fold Curtains
-02 Pinch Pleat Curtains
-03 Eyelet Grommet Curtains
-04 Sheer Voile Curtains
-05 Blackout Thermal Curtains
-06 Double-Layer Curtain Set
-07 Roman Shade Curtains
-08 Velvet Drape Curtains
-09 Linen Casual Curtains
-10 Motorized Track Curtains
-11 Ceiling Track Minimal
-12 Tab Top Curtains
-13 Pencil Pleat Curtains
-14 Triple Pinch Luxury
-15 Hotel-Grade Blackout
-16 Layered Valance Set
-17 Floor-to-Ceiling Seamless
-18 Textured Jacquard Curtains
-19 Ombre Gradient Curtains
-20 Scandinavian Neutral Panels
-
-Upload tips
------------
-1. Open modern-curtains-gallery.html to review
-2. Upload each style's 5 images to the product media gallery
-3. Use details-en / details-ar as info slides on the product page
+New styles added (21–40)
+------------------------
+21 Box Pleat
+22 Goblet Pleat
+23 Ripplefold Ceiling Track
+24 Thermal Lined
+25 Noise-Reducing
+26 Outdoor Weather
+27 Cafe Tier
+28 Balloon Shade
+29 Panel Track
+30 Japanese Shoji-Style
+31 Metallic Sheer
+32 Geometric Print
+33 Botanical Print
+34 Modern Stripe
+35 Bouclé Textured
+36 Suede-Touch
+37 Dual-Tone Reversible
+38 Kids Room Blackout
+39 Hotel Sheer Layer
+40 Smart WiFi Wave
