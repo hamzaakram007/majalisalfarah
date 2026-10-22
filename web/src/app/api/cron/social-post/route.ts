@@ -19,8 +19,14 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
+  const url = new URL(request.url);
+  const force = url.searchParams.get("force") === "1";
+
   try {
-    const result = await runDailySocialPost({ triggeredBy: "cron" });
+    const result = await runDailySocialPost({
+      triggeredBy: force ? "manual" : "cron",
+      force,
+    });
     return NextResponse.json(result, {
       status: result.ok || result.skipped ? 200 : 500,
     });
