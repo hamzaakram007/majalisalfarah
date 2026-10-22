@@ -1,0 +1,842 @@
+[
+  {
+    "id": "01",
+    "slug": "wave-fold",
+    "en": "Wave Fold Curtains",
+    "ar": "ستائر ويف فولد",
+    "color": "warm beige",
+    "detail_en": [
+      "Style: Wave / Ripple Fold",
+      "Fabric: Soft linen blend",
+      "Light: Soft filter",
+      "Use: Living room & majlis",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ويف فولد",
+      "القماش: مزيج كتان ناعم",
+      "الضوء: تصفية ناعمة",
+      "الاستخدام: غرفة معيشة ومجلس",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "02",
+    "slug": "pinch-pleat",
+    "en": "Pinch Pleat Curtains",
+    "ar": "ستائر بكسرات",
+    "color": "soft taupe",
+    "detail_en": [
+      "Style: Triple pinch pleat",
+      "Fabric: Heavyweight weave",
+      "Light: Dim-out",
+      "Use: Formal rooms",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: كسرات ثلاثية",
+      "القماش: نسج ثقيل",
+      "الضوء: تعتيم جزئي",
+      "الاستخدام: غرف رسمية",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "03",
+    "slug": "eyelet-grommet",
+    "en": "Eyelet Grommet Curtains",
+    "ar": "ستائر بحلقات",
+    "color": "charcoal gray",
+    "detail_en": [
+      "Style: Metal eyelet",
+      "Fabric: Matte polyester",
+      "Light: Medium filter",
+      "Use: Bedroom & lounge",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: حلقات معدنية",
+      "القماش: بوليستر مطفي",
+      "الضوء: تصفية متوسطة",
+      "الاستخدام: غرفة نوم وصالة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "04",
+    "slug": "sheer-voile",
+    "en": "Sheer Voile Curtains",
+    "ar": "ستائر فوال شفافة",
+    "color": "pearl white",
+    "detail_en": [
+      "Style: Soft sheer voile",
+      "Fabric: Lightweight voile",
+      "Light: Bright filter",
+      "Use: Layered looks",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: فوال شفاف",
+      "القماش: فوال خفيف",
+      "الضوء: إضاءة ساطعة",
+      "الاستخدام: تنسيق طبقي",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "05",
+    "slug": "blackout-thermal",
+    "en": "Blackout Thermal Curtains",
+    "ar": "ستائر بلاك آوت حرارية",
+    "color": "midnight navy",
+    "detail_en": [
+      "Style: Thermal blackout",
+      "Fabric: Triple-weave blackout",
+      "Light: Full block",
+      "Use: Bedroom & media",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: بلاك آوت حراري",
+      "القماش: ثلاثي الطبقات",
+      "الضوء: حجب كامل",
+      "الاستخدام: نوم وسينما",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "06",
+    "slug": "double-layer",
+    "en": "Double-Layer Curtain Set",
+    "ar": "طقم ستائر طبقتين",
+    "color": "ivory + soft gray",
+    "detail_en": [
+      "Style: Sheer + blackout",
+      "Fabric: Dual-layer set",
+      "Light: Adjustable",
+      "Use: Day/night control",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: شفافة + بلاك آوت",
+      "القماش: طبقتان",
+      "الضوء: قابل للتعديل",
+      "الاستخدام: نهار وليل",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "07",
+    "slug": "roman-shade",
+    "en": "Roman Shade Curtains",
+    "ar": "ستائر رومانية",
+    "color": "soft sage",
+    "detail_en": [
+      "Style: Classic roman fold",
+      "Fabric: Structured linen",
+      "Light: Soft dim",
+      "Use: Kitchen & office",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: طي روماني",
+      "القماش: كتان منظم",
+      "الضوء: تعتيم ناعم",
+      "الاستخدام: مطبخ ومكتب",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "08",
+    "slug": "velvet-drape",
+    "en": "Velvet Drape Curtains",
+    "ar": "ستائر مخمل",
+    "color": "deep emerald",
+    "detail_en": [
+      "Style: Luxury velvet drape",
+      "Fabric: Plush velvet",
+      "Light: Rich dim-out",
+      "Use: VIP majlis",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ستائر مخمل فاخرة",
+      "القماش: مخمل فاخر",
+      "الضوء: تعتيم غني",
+      "الاستخدام: مجلس VIP",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "09",
+    "slug": "linen-casual",
+    "en": "Linen Casual Curtains",
+    "ar": "ستائر كتان كاجوال",
+    "color": "natural flax",
+    "detail_en": [
+      "Style: Relaxed linen",
+      "Fabric: Natural linen",
+      "Light: Airy filter",
+      "Use: Everyday living",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: كتان مريح",
+      "القماش: كتان طبيعي",
+      "الضوء: تصفية هوائية",
+      "الاستخدام: استخدام يومي",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "motorized-track",
+    "en": "Motorized Track Curtains",
+    "ar": "ستائر بمسار كهربائي",
+    "color": "warm sand",
+    "detail_en": [
+      "Style: Motorized track",
+      "Fabric: Smooth wave fold",
+      "Light: Soft filter",
+      "Use: Smart home",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: مسار بمحرك",
+      "القماش: ويف ناعم",
+      "الضوء: تصفية ناعمة",
+      "الاستخدام: منزل ذكي",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "11",
+    "slug": "ceiling-track",
+    "en": "Ceiling Track Minimal",
+    "ar": "ستائر بمسار سقفي",
+    "color": "soft white",
+    "detail_en": [
+      "Style: Ceiling-mounted track",
+      "Fabric: Minimal plain weave",
+      "Light: Clean filter",
+      "Use: Modern apartments",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: مسار سقفي",
+      "القماش: نسج بسيط",
+      "الضوء: تصفية نظيفة",
+      "الاستخدام: شقق عصرية",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "12",
+    "slug": "tab-top",
+    "en": "Tab Top Curtains",
+    "ar": "ستائر بحلقات قماش",
+    "color": "dusty blush",
+    "detail_en": [
+      "Style: Soft fabric tabs",
+      "Fabric: Cotton blend",
+      "Light: Soft glow",
+      "Use: Bedroom accents",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: حلقات قماش",
+      "القماش: مزيج قطن",
+      "الضوء: توهج ناعم",
+      "الاستخدام: غرف نوم",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "13",
+    "slug": "pencil-pleat",
+    "en": "Pencil Pleat Curtains",
+    "ar": "ستائر كسرات قلم",
+    "color": "stone gray",
+    "detail_en": [
+      "Style: Pencil pleat heading",
+      "Fabric: Durable poly-linen",
+      "Light: Medium dim",
+      "Use: Hotels & villas",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: كسرات قلم",
+      "القماش: بولي كتان متين",
+      "الضوء: تعتيم متوسط",
+      "الاستخدام: فنادق وفلل",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "14",
+    "slug": "triple-pinch-luxury",
+    "en": "Triple Pinch Luxury",
+    "ar": "ستائر كسرات فاخرة",
+    "color": "champagne gold beige",
+    "detail_en": [
+      "Style: Luxury triple pinch",
+      "Fabric: Silk-touch blend",
+      "Light: Elegant dim",
+      "Use: Formal majlis",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: كسرات ثلاثية فاخرة",
+      "القماش: لمسة حريرية",
+      "الضوء: تعتيم أنيق",
+      "الاستخدام: مجلس رسمي",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "15",
+    "slug": "hotel-blackout",
+    "en": "Hotel-Grade Blackout",
+    "ar": "ستائر فندقية بلاك آوت",
+    "color": "graphite",
+    "detail_en": [
+      "Style: Hotel blackout",
+      "Fabric: Commercial grade",
+      "Light: Full block",
+      "Use: Guest rooms",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: بلاك آوت فندقي",
+      "القماش: درجة تجارية",
+      "الضوء: حجب كامل",
+      "الاستخدام: غرف ضيوف",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "16",
+    "slug": "layered-valance",
+    "en": "Layered Valance Set",
+    "ar": "طقم ستائر مع فالس",
+    "color": "soft taupe + ivory",
+    "detail_en": [
+      "Style: Valance + panels",
+      "Fabric: Coordinated layers",
+      "Light: Soft staged",
+      "Use: Classic interiors",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: فالس + ألواح",
+      "القماش: طبقات متناسقة",
+      "الضوء: إضاءة منظمة",
+      "الاستخدام: ديكور كلاسيكي",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "17",
+    "slug": "floor-ceiling-seamless",
+    "en": "Floor-to-Ceiling Seamless",
+    "ar": "ستائر من السقف للأرض",
+    "color": "cloud gray",
+    "detail_en": [
+      "Style: Seamless wall cover",
+      "Fabric: Continuous panels",
+      "Light: Soft privacy",
+      "Use: Open living spaces",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: تغطية كاملة",
+      "القماش: ألواح متصلة",
+      "الضوء: خصوصية ناعمة",
+      "الاستخدام: مساحات مفتوحة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "18",
+    "slug": "textured-jacquard",
+    "en": "Textured Jacquard Curtains",
+    "ar": "ستائر جاكارد مزخرفة",
+    "color": "warm taupe pattern",
+    "detail_en": [
+      "Style: Subtle jacquard",
+      "Fabric: Textured weave",
+      "Light: Soft dim",
+      "Use: Statement walls",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: جاكارد خفيف",
+      "القماش: نسج مزخرف",
+      "الضوء: تعتيم ناعم",
+      "الاستخدام: جدران مميزة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "19",
+    "slug": "ombre-gradient",
+    "en": "Ombre Gradient Curtains",
+    "ar": "ستائر أومبري متدرجة",
+    "color": "sand to ivory ombre",
+    "detail_en": [
+      "Style: Soft ombre fade",
+      "Fabric: Gradient dyed",
+      "Light: Artistic filter",
+      "Use: Feature windows",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: تدرج أومبري",
+      "القماش: صبغ متدرج",
+      "الضوء: تصفية فنية",
+      "الاستخدام: نوافذ مميزة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "20",
+    "slug": "scandi-neutral",
+    "en": "Scandinavian Neutral Panels",
+    "ar": "ستائر اسكندنافية محايدة",
+    "color": "soft oat white",
+    "detail_en": [
+      "Style: Clean scandi panels",
+      "Fabric: Airy cotton linen",
+      "Light: Bright soft",
+      "Use: Minimal homes",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ألواح اسكندنافية",
+      "القماش: قطن كتان هوائي",
+      "الضوء: ساطع وناعم",
+      "الاستخدام: منازل بسيطة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "21",
+    "slug": "box-pleat",
+    "en": "Box Pleat Curtains",
+    "ar": "ستائر بكسرات صندوقية",
+    "color": "warm taupe",
+    "detail_en": [
+      "Style: Structured box pleat",
+      "Fabric: Tailored poly-linen",
+      "Light: Soft dim",
+      "Use: Formal living rooms",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: كسرات صندوقية",
+      "القماش: بولي كتان مفصل",
+      "الضوء: تعتيم ناعم",
+      "الاستخدام: غرف معيشة رسمية",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "22",
+    "slug": "goblet-pleat",
+    "en": "Goblet Pleat Curtains",
+    "ar": "ستائر بكسرات كأس",
+    "color": "champagne beige",
+    "detail_en": [
+      "Style: Classic goblet pleat",
+      "Fabric: Soft drapery blend",
+      "Light: Elegant dim",
+      "Use: Luxury majlis",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: كسرات كأس كلاسيكية",
+      "القماش: مزيج ستائر ناعم",
+      "الضوء: تعتيم أنيق",
+      "الاستخدام: مجلس فاخر",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "23",
+    "slug": "ripplefold-ceiling",
+    "en": "Ripplefold Ceiling Track",
+    "ar": "ستائر ريبلفولد بمسار سقفي",
+    "color": "soft stone",
+    "detail_en": [
+      "Style: Continuous ripplefold",
+      "Fabric: Smooth technical weave",
+      "Light: Soft filter",
+      "Use: Open-plan spaces",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ريبلفولد متصل",
+      "القماش: نسج تقني ناعم",
+      "الضوء: تصفية ناعمة",
+      "الاستخدام: مساحات مفتوحة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "24",
+    "slug": "thermal-lined",
+    "en": "Thermal Lined Curtains",
+    "ar": "ستائر ببطانة حرارية",
+    "color": "slate blue",
+    "detail_en": [
+      "Style: Thermal lined panels",
+      "Fabric: Face cloth + thermal liner",
+      "Light: Strong dim-out",
+      "Use: Bedrooms",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ألواح ببطانة حرارية",
+      "القماش: قماش خارجي + بطانة",
+      "الضوء: تعتيم قوي",
+      "الاستخدام: غرف نوم",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "25",
+    "slug": "noise-reducing",
+    "en": "Noise-Reducing Curtains",
+    "ar": "ستائر عازلة للصوت",
+    "color": "deep charcoal",
+    "detail_en": [
+      "Style: Acoustic heavy drape",
+      "Fabric: Dense multilayer weave",
+      "Light: Full dim",
+      "Use: Media rooms",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ستائر عازلة للصوت",
+      "القماش: نسج متعدد الطبقات",
+      "الضوء: تعتيم كامل",
+      "الاستخدام: غرف سينما",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "26",
+    "slug": "outdoor-weather",
+    "en": "Outdoor Weather Curtains",
+    "ar": "ستائر خارجية مقاومة",
+    "color": "sandy taupe",
+    "detail_en": [
+      "Style: Outdoor weather panels",
+      "Fabric: UV-resistant textile",
+      "Light: Soft shade",
+      "Use: Patio & balcony",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ألواح خارجية",
+      "القماش: نسيج مقاوم للشمس",
+      "الضوء: ظل ناعم",
+      "الاستخدام: فناء وشرفة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "27",
+    "slug": "cafe-tier",
+    "en": "Cafe Tier Curtains",
+    "ar": "ستائر كافيه نصفية",
+    "color": "soft ivory",
+    "detail_en": [
+      "Style: Half-height cafe tier",
+      "Fabric: Light cotton blend",
+      "Light: Privacy + brightness",
+      "Use: Kitchen windows",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: كافيه نصفية",
+      "القماش: مزيج قطن خفيف",
+      "الضوء: خصوصية وإضاءة",
+      "الاستخدام: نوافذ المطبخ",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "28",
+    "slug": "balloon-shade",
+    "en": "Balloon Shade Curtains",
+    "ar": "ستائر بالون شيد",
+    "color": "dusty rose",
+    "detail_en": [
+      "Style: Soft balloon shade",
+      "Fabric: Gathered soft cloth",
+      "Light: Soft glow",
+      "Use: Feature windows",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: بالون شيد ناعم",
+      "القماش: قماش مجمع",
+      "الضوء: توهج ناعم",
+      "الاستخدام: نوافذ مميزة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "29",
+    "slug": "panel-track",
+    "en": "Panel Track Curtains",
+    "ar": "ستائر بانل تراك",
+    "color": "warm gray",
+    "detail_en": [
+      "Style: Sliding panel track",
+      "Fabric: Flat modern panels",
+      "Light: Adjustable",
+      "Use: Sliding doors",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: بانل تراك منزلق",
+      "القماش: ألواح مسطحة",
+      "الضوء: قابل للتعديل",
+      "الاستخدام: أبواب منزلقة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "30",
+    "slug": "japanese-shoji",
+    "en": "Japanese Shoji-Style Panels",
+    "ar": "ألواح شوجي يابانية",
+    "color": "rice paper white",
+    "detail_en": [
+      "Style: Shoji-inspired panels",
+      "Fabric: Translucent screen look",
+      "Light: Soft diffused",
+      "Use: Minimal interiors",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ألواح شوجي",
+      "القماش: مظهر شاشة شفافة",
+      "الضوء: إضاءة منتشرة",
+      "الاستخدام: ديكور بسيط",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "31",
+    "slug": "metallic-sheer",
+    "en": "Metallic Sheer Curtains",
+    "ar": "ستائر شفافة لامعة",
+    "color": "champagne shimmer",
+    "detail_en": [
+      "Style: Metallic sheer weave",
+      "Fabric: Subtle shimmer voile",
+      "Light: Glowing filter",
+      "Use: Evening lounge",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: شفافة لامعة",
+      "القماش: فوال لامع خفيف",
+      "الضوء: تصفية متوهجة",
+      "الاستخدام: صالة مسائية",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "32",
+    "slug": "geometric-print",
+    "en": "Geometric Print Curtains",
+    "ar": "ستائر بطباعة هندسية",
+    "color": "taupe geometric on ivory",
+    "detail_en": [
+      "Style: Modern geometric print",
+      "Fabric: Printed linen look",
+      "Light: Soft filter",
+      "Use: Statement living rooms",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: طباعة هندسية",
+      "القماش: مظهر كتان مطبوع",
+      "الضوء: تصفية ناعمة",
+      "الاستخدام: غرف معيشة مميزة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "33",
+    "slug": "botanical-print",
+    "en": "Botanical Print Curtains",
+    "ar": "ستائر بطباعة نباتية",
+    "color": "sage leaf on cream",
+    "detail_en": [
+      "Style: Soft botanical print",
+      "Fabric: Printed cotton blend",
+      "Light: Airy filter",
+      "Use: Bedroom & lounge",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: طباعة نباتية",
+      "القماش: مزيج قطن مطبوع",
+      "الضوء: تصفية هوائية",
+      "الاستخدام: نوم وصالة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "34",
+    "slug": "stripe-modern",
+    "en": "Modern Stripe Curtains",
+    "ar": "ستائر مخططة عصرية",
+    "color": "neutral vertical stripes",
+    "detail_en": [
+      "Style: Clean vertical stripe",
+      "Fabric: Woven stripe blend",
+      "Light: Soft dim",
+      "Use: Tall window walls",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: خطوط عمودية",
+      "القماش: مزيج مخطط منسوج",
+      "الضوء: تعتيم ناعم",
+      "الاستخدام: جدران نوافذ عالية",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "35",
+    "slug": "boucle-textured",
+    "en": "Bouclé Textured Curtains",
+    "ar": "ستائر بوكليه مزخرفة",
+    "color": "cream boucle",
+    "detail_en": [
+      "Style: Soft bouclé texture",
+      "Fabric: Nubby bouclé weave",
+      "Light: Soft privacy",
+      "Use: Cozy modern rooms",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: نسيج بوكليه",
+      "القماش: بوكليه بارز",
+      "الضوء: خصوصية ناعمة",
+      "الاستخدام: غرف عصرية دافئة",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "36",
+    "slug": "suede-touch",
+    "en": "Suede-Touch Curtains",
+    "ar": "ستائر بملمس شمواه",
+    "color": "mocha brown",
+    "detail_en": [
+      "Style: Soft suede-touch drape",
+      "Fabric: Micro-suede textile",
+      "Light: Rich dim-out",
+      "Use: VIP bedrooms",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ستائر بملمس شمواه",
+      "القماش: ميكرو شمواه",
+      "الضوء: تعتيم غني",
+      "الاستخدام: غرف نوم VIP",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "37",
+    "slug": "dual-tone",
+    "en": "Dual-Tone Reversible Curtains",
+    "ar": "ستائر ثنائية اللون",
+    "color": "sand / charcoal dual",
+    "detail_en": [
+      "Style: Reversible dual-tone",
+      "Fabric: Two-face woven cloth",
+      "Light: Adjustable look",
+      "Use: Flexible styling",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ثنائية قابلة للعكس",
+      "القماش: قماش بوجهين",
+      "الضوء: مظهر قابل للتعديل",
+      "الاستخدام: تنسيق مرن",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "38",
+    "slug": "kids-blackout",
+    "en": "Kids Room Blackout Curtains",
+    "ar": "ستائر بلاك آوت للأطفال",
+    "color": "soft sky blue",
+    "detail_en": [
+      "Style: Kids blackout panels",
+      "Fabric: Soft washable blackout",
+      "Light: Full block",
+      "Use: Kids bedrooms",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: بلاك آوت أطفال",
+      "القماش: بلاك آوت قابل للغسل",
+      "الضوء: حجب كامل",
+      "الاستخدام: غرف أطفال",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "39",
+    "slug": "hotel-sheer-layer",
+    "en": "Hotel Sheer Layer Set",
+    "ar": "طقم فندقي شفاف",
+    "color": "crisp white sheer",
+    "detail_en": [
+      "Style: Hotel sheer layer",
+      "Fabric: Dense commercial sheer",
+      "Light: Bright privacy",
+      "Use: Hotels & villas",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: طبقة شفافة فندقية",
+      "القماش: شفافة تجارية كثيفة",
+      "الضوء: خصوصية ساطعة",
+      "الاستخدام: فنادق وفلل",
+      "المقاس: حسب الطلب"
+    ]
+  },
+  {
+    "id": "40",
+    "slug": "smart-wifi-wave",
+    "en": "Smart WiFi Wave Curtains",
+    "ar": "ستائر ويف ذكية واي فاي",
+    "color": "light greige",
+    "detail_en": [
+      "Style: App-ready wave track",
+      "Fabric: Smooth wave fold",
+      "Light: Soft filter",
+      "Use: Smart homes",
+      "Size: Custom available"
+    ],
+    "detail_ar": [
+      "النمط: ويف بمسار ذكي",
+      "القماش: ويف ناعم",
+      "الضوء: تصفية ناعمة",
+      "الاستخدام: منازل ذكية",
+      "المقاس: حسب الطلب"
+    ]
+  }
+]

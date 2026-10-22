@@ -1,0 +1,31 @@
+Modern Curtain Styles — Product Image Package
+=============================================
+
+Total: 40 styles × 5 images = 200 product photos
+
+Galleries (all images saved)
+----------------------------
+1. Website gallery:
+   web/public/galleries/modern-curtains/index.html
+   Open on site: /galleries/modern-curtains/
+
+2. Shopify package gallery:
+   shopify-import/modern-curtains-gallery.html
+
+3. Image folders:
+   shopify-import/images/modern-curtains/*.jpg
+   web/public/images/modern-curtains/*.jpg
+
+Per style image set
+-------------------
+1. angle1       — Front view
+2. angle2       — Side / three-quarter angle
+3. angle3       — Close-up detail
+4. details-en   — Product details card (English)
+5. details-ar   — Product details card (Arabic)
+
+Catalog / maps
+--------------
+modern-curtains-styles.json
+modern-curtains-image-map.csv
+modern-curtains-shopify-products.csv
