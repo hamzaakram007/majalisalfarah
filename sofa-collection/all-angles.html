@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>All Photos — Majalis Al Farah Sofas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .shot-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.6rem;
+        margin-top: 0.75rem;
+      }
+      .shot-grid figure {
+        margin: 0;
+        background: var(--fog);
+        border: 1px solid var(--line);
+      }
+      .shot-grid img {
+        width: 100%;
+        aspect-ratio: 4/3;
+        object-fit: cover;
+      }
+      .shot-grid figcaption {
+        font-size: 0.7rem;
+        padding: 0.35rem 0.5rem;
+        color: var(--cream-dim);
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .product-block {
+        margin-bottom: 2.5rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid var(--line);
+      }
+      .product-block h3 {
+        font-family: var(--font-display);
+        font-weight: 600;
+        margin: 0 0 0.25rem;
+      }
+      .product-block .meta {
+        color: var(--cream-dim);
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+      }
+      @media (max-width: 900px) {
+        .shot-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">Majalis Al Farah</span>
+          <span class="brand-sub">All 150 photos</span>
+        </a>
+        <a class="nav-link" href="index.html#collection">Collection</a>
+      </header>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Full photo set</h2>
+          <p>Front · Angle · Side · Detail AR · Detail EN</p>
+        </div>
+        <div id="all-photos"></div>
+      </section>
+    </div>
+
+    <script>
+      async function load() {
+        const products = await (await fetch("products/products.json")).json();
+        const root = document.getElementById("all-photos");
+        root.innerHTML = products
+          .map(
+            (p) => `
+          <div class="product-block">
+            <h3><a href="products/${p.slug}.html" style="color:inherit;text-decoration:none">${p.id}. ${p.name}</a></h3>
+            <p class="meta">${p.name_ar} · ${p.color} · ${p.price}</p>
+            <div class="shot-grid">
+              <figure>
+                <img src="products/${p.images.front}" alt="${p.name} front" loading="lazy" />
+                <figcaption>Front</figcaption>
+              </figure>
+              <figure>
+                <img src="products/${p.images.angle}" alt="${p.name} angle" loading="lazy" />
+                <figcaption>Angle</figcaption>
+              </figure>
+              <figure>
+                <img src="products/${p.images.side}" alt="${p.name} side" loading="lazy" />
+                <figcaption>Side</figcaption>
+              </figure>
+              <figure>
+                <img src="products/${p.images.detail_ar}" alt="${p.name} Arabic detail" loading="lazy" />
+                <figcaption>Detail AR</figcaption>
+              </figure>
+              <figure>
+                <img src="products/${p.images.detail_en}" alt="${p.name} English detail" loading="lazy" />
+                <figcaption>Detail EN</figcaption>
+              </figure>
+            </div>
+          </div>`
+          )
+          .join("");
+      }
+      load();
+    </script>
+  </body>
+</html>

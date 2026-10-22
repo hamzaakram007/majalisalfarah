@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Warm U Wood — Majalis Al Farah</title>
+    <meta name="description" content="U-shape with light wood base. Textured cream fabric. Five product photos including Arabic and English detail." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">Majalis Al Farah</span>
+          <span class="brand-sub">Modular Sofas</span>
+        </a>
+        <a class="nav-link" href="../index.html#collection">All pieces</a>
+      </header>
+
+      <main class="pd-hero">
+        <div class="gallery">
+          <div class="back-row">
+            <a class="nav-link" href="../index.html#collection">← Collection</a>
+          </div>
+          <div class="gallery-main">
+            <img id="main-image" src="images/08-warm-u-wood-front.jpg" alt="Warm U Wood — front view" />
+          </div>
+          <p class="angle-label" id="angle-label">Front view</p>
+          <div class="gallery-thumbs" role="tablist" aria-label="Product photos">
+            <button type="button" data-src="images/08-warm-u-wood-front.jpg" data-label="Front view" aria-current="true">
+              <img src="images/08-warm-u-wood-front.jpg" alt="Front thumbnail" />
+            </button>
+            <button type="button" data-src="images/08-warm-u-wood-angle.jpg" data-label="Three-quarter view">
+              <img src="images/08-warm-u-wood-angle.jpg" alt="Angle thumbnail" />
+            </button>
+            <button type="button" data-src="images/08-warm-u-wood-side.jpg" data-label="Side profile">
+              <img src="images/08-warm-u-wood-side.jpg" alt="Side thumbnail" />
+            </button>
+            <button type="button" data-src="images/08-warm-u-wood-detail-ar.jpg" data-label="Arabic detail">
+              <img src="images/08-warm-u-wood-detail-ar.jpg" alt="Arabic detail thumbnail" />
+            </button>
+            <button type="button" data-src="images/08-warm-u-wood-detail-en.jpg" data-label="English detail">
+              <img src="images/08-warm-u-wood-detail-en.jpg" alt="English detail thumbnail" />
+            </button>
+          </div>
+          <div class="angles-strip" aria-label="All five photos" style="grid-template-columns:repeat(5,1fr)">
+            <figure>
+              <img src="images/08-warm-u-wood-front.jpg" alt="Warm U Wood front" />
+              <figcaption>Front</figcaption>
+            </figure>
+            <figure>
+              <img src="images/08-warm-u-wood-angle.jpg" alt="Warm U Wood angle" />
+              <figcaption>Angle</figcaption>
+            </figure>
+            <figure>
+              <img src="images/08-warm-u-wood-side.jpg" alt="Warm U Wood side" />
+              <figcaption>Side</figcaption>
+            </figure>
+            <figure>
+              <img src="images/08-warm-u-wood-detail-ar.jpg" alt="Warm U Wood Arabic detail" />
+              <figcaption>Detail AR</figcaption>
+            </figure>
+            <figure>
+              <img src="images/08-warm-u-wood-detail-en.jpg" alt="Warm U Wood English detail" />
+              <figcaption>Detail EN</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <aside class="pd-info">
+          <h1>Warm U Wood</h1>
+          <p class="pd-tagline">كنب U خشبي دافئ · U-shape with light wood base</p>
+          <p class="pd-price">SAR 17,200</p>
+          <dl class="specs">
+            <div><dt>Color</dt><dd>Off-white cream</dd></div>
+            <div><dt>Fabric</dt><dd>Textured cream fabric</dd></div>
+            <div><dt>Shape</dt><dd>Large U-shaped sectional with light oak base trim</dd></div>
+            <div><dt>Accents</dt><dd>Warm brown accent pillows and dark brown knit throw</dd></div>
+            <div><dt>Dimensions</dt><dd>W 350 × D 300 × H 76 cm</dd></div>
+            <div><dt>Seat height</dt><dd>43 cm</dd></div>
+          </dl>
+          <p class="pd-nav">
+            <a class="nav-link" href="japandi-cloud.html">← Japandi Cloud</a>
+            <a class="nav-link" href="organic-boucle-curve.html">Organic Bouclé Curve →</a>
+          </p>
+        </aside>
+      </main>
+    </div>
+    <script>
+      const main = document.getElementById("main-image");
+      const label = document.getElementById("angle-label");
+      document.querySelectorAll(".gallery-thumbs button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          main.src = btn.dataset.src;
+          label.textContent = btn.dataset.label;
+          document.querySelectorAll(".gallery-thumbs button").forEach((b) => b.removeAttribute("aria-current"));
+          btn.setAttribute("aria-current", "true");
+        });
+      });
+    </script>
+  </body>
+</html>

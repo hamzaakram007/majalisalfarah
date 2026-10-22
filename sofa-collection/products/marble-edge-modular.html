@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marble Edge Modular — Majalis Al Farah</title>
+    <meta name="description" content="Integrated black marble side table. Textured cream woven bouclé. Five product photos including Arabic and English detail." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">Majalis Al Farah</span>
+          <span class="brand-sub">Modular Sofas</span>
+        </a>
+        <a class="nav-link" href="../index.html#collection">All pieces</a>
+      </header>
+
+      <main class="pd-hero">
+        <div class="gallery">
+          <div class="back-row">
+            <a class="nav-link" href="../index.html#collection">← Collection</a>
+          </div>
+          <div class="gallery-main">
+            <img id="main-image" src="images/01-marble-edge-modular-front.jpg" alt="Marble Edge Modular — front view" />
+          </div>
+          <p class="angle-label" id="angle-label">Front view</p>
+          <div class="gallery-thumbs" role="tablist" aria-label="Product photos">
+            <button type="button" data-src="images/01-marble-edge-modular-front.jpg" data-label="Front view" aria-current="true">
+              <img src="images/01-marble-edge-modular-front.jpg" alt="Front thumbnail" />
+            </button>
+            <button type="button" data-src="images/01-marble-edge-modular-angle.jpg" data-label="Three-quarter view">
+              <img src="images/01-marble-edge-modular-angle.jpg" alt="Angle thumbnail" />
+            </button>
+            <button type="button" data-src="images/01-marble-edge-modular-side.jpg" data-label="Side profile">
+              <img src="images/01-marble-edge-modular-side.jpg" alt="Side thumbnail" />
+            </button>
+            <button type="button" data-src="images/01-marble-edge-modular-detail-ar.jpg" data-label="Arabic detail">
+              <img src="images/01-marble-edge-modular-detail-ar.jpg" alt="Arabic detail thumbnail" />
+            </button>
+            <button type="button" data-src="images/01-marble-edge-modular-detail-en.jpg" data-label="English detail">
+              <img src="images/01-marble-edge-modular-detail-en.jpg" alt="English detail thumbnail" />
+            </button>
+          </div>
+          <div class="angles-strip" aria-label="All five photos" style="grid-template-columns:repeat(5,1fr)">
+            <figure>
+              <img src="images/01-marble-edge-modular-front.jpg" alt="Marble Edge Modular front" />
+              <figcaption>Front</figcaption>
+            </figure>
+            <figure>
+              <img src="images/01-marble-edge-modular-angle.jpg" alt="Marble Edge Modular angle" />
+              <figcaption>Angle</figcaption>
+            </figure>
+            <figure>
+              <img src="images/01-marble-edge-modular-side.jpg" alt="Marble Edge Modular side" />
+              <figcaption>Side</figcaption>
+            </figure>
+            <figure>
+              <img src="images/01-marble-edge-modular-detail-ar.jpg" alt="Marble Edge Modular Arabic detail" />
+              <figcaption>Detail AR</figcaption>
+            </figure>
+            <figure>
+              <img src="images/01-marble-edge-modular-detail-en.jpg" alt="Marble Edge Modular English detail" />
+              <figcaption>Detail EN</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <aside class="pd-info">
+          <h1>Marble Edge Modular</h1>
+          <p class="pd-tagline">كنب معياري بحافة رخامية · Integrated black marble side table</p>
+          <p class="pd-price">SAR 18,900</p>
+          <dl class="specs">
+            <div><dt>Color</dt><dd>Off-white cream</dd></div>
+            <div><dt>Fabric</dt><dd>Textured cream woven bouclé</dd></div>
+            <div><dt>Shape</dt><dd>Low-profile U-shaped modular sectional with built-in black marble side platform</dd></div>
+            <div><dt>Accents</dt><dd>Burnt orange and chocolate throw pillows</dd></div>
+            <div><dt>Dimensions</dt><dd>W 340 × D 280 × H 75 cm</dd></div>
+            <div><dt>Seat height</dt><dd>42 cm</dd></div>
+          </dl>
+          <p class="pd-nav">
+            
+            <a class="nav-link" href="track-arm-ensemble.html">Track Arm Ensemble →</a>
+          </p>
+        </aside>
+      </main>
+    </div>
+    <script>
+      const main = document.getElementById("main-image");
+      const label = document.getElementById("angle-label");
+      document.querySelectorAll(".gallery-thumbs button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          main.src = btn.dataset.src;
+          label.textContent = btn.dataset.label;
+          document.querySelectorAll(".gallery-thumbs button").forEach((b) => b.removeAttribute("aria-current"));
+          btn.setAttribute("aria-current", "true");
+        });
+      });
+    </script>
+  </body>
+</html>

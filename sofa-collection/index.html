@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Majalis Al Farah — Modular Sofa Collection</title>
+    <meta
+      name="description"
+      content="30 modular sofa products — each with front, angle, side, Arabic detail, and English detail photography."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">Majalis Al Farah</span>
+          <span class="brand-sub">Modular Sofas · 30 Products</span>
+        </a>
+        <a class="nav-link" href="all-angles.html">All photos</a>
+      </header>
+
+      <section class="hero">
+        <div class="hero-media">
+          <img
+            src="products/references/01-marble-edge.jpg"
+            alt="Modular sofa collection hero"
+          />
+        </div>
+        <div class="hero-copy">
+          <h1>Majalis Al Farah</h1>
+          <p>
+            Thirty modular sofa products — five photos each: front, angle, side,
+            Arabic detail, and English detail.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#collection">Browse collection</a>
+            <a class="btn btn-ghost" href="all-angles.html">View all 150 photos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="collection">
+        <div class="section-head">
+          <h2>Sofa Collection</h2>
+          <p>
+            Each product includes 3 lifestyle angles plus bilingual detail
+            callouts for Arabic and English catalogs.
+          </p>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </section>
+
+      <footer class="site-footer">
+        <span>مجالس الفرح</span>
+        <span>30 products · 150 photos</span>
+      </footer>
+    </div>
+
+    <script>
+      async function load() {
+        const res = await fetch("products/products.json");
+        const products = await res.json();
+        const grid = document.getElementById("product-grid");
+        grid.innerHTML = products
+          .map(
+            (p) => `
+          <a class="product-tile" href="products/${p.slug}.html">
+            <img src="products/${p.images.front}" alt="${p.name}" loading="lazy" />
+            <div class="product-meta">
+              <h3>${p.name}</h3>
+              <span>${p.tagline} · 5 photos</span>
+            </div>
+          </a>`
+          )
+          .join("");
+      }
+      load();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ivory Gold Set — Majalis Al Farah</title>
+    <meta name="description" content="Ivory seating with gold frames. Ivory soft chenille. Five product photos including Arabic and English detail." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">Majalis Al Farah</span>
+          <span class="brand-sub">Modular Sofas</span>
+        </a>
+        <a class="nav-link" href="../index.html#collection">All pieces</a>
+      </header>
+
+      <main class="pd-hero">
+        <div class="gallery">
+          <div class="back-row">
+            <a class="nav-link" href="../index.html#collection">← Collection</a>
+          </div>
+          <div class="gallery-main">
+            <img id="main-image" src="images/21-ivory-gold-set-front.jpg" alt="Ivory Gold Set — front view" />
+          </div>
+          <p class="angle-label" id="angle-label">Front view</p>
+          <div class="gallery-thumbs" role="tablist" aria-label="Product photos">
+            <button type="button" data-src="images/21-ivory-gold-set-front.jpg" data-label="Front view" aria-current="true">
+              <img src="images/21-ivory-gold-set-front.jpg" alt="Front thumbnail" />
+            </button>
+            <button type="button" data-src="images/21-ivory-gold-set-angle.jpg" data-label="Three-quarter view">
+              <img src="images/21-ivory-gold-set-angle.jpg" alt="Angle thumbnail" />
+            </button>
+            <button type="button" data-src="images/21-ivory-gold-set-side.jpg" data-label="Side profile">
+              <img src="images/21-ivory-gold-set-side.jpg" alt="Side thumbnail" />
+            </button>
+            <button type="button" data-src="images/21-ivory-gold-set-detail-ar.jpg" data-label="Arabic detail">
+              <img src="images/21-ivory-gold-set-detail-ar.jpg" alt="Arabic detail thumbnail" />
+            </button>
+            <button type="button" data-src="images/21-ivory-gold-set-detail-en.jpg" data-label="English detail">
+              <img src="images/21-ivory-gold-set-detail-en.jpg" alt="English detail thumbnail" />
+            </button>
+          </div>
+          <div class="angles-strip" aria-label="All five photos" style="grid-template-columns:repeat(5,1fr)">
+            <figure>
+              <img src="images/21-ivory-gold-set-front.jpg" alt="Ivory Gold Set front" />
+              <figcaption>Front</figcaption>
+            </figure>
+            <figure>
+              <img src="images/21-ivory-gold-set-angle.jpg" alt="Ivory Gold Set angle" />
+              <figcaption>Angle</figcaption>
+            </figure>
+            <figure>
+              <img src="images/21-ivory-gold-set-side.jpg" alt="Ivory Gold Set side" />
+              <figcaption>Side</figcaption>
+            </figure>
+            <figure>
+              <img src="images/21-ivory-gold-set-detail-ar.jpg" alt="Ivory Gold Set Arabic detail" />
+              <figcaption>Detail AR</figcaption>
+            </figure>
+            <figure>
+              <img src="images/21-ivory-gold-set-detail-en.jpg" alt="Ivory Gold Set English detail" />
+              <figcaption>Detail EN</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <aside class="pd-info">
+          <h1>Ivory Gold Set</h1>
+          <p class="pd-tagline">طقم عاجي ذهبي · Ivory seating with gold frames</p>
+          <p class="pd-price">SAR 23,100</p>
+          <dl class="specs">
+            <div><dt>Color</dt><dd>Ivory</dd></div>
+            <div><dt>Fabric</dt><dd>Ivory soft chenille</dd></div>
+            <div><dt>Shape</dt><dd>Rounded sofas and bucket chairs on gold metal bases</dd></div>
+            <div><dt>Accents</dt><dd>Soft blush and ivory pillows</dd></div>
+            <div><dt>Dimensions</dt><dd>W 240 × D 100 × H 80 cm (sofa)</dd></div>
+            <div><dt>Seat height</dt><dd>44 cm</dd></div>
+          </dl>
+          <p class="pd-nav">
+            <a class="nav-link" href="sand-showroom.html">← Sand Showroom</a>
+            <a class="nav-link" href="sage-walnut-l.html">Sage Walnut L →</a>
+          </p>
+        </aside>
+      </main>
+    </div>
+    <script>
+      const main = document.getElementById("main-image");
+      const label = document.getElementById("angle-label");
+      document.querySelectorAll(".gallery-thumbs button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          main.src = btn.dataset.src;
+          label.textContent = btn.dataset.label;
+          document.querySelectorAll(".gallery-thumbs button").forEach((b) => b.removeAttribute("aria-current"));
+          btn.setAttribute("aria-current", "true");
+        });
+      });
+    </script>
+  </body>
+</html>

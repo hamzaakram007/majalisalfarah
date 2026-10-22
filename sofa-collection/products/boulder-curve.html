@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Boulder Curve — Majalis Al Farah</title>
+    <meta name="description" content="Pillowy curved modular segments. Premium textured bouclé. Five product photos including Arabic and English detail." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">Majalis Al Farah</span>
+          <span class="brand-sub">Modular Sofas</span>
+        </a>
+        <a class="nav-link" href="../index.html#collection">All pieces</a>
+      </header>
+
+      <main class="pd-hero">
+        <div class="gallery">
+          <div class="back-row">
+            <a class="nav-link" href="../index.html#collection">← Collection</a>
+          </div>
+          <div class="gallery-main">
+            <img id="main-image" src="images/11-boulder-curve-front.jpg" alt="Boulder Curve — front view" />
+          </div>
+          <p class="angle-label" id="angle-label">Front view</p>
+          <div class="gallery-thumbs" role="tablist" aria-label="Product photos">
+            <button type="button" data-src="images/11-boulder-curve-front.jpg" data-label="Front view" aria-current="true">
+              <img src="images/11-boulder-curve-front.jpg" alt="Front thumbnail" />
+            </button>
+            <button type="button" data-src="images/11-boulder-curve-angle.jpg" data-label="Three-quarter view">
+              <img src="images/11-boulder-curve-angle.jpg" alt="Angle thumbnail" />
+            </button>
+            <button type="button" data-src="images/11-boulder-curve-side.jpg" data-label="Side profile">
+              <img src="images/11-boulder-curve-side.jpg" alt="Side thumbnail" />
+            </button>
+            <button type="button" data-src="images/11-boulder-curve-detail-ar.jpg" data-label="Arabic detail">
+              <img src="images/11-boulder-curve-detail-ar.jpg" alt="Arabic detail thumbnail" />
+            </button>
+            <button type="button" data-src="images/11-boulder-curve-detail-en.jpg" data-label="English detail">
+              <img src="images/11-boulder-curve-detail-en.jpg" alt="English detail thumbnail" />
+            </button>
+          </div>
+          <div class="angles-strip" aria-label="All five photos" style="grid-template-columns:repeat(5,1fr)">
+            <figure>
+              <img src="images/11-boulder-curve-front.jpg" alt="Boulder Curve front" />
+              <figcaption>Front</figcaption>
+            </figure>
+            <figure>
+              <img src="images/11-boulder-curve-angle.jpg" alt="Boulder Curve angle" />
+              <figcaption>Angle</figcaption>
+            </figure>
+            <figure>
+              <img src="images/11-boulder-curve-side.jpg" alt="Boulder Curve side" />
+              <figcaption>Side</figcaption>
+            </figure>
+            <figure>
+              <img src="images/11-boulder-curve-detail-ar.jpg" alt="Boulder Curve Arabic detail" />
+              <figcaption>Detail AR</figcaption>
+            </figure>
+            <figure>
+              <img src="images/11-boulder-curve-detail-en.jpg" alt="Boulder Curve English detail" />
+              <figcaption>Detail EN</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <aside class="pd-info">
+          <h1>Boulder Curve</h1>
+          <p class="pd-tagline">منحنى الصخرة · Pillowy curved modular segments</p>
+          <p class="pd-price">SAR 20,500</p>
+          <dl class="specs">
+            <div><dt>Color</dt><dd>Cream off-white</dd></div>
+            <div><dt>Fabric</dt><dd>Premium textured bouclé</dd></div>
+            <div><dt>Shape</dt><dd>Wide curved C/L modular with boulder-like rounded segments, no visible legs</dd></div>
+            <div><dt>Accents</dt><dd>Chocolate brown knit throw and spherical pillows</dd></div>
+            <div><dt>Dimensions</dt><dd>W 360 × D 240 × H 68 cm</dd></div>
+            <div><dt>Seat height</dt><dd>39 cm</dd></div>
+          </dl>
+          <p class="pd-nav">
+            <a class="nav-link" href="burgundy-accent.html">← Burgundy Accent</a>
+            <a class="nav-link" href="gallery-cloud.html">Gallery Cloud →</a>
+          </p>
+        </aside>
+      </main>
+    </div>
+    <script>
+      const main = document.getElementById("main-image");
+      const label = document.getElementById("angle-label");
+      document.querySelectorAll(".gallery-thumbs button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          main.src = btn.dataset.src;
+          label.textContent = btn.dataset.label;
+          document.querySelectorAll(".gallery-thumbs button").forEach((b) => b.removeAttribute("aria-current"));
+          btn.setAttribute("aria-current", "true");
+        });
+      });
+    </script>
+  </body>
+</html>
