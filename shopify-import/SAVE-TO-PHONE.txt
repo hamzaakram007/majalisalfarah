@@ -1,0 +1,25 @@
+Save cushion photos to your phone (Photos / Gallery)
+====================================================
+
+File: majalis-cushion-20-photos.zip  (100 JPG photos)
+
+Option A – From GitHub (recommended on phone)
+1. Open this PR on your phone:
+   https://github.com/hamzaakram007/majalisalfarah/pull/7
+2. Tap "Files changed" or browse folder:
+   shopify-import/majalis-cushion-20-photos.zip
+3. Download the ZIP
+4. Open the ZIP (iPhone Files / Android Files)
+5. Select photos → Share → Save Image / Add to Photos
+
+Option B – From gallery page
+1. Open: shopify-import/cushion-20-gallery.html
+2. Tap any photo → hold → "Add to Photos" / "Download image"
+   (repeat for photos you want)
+
+Option C – Download all images folder
+Browse: shopify-import/images/cushion-20/
+Long-press each JPG → Save / Download
+
+iPhone tip: After unzipping in Files, tap Select → Select All → Share → Save 100 Images
+Android tip: Unzip, open folder, Select all → Move/Copy to Gallery / Pictures

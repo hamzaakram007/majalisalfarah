@@ -1,0 +1,87 @@
+Shopify Import Guide – 20 Cushion Products (1/2/3/4 Piece Packs)
+==============================================================
+
+Main CSV (Shopify import):
+  cushion-20-shopify-products.csv
+
+Catalog source:
+  cushion-20-catalog.json
+
+Product images (100 total):
+  images/cushion-20/
+    p01-photo1-hero.jpg ... p20-detail-ar.jpg
+    Each product has 5 photos:
+      1) photo1-hero       – main product shot
+      2) photo2-lifestyle  – styled room shot
+      3) photo3-detail     – fabric close-up
+      4) detail-en         – English product details card
+      5) detail-ar         – Arabic product details card
+
+View all images:
+  Open: cushion-20-gallery.html
+
+SKU / image map:
+  cushion-20-image-map.csv
+
+Human review overview (80 variants):
+  cushion-20-product-overview.csv
+
+Pack sizes & pricing
+--------------------
+Each product has 4 variants (Option: Pack Size):
+  1 Piece  = base price × 1.0
+  2 Piece  = base price × 1.9
+  3 Piece  = base price × 2.7
+  4 Piece  = base price × 3.4
+
+Example (Desert Linen, base 79 SAR):
+  1 Piece = 79 SAR
+  2 Piece = 150.10 SAR
+  3 Piece = 213.30 SAR
+  4 Piece = 268.60 SAR
+
+The 20 products
+---------------
+p01 Desert Linen Square Cushion – 79 SAR
+p02 Emerald Velvet Throw Cushion – 99 SAR
+p03 Heritage Arabic Embroidery Cushion – 149 SAR
+p04 Bouclé Cloud Cream Cushion – 119 SAR
+p05 Majlis Cream Gold Bolster – 129 SAR
+p06 Geometric Cream Tan Cushion – 109 SAR
+p07 Taupe Corduroy Stripe Cushion – 95 SAR
+p08 Champagne Satin Accent Cushion – 115 SAR
+p09 Navy Outdoor Stripe Cushion – 125 SAR
+p10 Soft Pastel Kids Cushion – 85 SAR
+p11 Terracotta Floor Pouf Cushion – 199 SAR
+p12 Charcoal Lumbar Rectangle Cushion – 89 SAR
+p13 Forest Tufted Velvet Cushion – 135 SAR
+p14 Ivory Navy Piping Cushion – 105 SAR
+p15 Gold Cream Jacquard Cushion – 155 SAR
+p16 Warm Gray Ribbed Knit Cushion – 92 SAR
+p17 Sand Fringe Boho Cushion – 112 SAR
+p18 Mocha Quilted Channel Cushion – 118 SAR
+p19 Cognac Leather-Look Accent Cushion – 139 SAR
+p20 Midnight Navy Velvet Cushion – 99 SAR
+
+How to import in Shopify
+------------------------
+1. Shopify Admin → Products → Import
+2. Upload cushion-20-shopify-products.csv
+3. Confirm 20 products with 4 Pack Size variants each (80 variants)
+4. Click Import products
+
+How to add the 5 photos per product
+-----------------------------------
+After import, for each product:
+  1. Open the product in Shopify Admin
+  2. Upload the 5 matching images from images/cushion-20/
+     Example for p01:
+       p01-photo1-hero.jpg
+       p01-photo2-lifestyle.jpg
+       p01-photo3-detail.jpg
+       p01-detail-en.jpg
+       p01-detail-ar.jpg
+  3. Set image order: Hero → Lifestyle → Detail → EN card → AR card
+  4. Optionally assign the hero image to each Pack Size variant
+
+Currency: set store to SAR
