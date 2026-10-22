@@ -49,7 +49,22 @@ Open http://localhost:3000/en
 
 Point DNS to Vercel; add custom domain in Vercel project settings.
 
-## 6. Monitoring
+## 6. Daily social product posts
+
+The admin **Social** page (`/admin/social`) rotates one catalog product per day to Facebook, Instagram, and/or a Zapier/Make webhook.
+
+1. Run migration `supabase/migrations/20260604000000_social_posts.sql`.
+2. Set `CRON_SECRET` in Vercel (Vercel Cron sends `Authorization: Bearer <CRON_SECRET>`).
+3. Connect destinations (any combination):
+   - **Zapier / Make**: set `SOCIAL_WEBHOOK_URL` to a Catch Hook, then map `caption`, `product.image_url`, and `product.url` to Instagram/Facebook/TikTok actions.
+   - **Facebook Page**: `META_PAGE_ID` + `META_PAGE_ACCESS_TOKEN`
+   - **Instagram Business**: same page token + `META_INSTAGRAM_BUSINESS_ACCOUNT_ID` (image URL must be publicly reachable)
+4. In admin → Social: enable daily posting, pick platforms, save.
+5. Cron hits `/api/cron/social-post` daily at **06:00 UTC** (09:00 Asia/Riyadh). Use **Post next product now** to test.
+
+Without Meta/webhook keys, posts succeed in **mock mode** and still appear in Social history (useful for local demo with `ADMIN_DEMO_MODE=true`).
+
+## 7. Monitoring
 
 - Optional: `NEXT_PUBLIC_SENTRY_DSN`
 - Vercel Analytics (built-in)

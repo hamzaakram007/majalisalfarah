@@ -16,3 +16,5 @@ npm run dev
 ```
 
 Open http://localhost:3000/en — see [web/README.md](web/README.md) and [web/DEPLOYMENT.md](web/DEPLOYMENT.md).
+
+Daily product posts to social media are managed in admin at `/admin/social` (see Social section in [web/DEPLOYMENT.md](web/DEPLOYMENT.md)).

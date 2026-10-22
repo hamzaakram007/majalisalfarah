@@ -29,18 +29,27 @@ export async function listAdminProducts(): Promise<AdminProductRow[]> {
   const supabase = await getAdminClient();
   if (!supabase) {
     const { getMockProducts } = await import("@/lib/data/mock");
-    return getMockProducts("en").map((p) => ({
-      id: p.id,
-      slug: p.slug,
-      price_sar: p.price_sar,
-      stock: p.stock,
-      is_featured: p.is_featured,
-      is_active: p.is_active ?? true,
-      image_url: p.image_url,
-      category_id: null,
-      name_en: p.name,
-      category_slug: p.category_slug,
-    }));
+    const en = getMockProducts("en");
+    const ar = getMockProducts("ar");
+    const arById = new Map(ar.map((p) => [p.id, p]));
+    return en.map((p) => {
+      const arProduct = arById.get(p.id);
+      return {
+        id: p.id,
+        slug: p.slug,
+        price_sar: p.price_sar,
+        stock: p.stock,
+        is_featured: p.is_featured,
+        is_active: p.is_active ?? true,
+        image_url: p.image_url,
+        category_id: null,
+        name_en: p.name,
+        name_ar: arProduct?.name ?? p.name,
+        description_en: p.description,
+        description_ar: arProduct?.description ?? null,
+        category_slug: p.category_slug,
+      };
+    });
   }
 
   const { data } = await supabase

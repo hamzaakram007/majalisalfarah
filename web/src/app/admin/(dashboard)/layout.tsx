@@ -16,6 +16,7 @@ export default async function AdminDashboardLayout({
     { href: "/admin", label: "Dashboard" },
     { href: "/admin/orders", label: "Orders" },
     { href: "/admin/products", label: "Products" },
+    { href: "/admin/social", label: "Social" },
     { href: "/admin/quotes", label: "Quotes" },
     { href: "/admin/callbacks", label: "Callbacks" },
     { href: "/admin/blog", label: "Blog" },
