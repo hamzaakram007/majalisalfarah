@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { loyaltySettings } from "@/lib/data/mock";
 
 export default function AdminSettingsPage() {
@@ -23,6 +24,19 @@ export default function AdminSettingsPage() {
         <p className="mt-2 text-sm text-zinc-600">
           Resend (email), Twilio (WhatsApp). Without keys, notifications log to
           server console in development.
+        </p>
+      </section>
+      <section className="mt-6 rounded-lg border bg-white p-6">
+        <h2 className="font-semibold">Social auto-post</h2>
+        <p className="mt-2 text-sm text-zinc-600">
+          Daily product posts are managed under{" "}
+          <Link href="/admin/social" className="text-emerald-700 hover:underline">
+            Social
+          </Link>
+          . Configure{" "}
+          <code className="rounded bg-zinc-100 px-1">SOCIAL_WEBHOOK_URL</code>{" "}
+          (Zapier/Make) and/or Meta Graph API keys. Schedule runs via Vercel Cron
+          at <code className="rounded bg-zinc-100 px-1">/api/cron/social-post</code>.
         </p>
       </section>
     </div>

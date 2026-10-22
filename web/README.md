@@ -9,7 +9,8 @@ Production-grade bilingual (EN/AR) furniture ecommerce platform for Majalis Alfa
 - Moyasar payments (mock mode without API keys)
 - Sofa customizer & quote requests
 - Callback requests, loyalty program, blog, gallery
-- Admin dashboard (orders, products, quotes, payments)
+- Admin dashboard (orders, products, quotes, payments, social auto-post)
+- Daily social product posts (Facebook / Instagram / Zapier webhook; mock without credentials)
 - WhatsApp & email notifications (mock without credentials)
 - Supabase Postgres with RLS (optional mock data fallback)
 
