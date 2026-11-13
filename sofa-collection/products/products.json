@@ -704,5 +704,28 @@
       "detail_ar": "images/32-walnut-trim-modular-detail-ar.jpg",
       "detail_en": "images/32-walnut-trim-modular-detail-en.jpg"
     }
+  },
+  {
+    "id": "33",
+    "slug": "marble-shelf-modular",
+    "name": "Marble Shelf Modular",
+    "name_ar": "كنب معياري برف رخامي",
+    "tagline": "Cream modular with integrated black marble shelf",
+    "color": "Cream white",
+    "fabric": "Cream textured performance fabric",
+    "shape": "Low-profile modular L-sectional with thick rounded cushions and integrated polished black marble side shelf",
+    "accents": "Black and white throw pillows, matching marble-top coffee table and black-frame armchair",
+    "dims": "W 350 × D 280 × H 75 cm",
+    "seat_h": "42 cm",
+    "price": "SAR 4,400",
+    "compare_at": "SAR 5,000",
+    "source": "references/33-marble-shelf-modular.jpg",
+    "images": {
+      "front": "images/33-marble-shelf-modular-front.jpg",
+      "angle": "images/33-marble-shelf-modular-angle.jpg",
+      "side": "images/33-marble-shelf-modular-side.jpg",
+      "detail_ar": "images/33-marble-shelf-modular-detail-ar.jpg",
+      "detail_en": "images/33-marble-shelf-modular-detail-en.jpg"
+    }
   }
 ]
