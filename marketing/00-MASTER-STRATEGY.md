@@ -51,29 +51,43 @@ National reach     Before/after, trust     Yanbu sales + leads     Referral cont
 | Conversion | Specific products/services + CTA | WhatsApp starts, qualified leads, visits, sales |
 | Retention | Delivery, install, aftercare | Repeat purchase, referrals, reviews |
 
-**Hard rule:** Sales creatives only claim what can be fulfilled. Awareness creatives may speak to all of Saudi Arabia; conversion creatives prioritise Yanbu and nearby serviceable areas until vendor capacity exists elsewhere.
+**Hard rule:** Sales creatives only claim what can be fulfilled — and fulfilment differs by category (see matrix below).
+
+### Fulfilment matrix (confirmed)
+
+| Category | Supply / shipping | Installation / custom work | Ad geo for conversion |
+| --- | --- | --- | --- |
+| **Curtains** (ready / shippable) | **All of Saudi Arabia** | Measure/install visits: Yanbu + nearby until partners Go-Live | KSA → `.shop` or WhatsApp |
+| **Cushions** | **All of Saudi Arabia** | N/A (ship) | KSA → `.shop` |
+| **Sofas / majlis** (standard shippable SKUs) | Confirm per SKU on Shopify | Heavy delivery/install: Yanbu-first unless logistics confirmed | Prefer Yanbu + verified ship corridors |
+| **Sofa upholstery / refurbishment** | Materials may ship; service is local | **Yanbu + nearby only** until vendor network ready | Yanbu radius → WhatsApp |
+| **Custom fabrication / showroom projects** | Quote-based | **Yanbu + nearby** · other cities = demand log | Yanbu → WhatsApp / visit |
+
+**Copy rule:** Say “شحن الستائر والمخدات لكل مدن المملكة” when true. Do **not** imply the same for تنجيد or custom sofa install nationwide.
 
 ---
 
 ## 4. Audience geo-layers
 
-### Layer A — Yanbu sales (priority for paid conversion)
+### Layer A — Yanbu sales (priority for custom + showroom)
 
 - Homeowners renovating majlis / living rooms  
 - Newly married couples furnishing first homes  
-- Families choosing curtains and upholstery refresh  
+- Families needing upholstery refresh or custom sofas  
 - Landlords refreshing rental interiors  
 - Local interior enthusiasts who can visit the showroom  
 
 **CTA default:** WhatsApp quote · showroom visit · website product view  
 
-### Layer B — Nearby cities (demand + selective fulfilment)
+### Layer B — Nearby cities (selective services)
 
-Treat as interest + capacity check. Confirm logistics before promising install dates.
+Curtains/cushions: sell and ship. Custom install / تنجيد: capacity check before promising dates.
 
-### Layer C — National awareness (Jeddah, Madinah, Makkah, Riyadh + KSA)
+### Layer C — National (Jeddah, Madinah, Makkah, Riyadh + KSA)
 
-Build brand recognition and inbound demand. Route enquiries into a **demand register** until a verified local vendor exists. Never sell “nationwide delivery confirmed” prematurely.
+- **Sell now:** curtains and cushions (and any other SKUs confirmed for KSA shipping on `.shop`).  
+- **Demand + waitlist:** sofa upholstery, custom installs, partner-dependent furniture until city Go-Live.  
+- Awareness creatives may still speak to all of Saudi Arabia.
 
 ### Layer D — B2B
 
@@ -123,22 +137,22 @@ Do **not** use `majalisalfarah.com` in ads, bios, or captions.
 - Trust / commerce cues: secure checkout, returns messaging, shipping claims on homepage.  
 - Strong catalog depth for product-ad creative — use **real product pages and photos** as the source of truth.
 
-### Fulfilment language risk (align with brand rules)
+### Fulfilment messaging (aligned)
 
-Homepage currently surfaces lines such as **“Fast KSA Shipping”** / convenient nationwide-style delivery framing.  
-Per brand policy: only advertise shipping/installation that is operationally true. If nationwide courier shipping for ready products is real, keep it; if installation/upholstery is still Yanbu-first, split the messaging:
+Confirmed: **curtains and cushions supply across Saudi Arabia.**  
+Keep KSA shipping claims for those categories. Split homepage/product copy so shoppers don’t assume تنجيد or custom sofa install is nationwide:
 
-- Ready e‑commerce items → accurate shipping policy from Shopify  
-- Custom sofas / upholstery / curtain install → Yanbu + nearby (or waitlist by city)
+- Curtains & cushions → “شحن لجميع مدن المملكة” / shop checkout  
+- Custom sofas / upholstery / on-site curtain install → Yanbu + nearby (or city waitlist)
 
 ### Recommended conversion improvements (no invented policies)
 
 1. Confirm WhatsApp deep-link on mobile (header + product pages + sticky).  
-2. Clarify service-area copy: shipping vs showroom/custom work.  
+2. On product templates, show category-specific delivery notes (KSA ship vs local service).  
 3. Trust strip: since 1990 · Yanbu showroom · craft process · real installs.  
-4. Product pages: keep exact photography; primary CTAs = Add to cart **and** WhatsApp quote for custom.  
+4. Product pages: keep exact photography; primary CTAs = Add to cart for shippable SKUs **and** WhatsApp quote for custom.  
 5. Track Shopify purchases + WhatsApp clicks (with consent).  
-6. Fast path: Reel → product URL on `.shop` **or** WhatsApp — never the wrong domain.  
+6. Fast path: Reel → product URL on `.shop` (curtains/cushions) **or** WhatsApp (تنجيد/custom).  
 7. Fix catalog quality issues that hurt ads (e.g. duplicate listings, `0.00 SR` products) before scaling Sales campaigns.
 
 ---
@@ -178,8 +192,8 @@ Never: fabricated testimonials, fake discounts, invented scarcity, or pressure t
 2. Film 4 core assets: before/after sofa, curtain install, fabric/foam craft, showroom walk.  
 3. Publish AR versions first; EN versions of winners.  
 4. Soft boost best engagement reel (awareness/engagement objective).  
-5. Launch WhatsApp lead ads only for Yanbu (+ nearby) geography; product traffic ads may use `.shop` for shippable SKUs.  
-6. Start demand log for non-Yanbu cities (city, product, phone, date).  
+5. Launch **KSA Sales ads** for curtains & cushions → `.shop`; launch **Yanbu WhatsApp ads** for تنجيد / custom sofas.  
+6. Start demand log for non-Yanbu custom/install enquiries (city, product, phone, date).  
 7. Begin vendor outreach for the highest-demand city from that log.
 
 ---

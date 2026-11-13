@@ -4,10 +4,11 @@ No invented ROAS promises. Budgets below are **allocation ratios** for a starter
 
 **Pre-flight**
 
-- Official domain for ads and landing pages: **https://majalisalfarah.shop** (not `.com`). Store is live on Shopify; still prefer WhatsApp for custom/upholstery leads.  
+- Official domain for ads and landing pages: **https://majalisalfarah.shop** (not `.com`). Store is live on Shopify.  
 - Pixel / CAPI / TikTok Pixel only with proper consent.  
-- Sales & lead campaigns: geo-limit to fulfilment-ready areas (start Yanbu + nearby).  
-- National geos: awareness / engagement / demand capture only.
+- **Curtains & cushions:** KSA-wide Sales / Traffic ads → `.shop` allowed.  
+- **Upholstery / custom sofas / on-site install:** WhatsApp leads geo-limited to Yanbu + nearby until vendors Go-Live.  
+- National geos for awareness/engagement always OK; national **conversion** only for categories that ship KSA-wide.
 
 ---
 
@@ -43,18 +44,18 @@ No invented ROAS promises. Budgets below are **allocation ratios** for a starter
 | KPIs | ThruPlay/completion, shares, saves, comments, cost per engaged view |
 | Optimise | Boost organic winners rather than untested ads when possible |
 
-### Campaign 3 — WhatsApp Leads
+### Campaign 3 — WhatsApp Leads (custom / تنجيد / showroom)
 
 | Field | Spec |
 | --- | --- |
 | Objective | Meta: Messages / Click to WhatsApp · TikTok: Traffic to WhatsApp or Lead (as available) |
 | Audience | Homeowners 24–55 · renovation / furniture interests · exclude recent converters if list exists |
-| Geo | **Yanbu city + nearby radii only** for promised service |
-| Creative | Proof-led: before/after, showroom, fabric detail + clear WA CTA |
-| Copy AR | أبي تجدّد الكنب أو الستائر؟ راسلنا واتساب لعرض سعر — خدمة ينبع والمناطق القريبة. |
-| Copy EN | Renovating sofas or curtains? WhatsApp us for a quote — Yanbu & nearby areas. |
-| Pre-filled WA | "السلام عليكم، مهتم بـ (كنب/تنجيد/ستائر)، موقعي: ينبع" |
-| Budget share | 30–35% (primary commercial engine) |
+| Geo | **Yanbu + nearby** when promising تنجيد, custom sofa, or install visits. (Curtain/cushion *purchase* questions from any city → route to `.shop` or shippable WA script.) |
+| Creative | Proof-led: before/after sofa refurb, showroom, fabric detail + clear WA CTA |
+| Copy AR | أبي تجدّد الكنب أو تنجيد؟ راسلنا واتساب — خدمة ينبع والمناطق القريبة. |
+| Copy EN | Need sofa reupholstery or a custom piece? WhatsApp us — Yanbu & nearby areas. |
+| Pre-filled WA | "السلام عليكم، مهتم بـ (كنب/تنجيد)، موقعي:" |
+| Budget share | 25–30% |
 | Testing | 3 creatives · 2 primary texts · 1 landing = WA |
 | KPIs | Cost per WhatsApp conversation, **qualified** lead rate, showroom bookings |
 | Optimise | Pause ads with chats but no intent; train inbox script; exclude tire-kickers |
@@ -74,17 +75,18 @@ No invented ROAS promises. Budgets below are **allocation ratios** for a starter
 | KPIs | CPA to qualified chat, frequency, conversion rate from warm |
 | Optimise | Sequence: view → engage → WA; suppress purchasers |
 
-### Campaign 5 — Sales / Specific offers
+### Campaign 5 — Sales / Specific offers (curtains & cushions first)
 
 | Field | Spec |
 | --- | --- |
-| Objective | Conversions / Catalog (if shop ready) / Messages with product intent |
-| Audience | High intent + retargeting pools |
-| Geo | Fulfilment-ready only |
-| Creative | Exact product photography/video — no AI product swaps |
-| Copy | Only verified availability, prices, and offers — never invent discounts |
-| Budget share | 10–15% until catalog + checkout reliability proven |
-| Testing | Product angles, benefit vs lifestyle open |
+| Objective | Conversions / Catalog sales · Traffic to product URLs on `.shop` |
+| Audience | High intent + retargeting pools · home décor / curtains / cushions interests |
+| Geo | **Saudi Arabia** for curtains & cushions (confirmed KSA supply). Sofa Sales ads only where shipping/install is confirmed per SKU. |
+| Creative | Exact product photography/video from Shopify — no AI product swaps |
+| Copy AR | ستائر ومخدات بشحن لجميع مدن المملكة — تسوّق من المتجر. |
+| Copy EN | Curtains and cushions shipped across Saudi Arabia — shop online. |
+| Budget share | 20–25% once catalog + checkout are clean (no 0.00 SR / broken variants) |
+| Testing | Product angles, benefit vs lifestyle open · curtain vs cushion creatives |
 | KPIs | Purchases, ROAS, cost per purchase, refund/complaint rate |
 | Optimise | Feed winners into evergreen; pull weak SKUs |
 
@@ -94,13 +96,13 @@ No invented ROAS promises. Budgets below are **allocation ratios** for a starter
 
 | Campaign | Share |
 | --- | --- |
-| WhatsApp Leads | 35% |
-| Engagement | 25% |
+| Sales (curtains/cushions → `.shop`) | 25% |
+| WhatsApp Leads (تنجيد/custom → Yanbu) | 25% |
+| Engagement | 20% |
 | Retargeting | 15% |
 | Awareness | 15% |
-| Sales | 10% |
 
-Increase WhatsApp share only if lead quality stays high. Increase Awareness if branded search / direct WA “شفتكم بتواصل” rises.
+Scale Sales when checkout conversion is healthy. Scale WhatsApp when qualified تنجيد/custom lead rate stays high.
 
 ---
 
@@ -115,11 +117,11 @@ Increase WhatsApp share only if lead quality stays high. Increase Awareness if b
 
 ## Inbox qualification script (Arabic)
 
-1. أهلاً بك في مجالس الفرح ✨  
-2. حاب كنب جديد، تنجيد، ولا ستائر؟  
+1. أهلاً بك في مجالس الفرح  
+2. حاب كنب / تنجيد، ستائر، ولا مخدات؟  
 3. المدينة / الحي؟  
 4. في صور للمكان أو قياس تقريبي؟  
-5. إذا ينبع أو قريب — نقدر نكمّل عرض سعر / موعد معرض.  
-6. إذا مدينة ثانية — نسجّل طلبك ونبلّغك عند توفر خدمة موثوقة في مدينتك.
+5. **ستائر أو مخدات جاهزة للشحن:** نوجّهك للمتجر majalisalfarah.shop أو نكمّل الطلب واتساب — الشحن لكل مدن المملكة.  
+6. **تنجيد / كنب مخصص / تركيب ميداني:** إذا ينبع أو قريب — عرض سعر أو موعد معرض. إذا مدينة ثانية — نسجّل الطلب ونبلّغك عند توفر شريك موثوق.  
 
-Honesty here protects the brand during expansion.
+Honesty by category protects the brand during expansion.

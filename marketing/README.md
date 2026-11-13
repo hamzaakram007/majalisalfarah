@@ -26,7 +26,7 @@ This folder is the working agency playbook for Instagram Reels, TikTok, Meta/Tik
 - **Instagram:** @majalisalfarah9
 - **Email:** contact@majalisalfarah.sa
 - **Website:** https://majalisalfarah.shop
-- **Fulfilment today:** Yanbu and nearby areas. Nationwide delivery/installation is an expansion goal — never advertise as confirmed until a city has verified vendors.
+- **Fulfilment today:** Curtains and cushions — supply across Saudi Arabia. Sofa upholstery, custom fabrication, and on-site installation — Yanbu and nearby until a city has verified vendors. Never advertise nationwide تنجيد/install as confirmed before Go-Live.
 
 ## How to brief the agency (future requests)
 

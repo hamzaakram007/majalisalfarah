@@ -1,7 +1,7 @@
 # Nationwide Vendor Expansion Playbook
 
-**Principle:** Market demand can be national. Confirmed fulfilment is city-by-city.  
-Until a city is **Go-Live**, treat inbound interest as **demand intelligence**, not a service promise.
+**Principle:** Curtains and cushions already supply **across Saudi Arabia**. Vendor expansion is mainly for **sofa upholstery, custom fabrication, and on-site installation** (and any heavy furniture logistics that are not yet national).  
+Until a city is **Go-Live** for those services, treat related inbound interest as **demand intelligence**, not a confirmed install promise.
 
 Priority expansion watchlist: Jeddah · Madinah · Makkah · Riyadh · other cities by enquiry volume.
 
@@ -101,11 +101,12 @@ Unique WA labels or form fields: `city`, `category`, `urgency`.
 
 ## 7. Confirm service availability
 
-Public language until Go-Live:
+Public language:
 
-- ✅ “نخدم ينبع والمناطق القريبة”  
-- ✅ “نسجّل اهتمامك في [المدينة]”  
-- ❌ “توصيل وتركيب لكل مدن المملكة” (unless operationally true)
+- ✅ “ستائر ومخدات — شحن لجميع مدن المملكة”  
+- ✅ “تنجيد وتركيب ميداني — ينبع والمناطق القريبة”  
+- ✅ “نسجّل اهتمامك للتنجيد/التركيب في [المدينة]”  
+- ❌ “تنجيد وتركيب لكل مدن المملكة” until that city is Go-Live
 
 Internal flag: `AVAILABLE | WAITLIST | UNAVAILABLE`.
 
