@@ -11,13 +11,15 @@ CTA codes: `WA` WhatsApp · `VISIT` showroom · `SAVE` save/share · `COMMENT` e
 
 ## Week 1 — Foundation & proof
 
-| Day | Topic | Pillar | Objective | Audience | Hook (AR) | Format | Lang | CTA | Production needs |
+**Full production packages:** [reels/week-1/00-SHOOT-GUIDE.md](./reels/week-1/00-SHOOT-GUIDE.md)
+
+| Day | Topic | Pillar | Objective | Audience | Hook (AR) | Format | Lang | CTA | Package |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Brand open: craft + majlis beauty | A/F | Awareness | KSA + Yanbu | من ينبع… حرفية تغيّر شكل بيتك | 15–20s cinematic | AR | SAVE | Showroom + best install B-roll |
-| 2 | Sofa before/after | B | Reach + leads | Yanbu renovators | نفس الكنب… بعد التنجيد | 20–30s transform | AR | WA | Real before/after photos or video |
-| 3 | 3 curtain mistakes | D | Saves | Homeowners KSA | ثلاث أخطاء تخرب شكل الستارة | 25–35s list | AR | SAVE | Curtain samples + room plate |
-| 4 | This or that sofas | G | Comments | Broad | أي مجلس تختار: ١ ولا ٢؟ | 12–18s | AR | COMMENT | Two real sofa setups |
-| Stories | Soft CTA + map pin Yanbu | F | Visits | Local | — | Stories | AR | VISIT/WA | Phone footage |
+| 1 | Brand open: craft + majlis beauty | A/F | Awareness | KSA + Yanbu | من ينبع… حرفية تغيّر شكل بيتك | 15–20s cinematic | AR | SAVE | [01](./reels/week-1/01-brand-craft-majlis.md) |
+| 2 | Sofa before/after | B | Reach + leads | Yanbu renovators | نفس الكنب… بعد التنجيد | 20–30s transform | AR | WA | [02](./reels/week-1/02-sofa-before-after.md) |
+| 3 | 3 curtain mistakes | D | Saves | Homeowners KSA | ثلاث أخطاء تخرب شكل الستارة | 25–35s list | AR | SAVE + shop | [03](./reels/week-1/03-three-curtain-mistakes.md) |
+| 4 | This or that sofas | G | Comments | Broad | أي مجلس تختار: ١ ولا ٢؟ | 12–18s | AR | COMMENT | [04](./reels/week-1/04-this-or-that-sofas.md) |
+| Stories | Soft CTA + map pin Yanbu | F | Visits | Local | — | Stories | AR | VISIT/WA | [05](./reels/week-1/05-stories-pack.md) |
 
 ## Week 2 — Trust & education
 
