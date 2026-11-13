@@ -356,5 +356,16 @@
     "compare_at": "3400.00",
     "status": "ok",
     "url": "https://majalisalfarah.shop/products/white-wood-modular-qanab"
+  },
+  {
+    "id": "39",
+    "slug": "gallery-wood-modular",
+    "product_id": 15520856441131,
+    "handle": "gallery-wood-modular-qanab",
+    "images": 5,
+    "price": "3900.00",
+    "compare_at": "4400.00",
+    "status": "ok",
+    "url": "https://majalisalfarah.shop/products/gallery-wood-modular-qanab"
   }
 ]

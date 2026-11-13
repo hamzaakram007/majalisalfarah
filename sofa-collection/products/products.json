@@ -842,5 +842,28 @@
       "detail_ar": "images/38-white-wood-modular-detail-ar.jpg",
       "detail_en": "images/38-white-wood-modular-detail-en.jpg"
     }
+  },
+  {
+    "id": "39",
+    "slug": "gallery-wood-modular",
+    "name": "Gallery Wood Modular",
+    "name_ar": "كنب معياري خشبي للمعرض",
+    "tagline": "Cream U-modular with oak tray inserts",
+    "color": "Off-white cream",
+    "fabric": "Crisp off-white textured bouclé",
+    "shape": "Large low-profile modular U-sectional with rounded ottoman ends and integrated warm wood flat tray side tables",
+    "accents": "Dark chocolate brown and muted rust copper throw pillows, matching round wood-top coffee table",
+    "dims": "W 360 × D 300 × H 70 cm",
+    "seat_h": "40 cm",
+    "price": "SAR 3,900",
+    "compare_at": "SAR 4,400",
+    "source": "references/39-gallery-wood-modular.jpg",
+    "images": {
+      "front": "images/39-gallery-wood-modular-front.jpg",
+      "angle": "images/39-gallery-wood-modular-angle.jpg",
+      "side": "images/39-gallery-wood-modular-side.jpg",
+      "detail_ar": "images/39-gallery-wood-modular-detail-ar.jpg",
+      "detail_en": "images/39-gallery-wood-modular-detail-en.jpg"
+    }
   }
 ]
