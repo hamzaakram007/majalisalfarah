@@ -114,8 +114,8 @@ const en = {
   trust: {
     years: "30+ Years",
     yearsDesc: "Crafting Saudi homes since 1990",
-    delivery: "Nationwide Delivery",
-    deliveryDesc: "Yanbu showroom & shipping across KSA",
+    delivery: "Yanbu & Growing Reach",
+    deliveryDesc: "Yanbu showroom first — delivery where partners are ready",
     custom: "Custom Orders",
     customDesc: "Sofas, curtains, majlis & foam to measure",
     payments: "Secure Payments",
@@ -133,7 +133,7 @@ const en = {
   },
   product: {
     related: "You May Also Like",
-    deliveryNote: "Delivery across Saudi Arabia. Custom items may require 2–4 weeks.",
+    deliveryNote: "Yanbu showroom & nearby areas; other cities when partners are available. Custom items may require 2–4 weeks.",
     whatsappQuote: "Get Quote on WhatsApp",
     specs: "Product highlights",
     selectVariant: "Choose color / option",
@@ -263,8 +263,8 @@ const ar: typeof en = {
   trust: {
     years: "+30 عاماً",
     yearsDesc: "صناعة أثاث سعودي منذ 1990",
-    delivery: "توصيل داخل المملكة",
-    deliveryDesc: "معرض ينبع وشحن لمدن السعودية",
+    delivery: "ينبع وتوسّع مدروس",
+    deliveryDesc: "معرض ينبع أولاً — والتوصيل حيث يتوفر شركاء موثوقون",
     custom: "طلبات مخصصة",
     customDesc: "كنب وستائر ومجالس وفوم حسب المقاس",
     payments: "دفع آمن",
@@ -282,7 +282,7 @@ const ar: typeof en = {
   },
   product: {
     related: "قد يعجبك أيضاً",
-    deliveryNote: "التوصيل داخل المملكة. الطلبات المخصصة قد تستغرق 2–4 أسابيع.",
+    deliveryNote: "معرض ينبع والمناطق القريبة؛ ومدن أخرى عند توفر الشركاء. الطلبات المخصصة قد تستغرق 2–4 أسابيع.",
     whatsappQuote: "عرض سعر عبر واتساب",
     specs: "مميزات المنتج",
     selectVariant: "اختر اللون / الخيار",

@@ -6,6 +6,8 @@ The older static HTML site is preserved in [`majalisalfarah/`](majalisalfarah/) 
 
 **The Wood Chapter — Comfort Forward 2026** sculptural seating product shots (20 pieces × 3 angles) live in [`the-wood-chapter/`](the-wood-chapter/).
 
+**Marketing operating system** (Reels, TikTok, paid ads, vendor expansion): [`marketing/`](marketing/).
+
 ## Quick start
 
 ```bash
