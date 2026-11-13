@@ -2,7 +2,9 @@
 
 **Goal:** Establish brand feel, prove craft (تنجيد), teach (curtains), and spark comments — then support with local Stories.
 
-**Publish order:** Day 1 → 2 → 3 → 4 (one main Reel per day). Stories daily.
+**Rendered masters (ready to upload):** [exports/](./exports/) — rebuild with `python3 build_reels.py`
+
+**Publish order:** Day 4 → 1 → 3 → 2 (engagement first, then brand, education, commercial). Stories daily.
 
 | Asset | File | Length | CTA | Priority shoot block |
 | --- | --- | --- | --- | --- |

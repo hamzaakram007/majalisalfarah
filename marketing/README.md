@@ -15,7 +15,7 @@ This folder is the working agency playbook for Instagram Reels, TikTok, Meta/Tik
 | [04-PAID-ADS-PLAYBOOK.md](./04-PAID-ADS-PLAYBOOK.md) | Meta + TikTok campaign structure |
 | [05-VENDOR-EXPANSION-PLAYBOOK.md](./05-VENDOR-EXPANSION-PLAYBOOK.md) | City-by-city fulfilment network |
 | [templates/REEL-PRODUCTION-BRIEF.md](./templates/REEL-PRODUCTION-BRIEF.md) | Copy this for every new reel |
-| [reels/week-1/](./reels/week-1/) | **Week 1 shoots** — call sheet + 4 reels + Stories pack |
+| [reels/week-1/](./reels/week-1/) | **Week 1 shoots** — call sheet + briefs + [rendered MP4s](./reels/week-1/exports/) |
 | [reels/01-before-after-sofa-refurb.md](./reels/01-before-after-sofa-refurb.md) | Canonical before/after package (also Week 1 Day 2) |
 
 ## Brand facts (do not invent beyond these)
