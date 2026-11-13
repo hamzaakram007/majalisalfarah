@@ -80,7 +80,7 @@ export default async function HomePage({
     getBlogPosts(locale),
   ]);
   const base = `/${locale}`;
-  const wa = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966570169672";
+  const wa = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966596135993";
 
   const categoryTiles = [
     { key: "sofas", label: dict.categories.sofas, sub: locale === "ar" ? "كنب" : "Sofas", href: `${base}/products#sofas`, image: brandImages.hero },

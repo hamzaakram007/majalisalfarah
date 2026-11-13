@@ -61,5 +61,5 @@ ON CONFLICT DO NOTHING;
 
 INSERT INTO site_settings (key, value) VALUES
   ('loyalty', '{"pointsPer100Sar":1,"redeemAt":200,"discountPercent":10}'),
-  ('contact', '{"email":"contact@majalisalfarah.sa","phone":"+966500000000","address":"Riyadh, Saudi Arabia"}')
+  ('contact', '{"email":"contact@majalisalfarah.sa","phone":"+966 59 613 5993","address":"Riyadh, Saudi Arabia"}')
 ON CONFLICT (key) DO NOTHING;

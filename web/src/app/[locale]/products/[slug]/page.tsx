@@ -46,7 +46,7 @@ export default async function ProductDetailPage({
   const product = await getProduct(locale, slug);
   if (!product) notFound();
   const related = await getRelatedProducts(locale, slug);
-  const wa = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966570169672";
+  const wa = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966596135993";
   const waText = encodeURIComponent(
     `${locale === "ar" ? "استفسار عن" : "Inquiry about"}: ${product.name}`,
   );
