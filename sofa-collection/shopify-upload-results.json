@@ -301,5 +301,16 @@
     "compare_at": "5000.00",
     "status": "ok",
     "url": "https://majalisalfarah.shop/products/marble-shelf-modular-qanab"
+  },
+  {
+    "id": "34",
+    "slug": "wood-inset-modular",
+    "product_id": 15520790511915,
+    "handle": "wood-inset-modular-qanab",
+    "images": 5,
+    "price": "3500.00",
+    "compare_at": "4000.00",
+    "status": "ok",
+    "url": "https://majalisalfarah.shop/products/wood-inset-modular-qanab"
   }
 ]

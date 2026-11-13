@@ -727,5 +727,28 @@
       "detail_ar": "images/33-marble-shelf-modular-detail-ar.jpg",
       "detail_en": "images/33-marble-shelf-modular-detail-en.jpg"
     }
+  },
+  {
+    "id": "34",
+    "slug": "wood-inset-modular",
+    "name": "Wood Inset Modular",
+    "name_ar": "كنب معياري بطاولة خشبية",
+    "tagline": "Cream modular with built-in wood inset tables",
+    "color": "Cream beige",
+    "fabric": "Cream textured bouclé",
+    "shape": "Low-profile modular L-sectional with chunky rounded modules and integrated warm brown wood inset side table surfaces",
+    "accents": "Matching bouclé throw pillows, upholstered coffee table with wood top, wrap-around armchair with tapered wood legs",
+    "dims": "W 320 × D 240 × H 72 cm",
+    "seat_h": "40 cm",
+    "price": "SAR 3,500",
+    "compare_at": "SAR 4,000",
+    "source": "references/34-wood-inset-modular.jpg",
+    "images": {
+      "front": "images/34-wood-inset-modular-front.jpg",
+      "angle": "images/34-wood-inset-modular-angle.jpg",
+      "side": "images/34-wood-inset-modular-side.jpg",
+      "detail_ar": "images/34-wood-inset-modular-detail-ar.jpg",
+      "detail_en": "images/34-wood-inset-modular-detail-en.jpg"
+    }
   }
 ]
