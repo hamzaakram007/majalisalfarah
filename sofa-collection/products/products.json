@@ -796,5 +796,28 @@
       "detail_ar": "images/36-quiet-cream-l-detail-ar.jpg",
       "detail_en": "images/36-quiet-cream-l-detail-en.jpg"
     }
+  },
+  {
+    "id": "37",
+    "slug": "curved-white-cloud",
+    "name": "Curved White Cloud",
+    "name_ar": "سحابة بيضاء منحنية",
+    "tagline": "C-curve white bouclé cloud sectional",
+    "color": "Bright white",
+    "fabric": "Bright white textured bouclé",
+    "shape": "Large C-shaped curved sectional with continuous low backrest, no traditional armrests, and rounded bulbous pebble ends",
+    "accents": "Matching white square throw pillows",
+    "dims": "W 360 × D 280 × H 70 cm",
+    "seat_h": "40 cm",
+    "price": "SAR 3,800",
+    "compare_at": "SAR 4,300",
+    "source": "references/37-curved-white-cloud.jpg",
+    "images": {
+      "front": "images/37-curved-white-cloud-front.jpg",
+      "angle": "images/37-curved-white-cloud-angle.jpg",
+      "side": "images/37-curved-white-cloud-side.jpg",
+      "detail_ar": "images/37-curved-white-cloud-detail-ar.jpg",
+      "detail_en": "images/37-curved-white-cloud-detail-en.jpg"
+    }
   }
 ]

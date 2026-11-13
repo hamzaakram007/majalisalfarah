@@ -334,5 +334,16 @@
     "compare_at": "4500.00",
     "status": "ok",
     "url": "https://majalisalfarah.shop/products/quiet-cream-l-qanab"
+  },
+  {
+    "id": "37",
+    "slug": "curved-white-cloud",
+    "product_id": 15520836813099,
+    "handle": "curved-white-cloud-qanab",
+    "images": 5,
+    "price": "3800.00",
+    "compare_at": "4300.00",
+    "status": "ok",
+    "url": "https://majalisalfarah.shop/products/curved-white-cloud-qanab"
   }
 ]
