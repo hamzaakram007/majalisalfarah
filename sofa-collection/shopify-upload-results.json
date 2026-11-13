@@ -367,5 +367,16 @@
     "compare_at": "4400.00",
     "status": "ok",
     "url": "https://majalisalfarah.shop/products/gallery-wood-modular-qanab"
+  },
+  {
+    "id": "40",
+    "slug": "cognac-cream-set",
+    "product_id": 15520931709227,
+    "handle": "cognac-cream-set-qanab",
+    "images": 5,
+    "price": "3900.00",
+    "compare_at": "4400.00",
+    "status": "ok",
+    "url": "https://majalisalfarah.shop/products/cognac-cream-set-qanab"
   }
 ]

@@ -865,5 +865,28 @@
       "detail_ar": "images/39-gallery-wood-modular-detail-ar.jpg",
       "detail_en": "images/39-gallery-wood-modular-detail-en.jpg"
     }
+  },
+  {
+    "id": "40",
+    "slug": "cognac-cream-set",
+    "name": "Cognac Cream Set",
+    "name_ar": "طقم كريمي بجلد كونياك",
+    "tagline": "Cream modular with cognac leather chairs",
+    "color": "Cream ivory",
+    "fabric": "Cream performance weave with cognac leather chair accents",
+    "shape": "Low-profile modular sectional with integrated wood end table, two cream armchairs with cognac leather wraparound bands and warm wood frames, matching cream ottoman coffee table with recessed wood insert",
+    "accents": "Cream and terracotta burnt orange throw pillows",
+    "dims": "W 340 × D 260 × H 76 cm",
+    "seat_h": "43 cm",
+    "price": "SAR 3,900",
+    "compare_at": "SAR 4,400",
+    "source": "references/40-cognac-cream-set.jpg",
+    "images": {
+      "front": "images/40-cognac-cream-set-front.jpg",
+      "angle": "images/40-cognac-cream-set-angle.jpg",
+      "side": "images/40-cognac-cream-set-side.jpg",
+      "detail_ar": "images/40-cognac-cream-set-detail-ar.jpg",
+      "detail_en": "images/40-cognac-cream-set-detail-en.jpg"
+    }
   }
 ]
