@@ -681,5 +681,28 @@
       "detail_ar": "images/31-integrated-tray-u-detail-ar.jpg",
       "detail_en": "images/31-integrated-tray-u-detail-en.jpg"
     }
+  },
+  {
+    "id": "32",
+    "slug": "walnut-trim-modular",
+    "name": "Walnut Trim Modular",
+    "name_ar": "كنب معياري بحافة جوز",
+    "tagline": "Cream modular with walnut curved base trim",
+    "color": "Cream ivory",
+    "fabric": "Cream textured bouclé",
+    "shape": "Low-profile modular L-sectional with soft rounded backs, chunky curved arms, dark walnut base trim, and integrated wooden side table",
+    "accents": "Olive green and geometric brown patterned pillows, matching wrap-around armchair",
+    "dims": "W 340 × D 260 × H 76 cm",
+    "seat_h": "43 cm",
+    "price": "SAR 3,800",
+    "compare_at": "SAR 4,200",
+    "source": "references/32-walnut-trim-modular.jpg",
+    "images": {
+      "front": "images/32-walnut-trim-modular-front.jpg",
+      "angle": "images/32-walnut-trim-modular-angle.jpg",
+      "side": "images/32-walnut-trim-modular-side.jpg",
+      "detail_ar": "images/32-walnut-trim-modular-detail-ar.jpg",
+      "detail_en": "images/32-walnut-trim-modular-detail-en.jpg"
+    }
   }
 ]

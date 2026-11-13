@@ -279,5 +279,16 @@
     "compare_at": "4400.00",
     "status": "ok",
     "url": "https://majalisalfarah.shop/products/integrated-tray-u-qanab"
+  },
+  {
+    "id": "32",
+    "slug": "walnut-trim-modular",
+    "product_id": 15520769114411,
+    "handle": "walnut-trim-modular-qanab",
+    "images": 5,
+    "price": "3800.00",
+    "compare_at": "4200.00",
+    "status": "ok",
+    "url": "https://majalisalfarah.shop/products/walnut-trim-modular-qanab"
   }
 ]
