@@ -4,7 +4,7 @@ import { TrackedWhatsAppLink } from "@/components/analytics/TrackedWhatsAppLink"
 import type { Locale } from "@/lib/i18n/config";
 
 export function WhatsAppFloat({ locale }: { locale: Locale }) {
-  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966570169672";
+  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966596135993";
   const label = locale === "ar" ? "تحدث معنا" : "Chat on WhatsApp";
   return (
     <TrackedWhatsAppLink

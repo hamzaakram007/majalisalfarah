@@ -29,7 +29,7 @@ export async function POST(request: Request) {
     });
   }
 
-  const adminPhone = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966570169672";
+  const adminPhone = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "966596135993";
   await sendWhatsAppNotification({
     to: adminPhone,
     body: `Callback request from ${name} (${phone})${message ? `: ${message}` : ""}`,
