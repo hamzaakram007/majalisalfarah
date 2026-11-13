@@ -312,5 +312,16 @@
     "compare_at": "4000.00",
     "status": "ok",
     "url": "https://majalisalfarah.shop/products/wood-inset-modular-qanab"
+  },
+  {
+    "id": "35",
+    "slug": "franka-greige-l",
+    "product_id": 15520799326507,
+    "handle": "franka-greige-l-qanab",
+    "images": 5,
+    "price": "3500.00",
+    "compare_at": "4000.00",
+    "status": "ok",
+    "url": "https://majalisalfarah.shop/products/franka-greige-l-qanab"
   }
 ]

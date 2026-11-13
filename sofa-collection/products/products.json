@@ -750,5 +750,28 @@
       "detail_ar": "images/34-wood-inset-modular-detail-ar.jpg",
       "detail_en": "images/34-wood-inset-modular-detail-en.jpg"
     }
+  },
+  {
+    "id": "35",
+    "slug": "franka-greige-l",
+    "name": "Franka Greige L",
+    "name_ar": "فرانكا رمادي بيج",
+    "tagline": "Rounded L-sofa with striped accent chair",
+    "color": "Taupe greige",
+    "fabric": "Thick textured greige weave",
+    "shape": "Low-profile L-shaped corner sectional with chunky rounded edges, broad curved arms, dark wraparound base band, and short dark wood legs",
+    "accents": "Vertical striped pillows in beige cream and dark brown, matching striped rounded accent chair",
+    "dims": "W 350 × D 250 × H 78 cm",
+    "seat_h": "44 cm",
+    "price": "SAR 3,500",
+    "compare_at": "SAR 4,000",
+    "source": "references/35-franka-greige-l.jpg",
+    "images": {
+      "front": "images/35-franka-greige-l-front.jpg",
+      "angle": "images/35-franka-greige-l-angle.jpg",
+      "side": "images/35-franka-greige-l-side.jpg",
+      "detail_ar": "images/35-franka-greige-l-detail-ar.jpg",
+      "detail_en": "images/35-franka-greige-l-detail-en.jpg"
+    }
   }
 ]
