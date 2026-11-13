@@ -4,7 +4,7 @@ No invented ROAS promises. Budgets below are **allocation ratios** for a starter
 
 **Pre-flight**
 
-- Website must be stable before heavy traffic to domain (current live site returned HTTP 500 during audit — prefer WhatsApp / Instagram profile destinations until fixed).  
+- Official domain for ads and landing pages: **https://majalisalfarah.shop** (not `.com`). Store is live on Shopify; still prefer WhatsApp for custom/upholstery leads.  
 - Pixel / CAPI / TikTok Pixel only with proper consent.  
 - Sales & lead campaigns: geo-limit to fulfilment-ready areas (start Yanbu + nearby).  
 - National geos: awareness / engagement / demand capture only.

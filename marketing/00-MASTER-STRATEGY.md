@@ -112,24 +112,34 @@ Views · reach · avg watch time · 3s retention · completion · replays · sen
 
 ## 7. Website & conversion findings (audit note)
 
-**Live check (this engagement):** `https://majalisalfarah.com` and `https://www.majalisalfarah.com` returned **HTTP 500**. Treat site recovery as a conversion blocker before heavy paid traffic to the domain.
+**Official storefront:** [https://majalisalfarah.shop](https://majalisalfarah.shop) (Shopify — live and reachable).  
+Do **not** use `majalisalfarah.com` in ads, bios, or captions.
 
-### Confirmed brand data from the product codebase
+### What the live shop already shows
 
-- Showroom address and WhatsApp are configured.  
-- Storefront supports EN/AR, custom sofa quotes, WhatsApp CTAs, gallery, blog.  
-- Delivery policy in code correctly hedges: Yanbu showroom + delivery where partners exist.  
-- Some marketing strings still imply broad KSA shipping — **align all ads and website headlines with real fulfilment** so trust is not broken.
+- Brand wordmark and bilingual product titles (EN | AR).  
+- Collections: cushions, sofas, qanab, curtains.  
+- Priced bestsellers and featured lifestyle sofas (SAR).  
+- Trust / commerce cues: secure checkout, returns messaging, shipping claims on homepage.  
+- Strong catalog depth for product-ad creative — use **real product pages and photos** as the source of truth.
+
+### Fulfilment language risk (align with brand rules)
+
+Homepage currently surfaces lines such as **“Fast KSA Shipping”** / convenient nationwide-style delivery framing.  
+Per brand policy: only advertise shipping/installation that is operationally true. If nationwide courier shipping for ready products is real, keep it; if installation/upholstery is still Yanbu-first, split the messaging:
+
+- Ready e‑commerce items → accurate shipping policy from Shopify  
+- Custom sofas / upholstery / curtain install → Yanbu + nearby (or waitlist by city)
 
 ### Recommended conversion improvements (no invented policies)
 
-1. Restore site uptime; verify mobile load and Arabic RTL.  
-2. Put WhatsApp above the fold on mobile with pre-filled message templates by product category.  
-3. Add clear service-area messaging: “معرض ينبع — التوصيل والتركيب حسب التوفر في مدينتك”.  
-4. Trust strip: since 1990 · showroom photos · craft process · real project photos (not stock).  
-5. Product pages: real photography, fabric options, “طلب عرض سعر” primary CTA.  
-6. Track WhatsApp clicks, quote forms, and call events (with consent).  
-7. Fast path: Reel → profile → WhatsApp link in bio / Stories highlight “تواصل”.
+1. Confirm WhatsApp deep-link on mobile (header + product pages + sticky).  
+2. Clarify service-area copy: shipping vs showroom/custom work.  
+3. Trust strip: since 1990 · Yanbu showroom · craft process · real installs.  
+4. Product pages: keep exact photography; primary CTAs = Add to cart **and** WhatsApp quote for custom.  
+5. Track Shopify purchases + WhatsApp clicks (with consent).  
+6. Fast path: Reel → product URL on `.shop` **or** WhatsApp — never the wrong domain.  
+7. Fix catalog quality issues that hurt ads (e.g. duplicate listings, `0.00 SR` products) before scaling Sales campaigns.
 
 ---
 
@@ -164,11 +174,11 @@ Never: fabricated testimonials, fake discounts, invented scarcity, or pressure t
 
 ## 10. Immediate 14-day launch sequence
 
-1. Fix website 500 / confirm WhatsApp link in bio.  
+1. Point all bios/ads to `majalisalfarah.shop` + WhatsApp; remove any `.com` links.  
 2. Film 4 core assets: before/after sofa, curtain install, fabric/foam craft, showroom walk.  
 3. Publish AR versions first; EN versions of winners.  
 4. Soft boost best engagement reel (awareness/engagement objective).  
-5. Launch WhatsApp lead ads only for Yanbu (+ nearby) geography.  
+5. Launch WhatsApp lead ads only for Yanbu (+ nearby) geography; product traffic ads may use `.shop` for shippable SKUs.  
 6. Start demand log for non-Yanbu cities (city, product, phone, date).  
 7. Begin vendor outreach for the highest-demand city from that log.
 

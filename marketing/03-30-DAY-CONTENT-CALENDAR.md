@@ -5,7 +5,7 @@
 **Primary conversion geography:** Yanbu (+ nearby)  
 **National posts:** awareness / demand-gen only  
 
-CTA codes: `WA` WhatsApp · `VISIT` showroom · `SAVE` save/share · `COMMENT` engagement · `WEB` site (only when site is healthy)
+CTA codes: `WA` WhatsApp · `VISIT` showroom · `SAVE` save/share · `COMMENT` engagement · `WEB` https://majalisalfarah.shop (product URLs for shippable SKUs)
 
 ---
 

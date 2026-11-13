@@ -25,7 +25,7 @@ This folder is the working agency playbook for Instagram Reels, TikTok, Meta/Tik
 - **WhatsApp:** +966 57 016 9672 (`wa.me/966570169672`)
 - **Instagram:** @majalisalfarah9
 - **Email:** contact@majalisalfarah.sa
-- **Website:** https://majalisalfarah.com
+- **Website:** https://majalisalfarah.shop
 - **Fulfilment today:** Yanbu and nearby areas. Nationwide delivery/installation is an expansion goal — never advertise as confirmed until a city has verified vendors.
 
 ## How to brief the agency (future requests)
