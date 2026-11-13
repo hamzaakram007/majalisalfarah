@@ -658,5 +658,28 @@
       "detail_ar": "images/30-pearl-estate-detail-ar.jpg",
       "detail_en": "images/30-pearl-estate-detail-en.jpg"
     }
+  },
+  {
+    "id": "31",
+    "slug": "integrated-tray-u",
+    "name": "Integrated Tray U",
+    "name_ar": "كنب U بصينية مدمجة",
+    "tagline": "U-shape with built-in wood tray armrest",
+    "color": "Oatmeal beige",
+    "fabric": "Textured oatmeal woven fabric",
+    "shape": "Large modular U-shaped sectional with chaise and integrated wooden tray on the left armrest",
+    "accents": "Alternating beige and deep chocolate brown throw pillows",
+    "dims": "W 360 × D 300 × H 78 cm",
+    "seat_h": "44 cm",
+    "price": "SAR 3,900",
+    "compare_at": "SAR 4,400",
+    "source": "references/31-integrated-tray-u.jpg",
+    "images": {
+      "front": "images/31-integrated-tray-u-front.jpg",
+      "angle": "images/31-integrated-tray-u-angle.jpg",
+      "side": "images/31-integrated-tray-u-side.jpg",
+      "detail_ar": "images/31-integrated-tray-u-detail-ar.jpg",
+      "detail_en": "images/31-integrated-tray-u-detail-en.jpg"
+    }
   }
 ]

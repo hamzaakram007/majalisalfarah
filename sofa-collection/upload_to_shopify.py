@@ -200,8 +200,11 @@ def create_product(p: dict) -> dict:
     title = f"{p['name']} | {p['name_ar']}"
     sku = f"MAJ-QAN-{p['id']}"
     price = price_num(p["price"])
-    # compare-at ~20% higher like L-shape import
-    compare = f"{round(float(price) * 1.2, 2):.2f}"
+    # Prefer explicit compare_at; else ~20% higher like L-shape import
+    if p.get("compare_at"):
+        compare = price_num(p["compare_at"])
+    else:
+        compare = f"{round(float(price) * 1.2, 2):.2f}"
 
     payload = {
         "product": {

@@ -268,5 +268,16 @@
     "images": 5,
     "price": "14100.00",
     "status": "ok"
+  },
+  {
+    "id": "31",
+    "slug": "integrated-tray-u",
+    "product_id": 15520758628651,
+    "handle": "integrated-tray-u-qanab",
+    "images": 5,
+    "price": "3900.00",
+    "compare_at": "4400.00",
+    "status": "ok",
+    "url": "https://majalisalfarah.shop/products/integrated-tray-u-qanab"
   }
 ]
