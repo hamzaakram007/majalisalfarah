@@ -35,3 +35,8 @@ coverage/
 # Archives & local clutter
 *.zip
 tmp-*.json
+
+# Python
+__pycache__/
+*.pyc
+
