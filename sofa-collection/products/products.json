@@ -819,5 +819,28 @@
       "detail_ar": "images/37-curved-white-cloud-detail-ar.jpg",
       "detail_en": "images/37-curved-white-cloud-detail-en.jpg"
     }
+  },
+  {
+    "id": "38",
+    "slug": "white-wood-modular",
+    "name": "White Wood Modular",
+    "name_ar": "كنب أبيض خشبي معياري",
+    "tagline": "White bouclé modular with dark wood insets",
+    "color": "Off-white",
+    "fabric": "White heavily textured bouclé",
+    "shape": "Modular L-sectional with low thick cushions, integrated dark wood side table modules, matching wood-frame armchair and fabric-wrapped wood-top coffee table",
+    "accents": "Matching white square throw pillows",
+    "dims": "W 310 × D 230 × H 72 cm",
+    "seat_h": "40 cm",
+    "price": "SAR 2,950",
+    "compare_at": "SAR 3,400",
+    "source": "references/38-white-wood-modular.jpg",
+    "images": {
+      "front": "images/38-white-wood-modular-front.jpg",
+      "angle": "images/38-white-wood-modular-angle.jpg",
+      "side": "images/38-white-wood-modular-side.jpg",
+      "detail_ar": "images/38-white-wood-modular-detail-ar.jpg",
+      "detail_en": "images/38-white-wood-modular-detail-en.jpg"
+    }
   }
 ]

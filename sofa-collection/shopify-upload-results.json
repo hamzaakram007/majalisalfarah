@@ -345,5 +345,16 @@
     "compare_at": "4300.00",
     "status": "ok",
     "url": "https://majalisalfarah.shop/products/curved-white-cloud-qanab"
+  },
+  {
+    "id": "38",
+    "slug": "white-wood-modular",
+    "product_id": 15520848183595,
+    "handle": "white-wood-modular-qanab",
+    "images": 5,
+    "price": "2950.00",
+    "compare_at": "3400.00",
+    "status": "ok",
+    "url": "https://majalisalfarah.shop/products/white-wood-modular-qanab"
   }
 ]
