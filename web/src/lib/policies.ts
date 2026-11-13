@@ -38,7 +38,7 @@ const en: Record<PolicySlug, PolicyPage> = {
     sections: [
       {
         heading: "Delivery coverage",
-        body: "We serve Yanbu through our showroom and arrange delivery to other Saudi cities where logistics partners are available. Delivery timelines depend on product availability, city, and whether the order is ready-made or custom.",
+        body: "Curtains and cushions are supplied across Saudi Arabia. We serve Yanbu through our showroom for custom sofas, upholstery, and on-site installation, and arrange service in other cities where verified partners are available. Delivery timelines depend on product category, availability, city, and whether the order is ready-made or custom.",
       },
       {
         heading: "Estimated timelines",
@@ -160,7 +160,7 @@ const ar: Record<PolicySlug, PolicyPage> = {
     sections: [
       {
         heading: "نطاق التوصيل",
-        body: "نخدم مدينة ينبع من خلال معرضنا ونرتب التوصيل إلى مدن سعودية أخرى حسب توفر شركاء الشحن. تعتمد مدة التوصيل على توفر المنتج والمدينة ونوع الطلب.",
+        body: "الستائر والمخدات تُورَّد لجميع مدن المملكة. نخدم ينبع من خلال المعرض في الكنب المخصص والتنجيد والتركيب الميداني، ونرتب الخدمة في مدن أخرى عند توفر شركاء موثوقين. تعتمد مدة التوصيل على فئة المنتج والتوفر والمدينة ونوع الطلب.",
       },
       {
         heading: "المدة المتوقعة",
