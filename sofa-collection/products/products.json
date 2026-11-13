@@ -773,5 +773,28 @@
       "detail_ar": "images/35-franka-greige-l-detail-ar.jpg",
       "detail_en": "images/35-franka-greige-l-detail-en.jpg"
     }
+  },
+  {
+    "id": "36",
+    "slug": "quiet-cream-l",
+    "name": "Quiet Cream L",
+    "name_ar": "كنب كريمي هادئ",
+    "tagline": "Channel-tufted cream L with matching armchair",
+    "color": "Cream ivory",
+    "fabric": "Cream textured bouclé weave with vertical ribbed channel detail",
+    "shape": "Large L-shaped sectional with thin gold wood trim along base and arms, low square wood legs, plus matching circular cream armchair",
+    "accents": "Neutral cream pillows, travertine stone coffee table styling",
+    "dims": "W 340 × D 260 × H 78 cm",
+    "seat_h": "44 cm",
+    "price": "SAR 3,950",
+    "compare_at": "SAR 4,500",
+    "source": "references/36-quiet-cream-l.jpg",
+    "images": {
+      "front": "images/36-quiet-cream-l-front.jpg",
+      "angle": "images/36-quiet-cream-l-angle.jpg",
+      "side": "images/36-quiet-cream-l-side.jpg",
+      "detail_ar": "images/36-quiet-cream-l-detail-ar.jpg",
+      "detail_en": "images/36-quiet-cream-l-detail-en.jpg"
+    }
   }
 ]

@@ -323,5 +323,16 @@
     "compare_at": "4000.00",
     "status": "ok",
     "url": "https://majalisalfarah.shop/products/franka-greige-l-qanab"
+  },
+  {
+    "id": "36",
+    "slug": "quiet-cream-l",
+    "product_id": 15520810893611,
+    "handle": "quiet-cream-l-qanab",
+    "images": 5,
+    "price": "3950.00",
+    "compare_at": "4500.00",
+    "status": "ok",
+    "url": "https://majalisalfarah.shop/products/quiet-cream-l-qanab"
   }
 ]
