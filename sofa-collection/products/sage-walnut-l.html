@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sage Walnut L — Majalis Al Farah</title>
+    <meta name="description" content="Sage green with walnut base. Sage textured weave. Five product photos including Arabic and English detail." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="site">
+      <header class="topbar">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">Majalis Al Farah</span>
+          <span class="brand-sub">Modular Sofas</span>
+        </a>
+        <a class="nav-link" href="../index.html#collection">All pieces</a>
+      </header>
+
+      <main class="pd-hero">
+        <div class="gallery">
+          <div class="back-row">
+            <a class="nav-link" href="../index.html#collection">← Collection</a>
+          </div>
+          <div class="gallery-main">
+            <img id="main-image" src="images/22-sage-walnut-l-front.jpg" alt="Sage Walnut L — front view" />
+          </div>
+          <p class="angle-label" id="angle-label">Front view</p>
+          <div class="gallery-thumbs" role="tablist" aria-label="Product photos">
+            <button type="button" data-src="images/22-sage-walnut-l-front.jpg" data-label="Front view" aria-current="true">
+              <img src="images/22-sage-walnut-l-front.jpg" alt="Front thumbnail" />
+            </button>
+            <button type="button" data-src="images/22-sage-walnut-l-angle.jpg" data-label="Three-quarter view">
+              <img src="images/22-sage-walnut-l-angle.jpg" alt="Angle thumbnail" />
+            </button>
+            <button type="button" data-src="images/22-sage-walnut-l-side.jpg" data-label="Side profile">
+              <img src="images/22-sage-walnut-l-side.jpg" alt="Side thumbnail" />
+            </button>
+            <button type="button" data-src="images/22-sage-walnut-l-detail-ar.jpg" data-label="Arabic detail">
+              <img src="images/22-sage-walnut-l-detail-ar.jpg" alt="Arabic detail thumbnail" />
+            </button>
+            <button type="button" data-src="images/22-sage-walnut-l-detail-en.jpg" data-label="English detail">
+              <img src="images/22-sage-walnut-l-detail-en.jpg" alt="English detail thumbnail" />
+            </button>
+          </div>
+          <div class="angles-strip" aria-label="All five photos" style="grid-template-columns:repeat(5,1fr)">
+            <figure>
+              <img src="images/22-sage-walnut-l-front.jpg" alt="Sage Walnut L front" />
+              <figcaption>Front</figcaption>
+            </figure>
+            <figure>
+              <img src="images/22-sage-walnut-l-angle.jpg" alt="Sage Walnut L angle" />
+              <figcaption>Angle</figcaption>
+            </figure>
+            <figure>
+              <img src="images/22-sage-walnut-l-side.jpg" alt="Sage Walnut L side" />
+              <figcaption>Side</figcaption>
+            </figure>
+            <figure>
+              <img src="images/22-sage-walnut-l-detail-ar.jpg" alt="Sage Walnut L Arabic detail" />
+              <figcaption>Detail AR</figcaption>
+            </figure>
+            <figure>
+              <img src="images/22-sage-walnut-l-detail-en.jpg" alt="Sage Walnut L English detail" />
+              <figcaption>Detail EN</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <aside class="pd-info">
+          <h1>Sage Walnut L</h1>
+          <p class="pd-tagline">كنب L مريمية وجوز · Sage green with walnut base</p>
+          <p class="pd-price">SAR 16,100</p>
+          <dl class="specs">
+            <div><dt>Color</dt><dd>Muted sage</dd></div>
+            <div><dt>Fabric</dt><dd>Sage textured weave</dd></div>
+            <div><dt>Shape</dt><dd>L sectional with dark walnut base trim and ottoman</dd></div>
+            <div><dt>Accents</dt><dd>Cream and sage pillows</dd></div>
+            <div><dt>Dimensions</dt><dd>W 320 × D 210 × H 78 cm</dd></div>
+            <div><dt>Seat height</dt><dd>44 cm</dd></div>
+          </dl>
+          <p class="pd-nav">
+            <a class="nav-link" href="ivory-gold-set.html">← Ivory Gold Set</a>
+            <a class="nav-link" href="camel-cloud.html">Camel Cloud →</a>
+          </p>
+        </aside>
+      </main>
+    </div>
+    <script>
+      const main = document.getElementById("main-image");
+      const label = document.getElementById("angle-label");
+      document.querySelectorAll(".gallery-thumbs button").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          main.src = btn.dataset.src;
+          label.textContent = btn.dataset.label;
+          document.querySelectorAll(".gallery-thumbs button").forEach((b) => b.removeAttribute("aria-current"));
+          btn.setAttribute("aria-current", "true");
+        });
+      });
+    </script>
+  </body>
+</html>
